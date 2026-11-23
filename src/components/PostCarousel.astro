@@ -17,11 +17,53 @@ const posts = Astro.props.slugs.map((slug) => all.find((p) => p.id === slug)).fi
 </div>
 
 <script>
+  // Loops like the live Elementor carousel: the first card moves to the end (or back), then autoplays every 5s.
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   for (const carousel of document.querySelectorAll<HTMLElement>('.carousel')) {
     const track = carousel.querySelector<HTMLElement>('.track')!;
-    const step = () => track.querySelector('li')?.getBoundingClientRect().width ?? track.clientWidth;
-    carousel.querySelector('.prev')?.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' }));
-    carousel.querySelector('.next')?.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' }));
+    const items = () => [...track.children] as HTMLElement[];
+    const shift = () => {
+      const [a, b] = items();
+      return b ? b.getBoundingClientRect().left - a.getBoundingClientRect().left : 0;
+    };
+    let busy = false;
+
+    const slide = (from: number, to: number) =>
+      Promise.all(items().map((li) => li.animate(
+        [{ transform: `translateX(${from}px)` }, { transform: `translateX(${to}px)` }],
+        { duration: reduceMotion ? 0 : 450, easing: 'ease' },
+      ).finished));
+
+    const next = async () => {
+      if (busy || items().length < 2) return;
+      busy = true;
+      track.scrollLeft = 0;
+      await slide(0, -shift());
+      track.append(items()[0]);
+      busy = false;
+    };
+
+    const prev = async () => {
+      if (busy || items().length < 2) return;
+      busy = true;
+      track.scrollLeft = 0;
+      track.prepend(items().at(-1)!);
+      await slide(-shift(), 0);
+      busy = false;
+    };
+
+    carousel.querySelector('.prev')?.addEventListener('click', prev);
+    carousel.querySelector('.next')?.addEventListener('click', next);
+
+    if (!reduceMotion) {
+      let paused = false;
+      carousel.addEventListener('mouseenter', () => (paused = true));
+      carousel.addEventListener('mouseleave', () => (paused = false));
+      carousel.addEventListener('focusin', () => (paused = true));
+      carousel.addEventListener('focusout', () => (paused = false));
+      setInterval(() => !paused && !document.hidden && next(), 5000);
+    }
   }
 </script>
 

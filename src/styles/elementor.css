@@ -242,6 +242,16 @@
   background: var(--color-primary);
 }
 
+/* Body copy at a readable 16px (Elementor set most of it to 14-15px). */
+.el-text,
+.el-acc-body,
+.el-accordion.FAQ .el-acc-body,
+.el-iconlist,
+.el-iconbox:not(.cst-icon-box, .cst-home-icon-box) .el-ib-text {
+  font-size: 16px !important;
+  line-height: 1.7;
+}
+
 .el-text a {
   color: var(--color-primary);
 }

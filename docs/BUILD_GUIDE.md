@@ -97,6 +97,7 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 
 **Deliberate differences from live** (style only; content and colours unchanged):
 - Tighter spacing everywhere (Nov 23, requested): Elementor's percentage paddings are capped (hero 56/64px, sections 24px), homepage sections 48px apart, smaller gaps around cards, carousel and footer.
+- Body copy on Elementor pages is 16px (live uses 14–15px).
 - Homepage hero has no red dots; service cards have a soft shadow and lift on hover; review arrows and "View All" sit beside the quote mark.
 - The General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
 
