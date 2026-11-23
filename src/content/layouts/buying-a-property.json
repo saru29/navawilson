@@ -1521,7 +1521,8 @@
                       },
                       "type": "button",
                       "label": "REACH OUT",
-                      "href": "/contact-us/"
+                      "href": "/contact-us/",
+                      "size": "sm"
                     }
                   ]
                 }
@@ -1616,7 +1617,8 @@
                       },
                       "type": "button",
                       "label": "View All",
-                      "href": "/blogs/"
+                      "href": "/blogs/",
+                      "size": "sm"
                     }
                   ]
                 }

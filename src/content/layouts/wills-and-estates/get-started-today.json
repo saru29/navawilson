@@ -8,6 +8,11 @@
       "id": "13234a79",
       "hide": [],
       "cls": [],
+      "style": {
+        "self": {
+          "padding": "0% 0% 10% 0%"
+        }
+      },
       "columns": [
         {
           "id": "3eb2fdaa",
@@ -19,6 +24,17 @@
               "id": "4426937",
               "hide": [],
               "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center",
+                  "padding": "10% 0% 3% 0%"
+                },
+                "title": {
+                  "color": "var( --e-global-color-secondary )",
+                  "font-size": "49px",
+                  "font-weight": "700"
+                }
+              },
               "type": "heading",
               "tag": "h1",
               "html": "Get Started <mark>Today</mark>"
@@ -29,6 +45,13 @@
               "id": "6ef9233d",
               "hide": [],
               "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "#F1F2FA",
+                  "border-radius": "35px 35px 35px 35px",
+                  "padding": "10% 17% 10% 17%"
+                }
+              },
               "columns": [
                 {
                   "id": "5e90a090",
@@ -40,6 +63,13 @@
                       "id": "615ef38b",
                       "hide": [],
                       "cls": [],
+                      "style": {
+                        "button": {
+                          "font-weight": "500",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "16px 60px 16px 60px"
+                        }
+                      },
                       "type": "form"
                     }
                   ]

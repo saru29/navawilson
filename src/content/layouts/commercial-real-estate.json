@@ -700,7 +700,8 @@
                       },
                       "type": "button",
                       "label": "Talk to us",
-                      "href": "#"
+                      "href": "#",
+                      "size": "sm"
                     }
                   ]
                 }
@@ -1060,7 +1061,8 @@
                       },
                       "type": "button",
                       "label": "View All",
-                      "href": "#"
+                      "href": "#",
+                      "size": "sm"
                     }
                   ]
                 }

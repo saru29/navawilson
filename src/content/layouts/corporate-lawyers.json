@@ -1149,7 +1149,8 @@
                       },
                       "type": "button",
                       "label": "View All",
-                      "href": "/blogs/"
+                      "href": "/blogs/",
+                      "size": "sm"
                     }
                   ]
                 }

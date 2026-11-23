@@ -16,9 +16,9 @@ const css = (...parts: (Record<string, string | number> | undefined)[]) => {
 };
 
 // Icon colours and sizes become custom properties because the SVG is injected as raw HTML.
-const iconVars = (s: any = {}) => {
-  const icon = s.icon ?? {};
-  const svg = s.svg ?? {};
+const iconVars = (s: any = {}, stacked = false) => {
+  const icon = stacked ? s.icon ?? {} : { ...s.icon, ...s.iconAlt };
+  const svg = stacked ? s.svg ?? {} : { ...s.svg, ...s.svgAlt };
   const vars: Record<string, string> = {};
   if (icon['font-size']) vars['--icon-size'] = icon['font-size'];
   if (svg.height) vars['--icon-size'] = svg.height;
@@ -61,7 +61,7 @@ const hasBg = (s: any) =>
   }
 
   const wrap = (base: string) => classes(it, 'el-w', base);
-  const self = css(s.self, iconVars(s));
+  const self = css(s.self, iconVars(s, it.cls?.includes('view-stacked')));
 
   switch (it.type) {
     case 'heading': {
@@ -75,7 +75,7 @@ const hasBg = (s: any) =>
     case 'text':
       return <div class={wrap('el-text')} style={self} set:html={it.html} />;
     case 'button':
-      return <div class={wrap('el-button')} style={self}><a href={it.href} class="btn" style={css(s.button)}>{it.label}</a></div>;
+      return <div class={wrap('el-button')} style={self}><a href={it.href} class:list={['el-btn', it.size && `size-${it.size}`]} style={css(s.button)}>{it.label}</a></div>;
     case 'image': {
       const img = <img src={it.src} alt={it.alt} width={it.width} height={it.height} loading="lazy" />;
       return <div class={wrap('el-image')} style={self}>{it.href ? <a href={it.href}>{img}</a> : img}</div>;

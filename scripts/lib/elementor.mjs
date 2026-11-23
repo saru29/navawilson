@@ -24,12 +24,12 @@ const TARGETS = {
   ' .elementor-icon-box-description': 'desc',
   ' .elementor-icon': 'icon',
   '.elementor-view-stacked .elementor-icon': 'icon',
-  '.elementor-view-framed .elementor-icon': 'icon',
-  '.elementor-view-default .elementor-icon': 'icon',
+  '.elementor-view-framed .elementor-icon': 'iconAlt',
+  '.elementor-view-default .elementor-icon': 'iconAlt',
   ' .elementor-icon svg': 'svg',
   '.elementor-view-stacked .elementor-icon svg': 'svg',
-  '.elementor-view-framed .elementor-icon svg': 'svg',
-  '.elementor-view-default .elementor-icon svg': 'svg',
+  '.elementor-view-framed .elementor-icon svg': 'svgAlt',
+  '.elementor-view-default .elementor-icon svg': 'svgAlt',
   ' .elementor-icon-list-icon svg': 'listIcon',
   ' .elementor-icon-list-text': 'listText',
   ' .elementor-button': 'button',
@@ -166,9 +166,16 @@ function headingHtml($, $h) {
   const $c = $h.clone();
   $c.find('.clr-red').each((_, n) => $(n).replaceWith(`<em>${$(n).html()?.trim()}</em>`));
   $c.find('.bg-letter').each((_, n) => $(n).replaceWith(`<mark>${$(n).html()?.trim()}</mark>`));
-  $c.find('span').each((_, n) => $(n).replaceWith($(n).html() ?? ''));
+  $c.find('span').each((_, n) => {
+    const style = ($(n).attr('style') ?? '').split(';').map((d) => d.trim())
+      .filter((d) => /^(font-size|white-space|display|vertical-align)\s*:/.test(d)).join(';');
+    if (/font-size|white-space/.test(style)) $(n).attr('data-style', style);
+    else $(n).replaceWith($(n).html() ?? '');
+  });
   $c.find('*').each((_, n) => {
+    const style = n.attribs?.['data-style'];
     for (const attr of Object.keys(n.attribs ?? {})) if (attr !== 'href') $(n).removeAttr(attr);
+    if (style) $(n).attr('style', style);
   });
   return localiseUrls(($c.html() ?? '').replace(/\s+/g, ' ').trim());
 }
@@ -187,7 +194,8 @@ function convertWidget($, el, ctx) {
       return { type: 'text', html: cleanHtml($, $c) };
     case 'button': {
       const $a = $c.find('a.elementor-button').first();
-      return { type, label: $a.text().replace(/\s+/g, ' ').trim(), href: localiseUrl($a.attr('href')) };
+      const size = $a.attr('class')?.match(/elementor-size-(xs|sm|md|lg|xl)/)?.[1];
+      return { type, label: $a.text().replace(/\s+/g, ' ').trim(), href: localiseUrl($a.attr('href')), size };
     }
     case 'image': {
       const $img = $c.find('img').first();
@@ -307,7 +315,7 @@ function convertChildren($, $parent, ctx) {
 
 // NitroPack puts its <link> tags where cheerio reads them as text, so match the raw HTML.
 export const stylesheetUrls = (html) =>
-  [...new Set([...html.matchAll(/href="(https:[^"]+\.css)"/g)].map((m) => m[1]))]
+  [...new Set([...html.matchAll(/href=["'](https:[^"']+\.css)(?:\?[^"']*)?["']/g)].map((m) => m[1]))]
     .filter((href) => /combinedCss|elementor\/css/.test(href));
 
 export function convertPage(html, { postSlug, externalCss = '' }) {

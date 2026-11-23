@@ -194,7 +194,8 @@
                       },
                       "type": "button",
                       "label": "Try Now",
-                      "href": "/nava-wilson-pc-pr-assessment/"
+                      "href": "/nava-wilson-pc-pr-assessment/",
+                      "size": "sm"
                     }
                   ]
                 }

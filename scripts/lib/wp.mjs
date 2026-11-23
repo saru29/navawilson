@@ -30,7 +30,7 @@ export function localiseUrls(html) {
   return html
     .replace(UPLOAD_RE, (_, path) => {
       const decoded = decodeURI(path);
-      uploads.add(decoded);
+      if (!/\.(css|js)$/i.test(decoded)) uploads.add(decoded);
       return encodeURI(decoded);
     })
     .replace(/https?:\/\/(www\.)?navawilson\.law(?=\/|"|$)/g, '')

@@ -132,9 +132,14 @@
                           "background-color": "#fff",
                           "fill": "#000",
                           "color": "#000",
-                          "border-color": "#fff",
                           "font-size": "56px",
                           "padding": "8px"
+                        },
+                        "iconAlt": {
+                          "fill": "#fff",
+                          "color": "#fff",
+                          "border-color": "#fff",
+                          "background-color": "#000"
                         },
                         "title": {
                           "font-size": "14px",
@@ -174,9 +179,14 @@
                           "background-color": "#fff",
                           "fill": "#000",
                           "color": "#000",
-                          "border-color": "#fff",
                           "font-size": "56px",
                           "padding": "8px"
+                        },
+                        "iconAlt": {
+                          "fill": "#fff",
+                          "color": "#fff",
+                          "border-color": "#fff",
+                          "background-color": "#000"
                         },
                         "title": {
                           "font-size": "14px",
@@ -216,9 +226,14 @@
                           "background-color": "#fff",
                           "fill": "#000",
                           "color": "#000",
-                          "border-color": "#fff",
                           "font-size": "56px",
                           "padding": "8px"
+                        },
+                        "iconAlt": {
+                          "fill": "#fff",
+                          "color": "#fff",
+                          "border-color": "#fff",
+                          "background-color": "#000"
                         },
                         "title": {
                           "font-size": "14px",
@@ -348,7 +363,8 @@
                       },
                       "type": "button",
                       "label": "REACH OUT",
-                      "href": "/contact-us/"
+                      "href": "/contact-us/",
+                      "size": "sm"
                     }
                   ]
                 }
@@ -564,7 +580,8 @@
                       },
                       "type": "button",
                       "label": "View All",
-                      "href": "/blogs/"
+                      "href": "/blogs/",
+                      "size": "sm"
                     }
                   ]
                 }

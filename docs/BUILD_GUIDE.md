@@ -87,7 +87,15 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 
 **Checked**: desktop compared side by side with the live pages (Buying, Real Estate Lawyers, Landlord and Tenant Board, Wills and Estates, Corporate Lawyers, Start a New Business, About, Contact); phone width checked; 105 pages build; no broken internal links; every live sitemap URL exists except those listed as not carried over.
 
+- **Buttons** use Elementor's defaults and size presets (`elementor-size-md` etc.), overridden by each button's own CSS.
+- **Widths** follow Elementor's boxed container: 1140px rows, so widgets are 1120px wide, as on live.
+- Some pages (the Wills sub-pages) aren't served through NitroPack and link their CSS with single quotes and `?ver=`; the importer handles both.
+
+**Checked again (Nov 23)**: all 18 pages in the Practice Areas menu measured against live in a browser (heading sizes and heights, button size and radius, content width). Phone width has no sideways scroll.
+
 **Known gaps**: on phones the "Why Choose Us" timeline dots are hidden. Elementor uses separate mobile offsets, which the converter doesn't read.
+
+**Deliberate differences from live**: the General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
 
 ---
 

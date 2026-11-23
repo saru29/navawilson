@@ -230,7 +230,8 @@
                       },
                       "type": "button",
                       "label": "READ MORE",
-                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NjciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NjciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+                      "size": "sm"
                     }
                   ]
                 }
@@ -332,7 +333,8 @@
                       },
                       "type": "button",
                       "label": "READ MORE",
-                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NzYiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NzYiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+                      "size": "sm"
                     }
                   ]
                 }

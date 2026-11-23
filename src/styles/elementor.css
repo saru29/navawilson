@@ -19,6 +19,11 @@
   padding: 36px var(--container-padding);
 }
 
+.el-section.el-top > .el-row {
+  max-width: var(--content-width);
+  margin-inline: auto;
+}
+
 .el-section.el-bg {
   padding: 56px 32px;
 }
@@ -33,9 +38,23 @@
   padding: 0 8px;
 }
 
+.el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) > .el-row {
+  max-width: none;
+  margin-inline: -10px;
+}
+
+.el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) > .el-row > .el-col {
+  padding-top: 0;
+}
+
 .el-page > .el-section:first-child > .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'] {
   padding: 40px max(var(--container-padding), calc((100% - var(--content-width)) / 2)) 64px;
   border-radius: 0 0 11px 11px !important;
+}
+
+.el-page > .el-section:first-child > .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'] > .el-row {
+  max-width: var(--content-width);
+  margin-inline: auto;
 }
 
 .el-row {
@@ -116,7 +135,7 @@
 .el-heading > * {
   color: var(--color-heading);
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1;
 }
 
 .el-heading h1 {
@@ -138,6 +157,9 @@
 @media (max-width: 767px) {
   .el-heading > * {
     font-size: min(var(--fs-h2), 1em) !important;
+  }
+  .el-heading span {
+    white-space: normal !important;
   }
   .el-heading h1,
   .el-heading h2 {
@@ -214,10 +236,28 @@
   color: var(--color-primary);
 }
 
-.el-button .btn {
-  min-width: 200px;
-  text-transform: uppercase;
+/* Elementor's default button and size presets; per-element styles override them inline. */
+.el-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 3px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: background 0.15s;
 }
+
+.el-btn:hover {
+  background: var(--color-primary-dark) !important;
+}
+
+.el-btn.size-xs { padding: 10px 20px; border-radius: 2px; font-size: 13px; }
+.el-btn.size-md { padding: 15px 30px; border-radius: 4px; font-size: 16px; }
+.el-btn.size-lg { padding: 20px 40px; border-radius: 5px; font-size: 18px; }
+.el-btn.size-xl { padding: 25px 50px; border-radius: 6px; font-size: 20px; }
 
 .el-button.align-center {
   text-align: center;
@@ -227,7 +267,7 @@
   text-align: right;
 }
 
-.el-button.align-justify .btn {
+.el-button.align-justify .el-btn {
   width: 100%;
 }
 
@@ -372,10 +412,10 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 10px 6px;
+  padding: 11px 6px;
   list-style: none;
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   color: var(--color-heading);
   cursor: pointer;
 }
@@ -432,7 +472,7 @@
 .el-accordion.FAQ summary {
   gap: 4px;
   padding: 14px 24px;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
 }
 
