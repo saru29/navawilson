@@ -295,6 +295,36 @@
   margin-inline: auto;
 }
 
+/* ---- Icon + heading rows: the icon hugs its heading instead of taking 24% of the column. ---- */
+.el-col > .el-iconw.w-initial:has(+ .el-heading) {
+  width: auto !important;
+  max-width: none !important;
+  margin-right: 18px;
+}
+
+.el-col > .el-iconw.w-initial + .el-heading {
+  flex: 1 1 0;
+  width: auto !important;
+  max-width: none !important;
+  align-self: center;
+}
+
+.el-col > .el-iconw.w-initial + .el-heading > * {
+  color: var(--color-heading) !important;
+  font-size: clamp(20px, 1.9vw, 26px) !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+}
+
+/* Step cards: equal heights across a row. */
+.el-col:has(> .cst-home-icon-box) {
+  align-content: stretch;
+}
+
+.el-iconbox.cst-home-icon-box .el-ib-text {
+  flex: 1;
+}
+
 /* ---- Icons ---- */
 .el-icon {
   display: inline-grid;

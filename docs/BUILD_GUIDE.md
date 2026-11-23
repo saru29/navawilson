@@ -99,6 +99,7 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 - Tighter spacing everywhere (Nov 23, requested): Elementor's percentage paddings are capped (hero 56/64px, sections 24px), homepage sections 48px apart, smaller gaps around cards, carousel and footer.
 - Body copy is 16px across the site (live uses 14–15px in places); footer 15px; form fields 16px.
 - Homepage Services redesigned: four cards in a row (two on tablet, one on phone), icon inside the card, red check marks, "Learn more" link, red top accent on hover. Same services, links and colours.
+- Icon + heading rows (services, breach examples, Wills packages): the icon sits next to its heading instead of taking 24% of the column; those headings share one colour, weight and size. Step cards in a row are equal height.
 - Homepage hero has no red dots; review arrows and "View All" sit beside the quote mark.
 - The General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
 
