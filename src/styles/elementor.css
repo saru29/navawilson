@@ -413,6 +413,35 @@
   color: var(--color-white);
 }
 
+/* Red step cards with a ringed number circle overlapping the top (Selling, Refinancing). */
+.el-iconbox.cst-home-icon-box {
+  align-items: center;
+  gap: 0;
+}
+
+.el-iconbox.cst-home-icon-box .el-icon {
+  position: relative;
+  z-index: 1;
+  margin-bottom: -40px;
+  border: 3px solid var(--color-primary);
+}
+
+.el-iconbox.cst-home-icon-box h3 {
+  display: none;
+}
+
+.el-iconbox.cst-home-icon-box .el-ib-text {
+  align-self: stretch;
+  display: grid;
+  place-items: center;
+  min-height: 140px;
+  padding: 56px 20px 24px;
+  border-radius: 25px;
+  background: var(--color-primary);
+  color: var(--color-white) !important;
+  text-align: center;
+}
+
 /* ---- Accordions ---- */
 .el-accordion details {
   border-bottom: 1px solid #333;
