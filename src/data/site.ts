@@ -36,7 +36,15 @@ export const PRACTICE_AREAS: NavLink[] = [
       { label: 'Real Estate Breaches', href: '/real-estate-breaches/' },
     ],
   },
-  { label: 'Wills and Estates', href: '/wills-and-estates/' },
+  {
+    label: 'Wills and Estates',
+    href: '/wills-and-estates/',
+    children: [
+      { label: 'General Will & POA Planning', href: '/general-will-poa-planning/' },
+      { label: 'Will & POA for Couples', href: '/wills-and-estates/will-poa-for-couples/' },
+      { label: 'High-Income / Legacy Estate Planning', href: '/wills-and-estates/high-income-legacy-estate-planning/' },
+    ],
+  },
   {
     label: 'Corporate Law',
     href: '/corporate-lawyers/',

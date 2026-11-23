@@ -104,12 +104,13 @@ Collected while converting. The site copies the live version in each case; nothi
 6. Typos on the live site: a review says "guide ne through" ("me"); the contact form label says "Service Requried"; the Real Estate Law page's internal title is "Real State Law Service".
 7. `/litigation-lawyerss/` has a double "s" in its URL. Keep it (it's indexed) or rename with a redirect?
 8. There's no copyright line in the live footer. Add one?
+9. The Wills and Estates column in the Practice Areas menu is empty on the live site. The new site lists the three existing Wills pages under it (General Will & POA Planning, Will & POA for Couples, High-Income / Legacy Estate Planning). OK?
 
 **Forms and integrations**
-9. Contact form: who should receive enquiries (info@navawilson.law?). We need a form service key (Web3Forms, free) for that address.
-10. Wills & Estate Questionnaire: it collects sensitive details and file uploads. Where should it go now: an iClosed intake, a secure form service, or email only?
-11. The reviews "View All" button opens a Google search. Is there a Google Business Profile link to use instead?
-12. Analytics: GTM `GTM-M6H6DWP` is kept. The live site also loads a LinkedIn Insight pixel. Still needed? It can be added through GTM.
+10. Contact form: who should receive enquiries (info@navawilson.law?). We need a form service key (Web3Forms, free) for that address.
+11. Wills & Estate Questionnaire: it collects sensitive details and file uploads. Where should it go now: an iClosed intake, a secure form service, or email only?
+12. The reviews "View All" button opens a Google search. Is there a Google Business Profile link to use instead?
+13. Analytics: GTM `GTM-M6H6DWP` is kept. The live site also loads a LinkedIn Insight pixel. Still needed? It can be added through GTM.
 
 **Pages not carried over** (they'll return "page not found")
-13. `/home-copy/` (an old draft of the homepage), `/category/uncategorized/` and the 21 tag pages (`/tag/...`). OK to drop?
+14. `/home-copy/` (an old draft of the homepage), `/category/uncategorized/` and the 21 tag pages (`/tag/...`). OK to drop?
