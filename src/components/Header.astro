@@ -1,0 +1,251 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logos/navawilson.png';
+import { NAV, PRACTICE_AREAS } from '../data/site';
+---
+
+<header class="header">
+  <div class="header__inner container">
+    <a href="/" class="header__logo" aria-label="Nava Wilson home">
+      <Image src={logo} alt="Nava Wilson Professional Corporation" width={190} densities={[1, 2]} loading="eager" />
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <details class="dropdown" name="nav">
+        <summary>Practice Areas <span class="caret" aria-hidden="true"></span></summary>
+        <div class="dropdown__panel">
+          {PRACTICE_AREAS.map((area) => (
+            <div class="dropdown__group">
+              <a href={area.href} class="dropdown__head">{area.label}</a>
+              {area.children?.map((child) => <a href={child.href}>{child.label}</a>)}
+            </div>
+          ))}
+        </div>
+      </details>
+      {NAV.map((link) => <a href={link.href}>{link.label}</a>)}
+    </nav>
+
+    <a href="/contact-us/" class="btn header__cta">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg>
+      Contact Us
+    </a>
+
+    <details class="menu">
+      <summary aria-label="Open menu">
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+        <span class="menu__bar"></span>
+      </summary>
+      <nav class="menu__panel" aria-label="Main mobile">
+        <p class="menu__label">Practice Areas</p>
+        {PRACTICE_AREAS.map((area) => (
+          <div class="menu__group">
+            <a href={area.href} class="menu__head">{area.label}</a>
+            {area.children?.map((child) => <a href={child.href}>{child.label}</a>)}
+          </div>
+        ))}
+        {NAV.map((link) => <a href={link.href} class="menu__head">{link.label}</a>)}
+        <a href="/contact-us/" class="btn">Contact Us</a>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: relative;
+    z-index: 20;
+    background: linear-gradient(#d9d9dd, #e3e3ea);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    height: 88px;
+  }
+
+  .header__logo img {
+    width: 190px;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-inline: auto;
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+
+  .nav > a,
+  .dropdown summary {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .nav > a:hover,
+  .dropdown summary:hover {
+    color: var(--color-primary);
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .dropdown summary::-webkit-details-marker,
+  .menu summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .caret {
+    border: 5px solid transparent;
+    border-top-color: currentColor;
+    margin-top: 5px;
+  }
+
+  .dropdown[open] .caret {
+    transform: rotate(180deg);
+    margin-top: -5px;
+  }
+
+  .dropdown__panel {
+    position: absolute;
+    top: calc(100% + 18px);
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 28px;
+    padding: 28px 32px;
+    background: var(--color-white);
+    border-radius: 16px;
+    box-shadow: 0 12px 40px rgb(0 0 0 / 0.12);
+  }
+
+  .dropdown__group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .dropdown__group a {
+    text-decoration: none;
+  }
+
+  .dropdown__group a:hover {
+    color: var(--color-primary);
+  }
+
+  .dropdown__head {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  .header__cta {
+    min-height: 40px;
+    padding-inline: 22px;
+    font-size: 14px;
+  }
+
+  .menu {
+    display: none;
+    margin-left: auto;
+  }
+
+  .menu summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .menu__bar {
+    width: 24px;
+    height: 2px;
+    background: var(--color-heading);
+  }
+
+  .menu:not([open]) .menu__panel {
+    display: none;
+  }
+
+  .menu__panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: calc(100vh - 72px);
+    overflow-y: auto;
+    padding: 20px var(--container-padding) 28px;
+    background: var(--color-white);
+    box-shadow: 0 12px 24px rgb(0 0 0 / 0.1);
+  }
+
+  .menu__panel a:not(.btn) {
+    text-decoration: none;
+    color: var(--color-heading);
+  }
+
+  .menu__label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .menu__group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 12px;
+    border-left: 2px solid var(--color-tint);
+  }
+
+  .menu__group a:not(.menu__head) {
+    font-size: 15px;
+  }
+
+  .menu__head {
+    font-weight: 600;
+  }
+
+  .menu__group .menu__head {
+    color: var(--color-primary) !important;
+  }
+
+  .menu__panel .btn {
+    margin-top: 12px;
+  }
+
+  @media (max-width: 1023px) {
+    .nav,
+    .header__cta {
+      display: none;
+    }
+    .menu {
+      display: block;
+    }
+    .header__inner {
+      height: 72px;
+    }
+    .header__logo img {
+      width: 150px;
+    }
+  }
+</style>

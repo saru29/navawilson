@@ -1,0 +1,99 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { formatDate } from '../lib/format';
+
+// Blog posts and imported pages both live at the site root, matching the WordPress URLs.
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const pages = await getCollection('pages');
+  return [
+    ...posts.map((entry) => ({ params: { slug: entry.id }, props: { entry } })),
+    ...pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } })),
+  ];
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const isPost = entry.collection === 'blog';
+const data = entry.data;
+const heading = data.heading ?? data.title;
+const title = data.seoTitle ?? `${data.title} | Nava Wilson`;
+---
+
+<BaseLayout
+  title={title}
+  description={data.description}
+  image={isPost && 'image' in data ? data.image : undefined}
+  type={isPost ? 'article' : 'website'}
+>
+  <main>
+    <header class="banner">
+      <div class="container">
+        {isPost && <a href="/blogs/" class="back">← All articles</a>}
+        <h1>{heading}</h1>
+        {isPost && 'date' in data && (
+          <p class="meta">
+            <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
+            {data.categories.length > 0 && <> · {data.categories.join(', ')}</>}
+          </p>
+        )}
+      </div>
+    </header>
+    <article class="section">
+      <div class="container">
+        <div class="prose"><Content /></div>
+        {!isPost && data.kind === 'service' && (
+          <aside class="cta">
+            <h2>Talk to our team</h2>
+            <a href="/contact-us/" class="btn">Contact Us</a>
+          </aside>
+        )}
+      </div>
+    </article>
+  </main>
+</BaseLayout>
+
+<style>
+  .banner {
+    padding-block: 56px;
+    background: linear-gradient(#e3e3ea, #f1f1fa);
+  }
+
+  h1 {
+    max-width: 860px;
+    font-size: var(--fs-h1);
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .meta {
+    margin-top: 16px;
+    font-size: 14px;
+    color: var(--color-text-muted);
+  }
+
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 760px;
+    margin-top: 48px;
+    padding: 28px 32px;
+    background: var(--color-tint);
+    border-radius: var(--radius-card);
+  }
+
+  .cta h2 {
+    font-size: 24px;
+  }
+</style>

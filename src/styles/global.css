@@ -1,0 +1,216 @@
+/* Design tokens from the live Elementor kit. Breakpoints: phone <768px, tablet 768–1023px, desktop ≥1024px. */
+
+:root {
+  --color-primary: #ce2028;
+  --color-primary-dark: #a8181f;
+  --color-heading: #434141;
+  --color-text: #3a3a3a;
+  --color-text-muted: #6b6b6b;
+  --color-tint: #f1f1fa;
+  --color-border: #d9d9d9;
+  --color-white: #ffffff;
+
+  --font-body: var(--font-poppins);
+
+  --fs-h1: 52px;
+  --fs-h2: 44px;
+  --fs-lead: 18px;
+
+  --content-width: 1140px;
+  --container-padding: 24px;
+  --section-space: 72px;
+  --radius-card: 20px;
+  --radius-panel: 32px;
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --fs-h1: 42px;
+    --fs-h2: 36px;
+    --section-space: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --fs-h1: 32px;
+    --fs-h2: 30px;
+    --fs-lead: 16px;
+    --section-space: 44px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  color: var(--color-heading);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--content-width) + 2 * var(--container-padding));
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+.section {
+  padding-block: var(--section-space);
+}
+
+/* "Our [Services]" headings: second word on a red tab. */
+.title {
+  font-size: var(--fs-h2);
+  font-weight: 700;
+  text-align: center;
+}
+
+.title span {
+  display: inline-block;
+  margin-left: 0.2em;
+  padding: 0.05em 0.35em;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0 0.6em 0 0;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 46px;
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn:hover {
+  background: var(--color-primary-dark);
+}
+
+/* Shared styles for Markdown content (blog posts, legal and service pages). */
+.prose {
+  max-width: 760px;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.prose :where(h2, h3, h4) {
+  margin: 1.8em 0 0.6em;
+  scroll-margin-top: 24px;
+}
+
+.prose h2 {
+  font-size: 28px;
+}
+
+.prose h3 {
+  font-size: 22px;
+}
+
+.prose h4 {
+  font-size: 18px;
+}
+
+.prose :where(p, ul, ol, table, blockquote) {
+  margin: 0 0 1.1em;
+}
+
+.prose :where(ul, ol) {
+  padding-left: 1.4em;
+}
+
+.prose li + li {
+  margin-top: 0.35em;
+}
+
+.prose a {
+  color: var(--color-primary);
+}
+
+.prose img {
+  margin: 1.5em 0;
+  border-radius: 12px;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.prose :where(th, td) {
+  padding: 8px 10px;
+  border: 1px solid var(--color-border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose blockquote {
+  padding-left: 16px;
+  border-left: 4px solid var(--color-primary);
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 767px) {
+  .prose {
+    font-size: 16px;
+  }
+  .prose h2 {
+    font-size: 24px;
+  }
+  .prose h3 {
+    font-size: 20px;
+  }
+}

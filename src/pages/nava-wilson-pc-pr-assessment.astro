@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Free PR Assessment | Nava Wilson"
+  description="Check which Canadian permanent residence pathways you may qualify for with the Nava Wilson PR assessment, powered by PR Coach."
+>
+  <main class="section">
+    <div class="container">
+      <h1 class="title">Nava Wilson<span>PR Assessment</span></h1>
+      <div class="embed">
+        <iframe
+          id="prcoach-frame"
+          src="https://partner.prcoach.ca/embed/intake?partner_id=2007"
+          title="Free PR Assessment"
+          allow="clipboard-write"></iframe>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<script>
+  const frame = document.getElementById('prcoach-frame') as HTMLIFrameElement | null;
+  window.addEventListener('message', (e) => {
+    if (frame && e.origin === 'https://partner.prcoach.ca' && e.data?.type === 'prcoach-resize') {
+      frame.style.height = `${e.data.height}px`;
+    }
+  });
+</script>
+
+<style>
+  .embed {
+    max-width: 1400px;
+    margin: 40px auto 0;
+  }
+
+  iframe {
+    display: block;
+    width: 100%;
+    min-height: 700px;
+    border: 0;
+  }
+</style>

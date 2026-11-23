@@ -1,0 +1,138 @@
+---
+import { EMAIL, PHONE, PHONE_HREF, REFERRAL_OPTIONS, SERVICE_OPTIONS, WEB3FORMS_ACCESS_KEY } from '../data/site';
+
+const formReady = WEB3FORMS_ACCESS_KEY !== '';
+const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
+---
+
+<div class="panel">
+  {formReady ? (
+    <form class="form" action="https://api.web3forms.com/submit" method="post">
+      <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+      <input type="hidden" name="subject" value="New enquiry from navawilson.law" />
+      <input type="hidden" name="from_name" value="Nava Wilson website" />
+      <input type="hidden" name="redirect" value={thanksUrl} />
+      <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" />
+
+      <label><span class="sr">First name</span><input name="first_name" placeholder="First Name*" autocomplete="given-name" required /></label>
+      <label><span class="sr">Last name</span><input name="last_name" placeholder="Last Name*" autocomplete="family-name" required /></label>
+      <label><span class="sr">Email</span><input name="email" type="email" placeholder="Email*" autocomplete="email" required /></label>
+      <label><span class="sr">Phone</span><input name="phone" type="tel" placeholder="Phone No*" autocomplete="tel" required /></label>
+      <label>
+        <span class="sr">Service required</span>
+        <select name="service" required>
+          <option value="" disabled selected>Service required*</option>
+          {SERVICE_OPTIONS.map((o) => <option>{o}</option>)}
+        </select>
+      </label>
+      <label>
+        <span class="sr">How did you hear about us?</span>
+        <select name="referral">
+          <option value="" selected>How did you hear about us?</option>
+          {REFERRAL_OPTIONS.map((o) => <option>{o}</option>)}
+        </select>
+      </label>
+      <label class="full"><span class="sr">Message</span><textarea name="message" rows="5" placeholder="Message*" required></textarea></label>
+      <div class="full actions"><button type="submit" class="btn">Send</button></div>
+    </form>
+  ) : (
+    <div class="fallback">
+      <p>Call or email us and we’ll get back to you.</p>
+      <div class="actions">
+        <a href={PHONE_HREF} class="btn">Call {PHONE}</a>
+        <a href={`mailto:${EMAIL}?subject=Website%20enquiry`} class="btn">Email {EMAIL}</a>
+      </div>
+    </div>
+  )}
+</div>
+
+<style>
+  .panel {
+    max-width: 900px;
+    margin: 40px auto 0;
+    padding: 64px 24px;
+    background: var(--color-tint);
+    border-radius: var(--radius-panel);
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 12px;
+    max-width: 580px;
+    margin-inline: auto;
+  }
+
+  .full {
+    grid-column: 1 / -1;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 11px 18px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: var(--color-white);
+    font: inherit;
+    font-size: 14px;
+    color: var(--color-text);
+  }
+
+  textarea {
+    border-radius: 16px;
+    resize: vertical;
+    min-height: 110px;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+  }
+
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .actions .btn {
+    min-width: 160px;
+  }
+
+  .fallback {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .botcheck {
+    display: none;
+  }
+
+  .sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 600px) {
+    .panel {
+      padding: 36px 16px;
+      border-radius: var(--radius-card);
+    }
+    .form {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .actions .btn {
+      width: 100%;
+    }
+  }
+</style>

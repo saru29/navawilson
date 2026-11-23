@@ -1,0 +1,100 @@
+---
+import { Image } from 'astro:assets';
+import reviewsArt from '../../assets/home/reviews.png';
+
+const reviews = [
+  { name: 'Vasanthan Ratna Ananthan', text: 'It was a great pleasure dealing with Vinthan. He and his office were on the ball for my concerns and they guided me for all my requirements. Very very professional and no cutting corners. Will recommend them to anyone in a heartbeat.' },
+  { name: 'Ruby Kugan', text: 'We had the pleasure of an experience with Gathya. She is very helpful and is an amazing person who works from her heart and mind. Thank you so much Gathya !!!!' },
+  { name: 'Jey Jegathesan', text: 'I got my house closing done by Sutharshan and his team. It was a seamless and smooth process, and no surprises. They worked around my work time to meet me and sign the papers. Always recommend it for your real estate transactions.' },
+  { name: 'Samira AD', text: 'Professional and knowledgeable team, friendly environment and easy access location. I am very grateful to the team and especially to Mr. Sutharsan Vasanth for his amazing work. Thanks again. All the best! I am highly recommending the Nava Wilson LLP.' },
+  { name: 'Jennifer John', text: 'It was a great pleasure dealing with Sutharshan and Suganya for our house closing. Every step of the way they were very attentive to our needs, prompt responses, reassured any doubts and questions were all clarified in a timely manner to make the process as smooth as possible. I recommend their services to anyone looking for professional consultation experience.' },
+  { name: 'Oleg Stolbunov', text: 'Nava Wilson LLP are a team of professionals who takes a load off your back. Experienced, dedicated, and very clear in communication. I wish them a great success and recommend their service to everyone who is buying or selling property. Thank you Nava Wilson LLP!' },
+  { name: 'Ashley Rose', text: 'This place provides excellent legal services! I had the pleasure of dealing with Vinthan. His work ethics, knowledge and professionalism exceeded past my expectations. He really took the time to answer all my questions thoroughly and ensured my needs were met for my file in every way! He has a level of knowledge which I believe lead to the results we were seeking. I would highly recommend Nava Wilson LLP if you are looking for high quality services at a time efficient pace! Thank you!' },
+  { name: 'Lilouti Surjan', text: 'In my dealing with this law firm, the communication between us were excellent and polite. Every question and statement I requested was answered promptly via e-mails and calls; for me, this is an exceptional service. In addition, I was given advice what to do on certain issues. I will not hesitate to recommend one.' },
+  { name: 'Carmen Moulton', text: 'I was introduced to this firm by my real estate agent. I couldn’t ask for a better legal team to guide me through the purchase of my business. All my questions were answered in a timely manner. This firm far exceeded my expectations. Vinthan, you were sent from God to me. I could not have done this without you.' },
+];
+---
+
+<section class="section">
+  <div class="container grid">
+    <div class="quotes">
+      <svg class="mark" width="56" height="56" viewBox="0 0 56 56" aria-hidden="true">
+        <rect width="56" height="56" rx="10" fill="var(--color-primary)" />
+        <text x="28" y="48" text-anchor="middle" font-size="48" font-weight="700" fill="#fff" font-family="Georgia, serif">”</text>
+      </svg>
+      <ul class="track" aria-label="Client reviews">
+        {reviews.map((r) => (
+          <li>
+            <blockquote>
+              <p>{r.text}</p>
+              <footer>{r.name}</footer>
+            </blockquote>
+          </li>
+        ))}
+      </ul>
+      <p class="hint">Swipe or scroll for more reviews</p>
+    </div>
+    <Image src={reviewsArt} alt="" width={420} densities={[1, 2]} class="art" />
+  </div>
+</section>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.9fr);
+    gap: 48px;
+    align-items: center;
+  }
+
+  .track {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 24px 0 0;
+    padding: 0 0 12px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .track li {
+    flex: 0 0 100%;
+    align-self: flex-start;
+    scroll-snap-align: start;
+  }
+
+  blockquote {
+    margin: 0;
+  }
+
+  blockquote p {
+    font-size: 16px;
+    color: var(--color-text);
+  }
+
+  blockquote footer {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+  }
+
+  .hint {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--color-text-muted);
+  }
+
+  .art {
+    justify-self: center;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .art {
+      max-width: 300px;
+    }
+  }
+</style>

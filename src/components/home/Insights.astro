@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from '../PostCard.astro';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+
+<section class="section">
+  <div class="container">
+    <div class="head">
+      <h2 class="title">Featured<span>Insights</span></h2>
+      <a href="/blogs/" class="btn">View All</a>
+    </div>
+    <ul class="grid">{posts.map((post) => <li><PostCard post={post} /></li>)}</ul>
+  </div>
+</section>
+
+<style>
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .head .btn {
+    padding-inline: 44px;
+  }
+
+  .grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 40px 0 0;
+    padding: 0;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .head {
+      flex-direction: column;
+    }
+  }
+</style>

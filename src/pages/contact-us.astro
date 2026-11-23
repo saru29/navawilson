@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { ADDRESS_LINES, EMAIL, FAX, MAP_URL, PHONE, PHONE_HREF } from '../data/site';
+---
+
+<BaseLayout
+  title="Contact Us | Nava Wilson"
+  description="Contact Nava Wilson in Toronto for real estate, corporate, litigation, wills and estates, and immigration matters. Call (416) 321-1100."
+>
+  <main class="section">
+    <div class="container">
+      <h1 class="title">Contact<span>Us</span></h1>
+      <ul class="details">
+        <li><a href={MAP_URL} target="_blank" rel="noopener">{ADDRESS_LINES.join(', ')}</a></li>
+        <li><a href={PHONE_HREF}>{PHONE}</a> · Fax {FAX}</li>
+        <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
+      </ul>
+      <ContactForm />
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .details {
+    list-style: none;
+    margin: 32px 0 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .details li + li {
+    margin-top: 6px;
+  }
+
+  .details a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+</style>

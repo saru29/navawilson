@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found | Nava Wilson" noindex>
+  <main class="section">
+    <div class="container center">
+      <h1 class="title">Page<span>Not Found</span></h1>
+      <p>The page you’re looking for has moved or no longer exists.</p>
+      <div class="links">
+        <a href="/" class="btn">Home</a>
+        <a href="/blogs/" class="btn">Blogs</a>
+        <a href="/contact-us/" class="btn">Contact Us</a>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .center {
+    text-align: center;
+  }
+
+  p {
+    margin: 24px 0 32px;
+    font-size: var(--fs-lead);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+</style>

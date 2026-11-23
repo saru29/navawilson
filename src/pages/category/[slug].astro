@@ -1,0 +1,62 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { slugify } from '../../lib/format';
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const names = [...new Set(posts.flatMap((p) => p.data.categories))];
+  return names.map((name) => ({
+    params: { slug: slugify(name) },
+    props: { name, posts: posts.filter((p) => p.data.categories.includes(name)) },
+  }));
+}
+
+const { name, posts } = Astro.props;
+---
+
+<BaseLayout title={`${name} Articles | Nava Wilson`} description={`Articles on ${name.toLowerCase()} in Ontario from the lawyers at Nava Wilson.`}>
+  <main class="section">
+    <div class="container">
+      <a href="/blogs/" class="back">← All articles</a>
+      <h1>{name}</h1>
+      <ul class="grid">{posts.map((post) => <li><PostCard post={post} /></li>)}</ul>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .back {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  h1 {
+    margin-top: 12px;
+    font-size: var(--fs-h2);
+  }
+
+  .grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 40px 0 0;
+    padding: 0;
+  }
+
+  @media (max-width: 1023px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

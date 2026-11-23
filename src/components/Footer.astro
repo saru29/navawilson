@@ -1,0 +1,124 @@
+---
+import { Image } from 'astro:assets';
+import logo from '../assets/logos/navawilson.png';
+import {
+  ADDRESS_LINES, EMAIL, FAX, FIRM_NAME, FOOTER_RESOURCES, FOOTER_SERVICES, MAP_URL, PHONE, PHONE_HREF, SOCIALS,
+} from '../data/site';
+---
+
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <Image src={logo} alt="Nava Wilson Professional Corporation" width={200} densities={[1, 2]} />
+      <p>{FIRM_NAME} specializes in Real Estate, Corporate Law, Litigation, and Wills and Estates.</p>
+      <ul class="socials">
+        {SOCIALS.map((s) => (
+          <li>
+            <a href={s.href} aria-label={s.label} target="_blank" rel="noopener">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={s.path} /></svg>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h2>Services</h2>
+      <ul class="links">{FOOTER_SERVICES.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+    </div>
+
+    <div>
+      <h2>Resources</h2>
+      <ul class="links">{FOOTER_RESOURCES.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+    </div>
+
+    <div>
+      <h2>Contact Us</h2>
+      <ul class="contact">
+        <li><a href={MAP_URL} target="_blank" rel="noopener">{ADDRESS_LINES.join(' ')}</a></li>
+        <li><a href={PHONE_HREF}>{PHONE}</a></li>
+        <li>Fax {FAX}</li>
+        <li><a href={`mailto:${EMAIL}`}>{EMAIL}</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="container copyright">© {new Date().getFullYear()} {FIRM_NAME}. All rights reserved.</p>
+</footer>
+
+<style>
+  .footer {
+    padding-block: 64px 32px;
+    font-size: 14px;
+    color: var(--color-text);
+  }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) repeat(3, minmax(0, 1fr));
+    gap: 40px;
+  }
+
+  .footer__brand p {
+    margin-top: 20px;
+    max-width: 280px;
+  }
+
+  h2 {
+    margin-bottom: 16px;
+    font-size: 17px;
+    letter-spacing: 0.06em;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .links li + li,
+  .contact li + li {
+    margin-top: 8px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--color-primary);
+  }
+
+  .socials {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    color: var(--color-primary);
+  }
+
+  .socials a:hover {
+    opacity: 0.7;
+  }
+
+  .copyright {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-border);
+    font-size: 13px;
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 900px) {
+    .footer__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .footer__brand {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .footer__grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>

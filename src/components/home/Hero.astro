@@ -1,0 +1,50 @@
+---
+import bubbles from '../../assets/home/bubbles.png';
+---
+
+<section class="hero" style={`--bubbles: url(${bubbles.src})`}>
+  <div class="container">
+    <h1>
+      <span>The Bigger Your <em>Dream</em></span>{' '}
+      <span>The More Important The <em>Team</em></span>
+    </h1>
+    <a href="/contact-us/" class="btn">LET’S TALK</a>
+  </div>
+</section>
+
+<style>
+  .hero {
+    padding: 72px 0 150px;
+    text-align: center;
+    background:
+      var(--bubbles) center bottom / 100% auto no-repeat,
+      linear-gradient(#e3e3ea, #f1f1fa);
+    border-radius: 0 0 var(--radius-card) var(--radius-card);
+  }
+
+  h1 {
+    font-size: var(--fs-h1);
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  h1 span {
+    display: block;
+  }
+
+  em {
+    font-style: normal;
+    color: var(--color-primary);
+  }
+
+  .btn {
+    margin-top: 28px;
+    padding-inline: 44px;
+  }
+
+  @media (max-width: 767px) {
+    .hero {
+      padding: 48px 0 90px;
+    }
+  }
+</style>

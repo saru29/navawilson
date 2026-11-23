@@ -1,0 +1,68 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { formatDate } from '../lib/format';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, date, image } = post.data;
+---
+
+<a href={`/${post.id}/`} class="card">
+  {image ? <img src={image} alt="" loading="lazy" width="400" height="250" /> : <div class="placeholder"></div>}
+  <div class="body">
+    <h3>{title}</h3>
+    <time datetime={date.toISOString()}>{formatDate(date)}</time>
+  </div>
+</a>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 8px;
+    border: 1px solid #eee;
+    border-radius: var(--radius-card);
+    background: var(--color-white);
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgb(0 0 0 / 0.04);
+    transition: box-shadow 0.15s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 28px rgb(0 0 0 / 0.1);
+  }
+
+  img,
+  .placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    background: var(--color-tint);
+  }
+
+  .body {
+    padding: 16px 12px 12px;
+  }
+
+  h3 {
+    font-size: 17px;
+    line-height: 1.3;
+    color: #111;
+  }
+
+  .card:hover h3 {
+    color: var(--color-primary);
+  }
+
+  time {
+    display: block;
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--color-text-muted);
+  }
+</style>

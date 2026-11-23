@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Adult Guardianship Intake | Nava Wilson"
+  description="Start your adult guardianship matter with Nava Wilson by completing our intake form."
+>
+  <main class="section">
+    <div class="container">
+      <h1 class="title">Adult Guardianship<span>Intake</span></h1>
+      <div class="embed">
+        <div
+          data-fillout-id="pMicjSmwfLus"
+          data-fillout-embed-type="standard"
+          data-fillout-dynamic-resize
+          data-fillout-inherit-parameters
+          style="width: 100%;"
+        ></div>
+      </div>
+    </div>
+  </main>
+  <script is:inline src="https://server.fillout.com/embed/v1/"></script>
+</BaseLayout>
+
+<style>
+  .embed {
+    max-width: 800px;
+    margin: 40px auto 0;
+  }
+</style>

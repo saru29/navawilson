@@ -1,0 +1,167 @@
+---
+// Icons: Tabler Icons (MIT).
+const services = [
+  {
+    title: 'Real Estate Law',
+    href: '/real-estate-lawyers/',
+    icon: 'M5 12l-2 0l9 -9l9 9l-2 0 M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7 M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6',
+    items: [
+      ['Buying A Property', '/buying-a-property/'],
+      ['Selling A Property', '/selling-a-property/'],
+      ['Refinancing A Property', '/refinancing-a-property/'],
+      ['Commercial Real Estate', '/commercial-real-estate/'],
+      ['Acting For A Lender'],
+    ],
+  },
+  {
+    title: 'Litigation',
+    href: '/litigation-lawyerss/',
+    icon: 'M7 20h10 M6 6l6 -1l6 1 M12 3v17 M9 12l-3 -6l-3 6a3 3 0 0 0 6 0 M21 12l-3 -6l-3 6a3 3 0 0 0 6 0',
+    items: [
+      ['Real Estate Breaches', '/real-estate-breaches/'],
+      ['Commercial Litigation', '/commercial-litigation/'],
+      ['Landlord Tenant Board', '/landlord-and-tenant-board/'],
+      ['Small Claims Court', '/small-claims-court/'],
+      ['Mortgage Enforcement'],
+    ],
+  },
+  {
+    title: 'Corporate Law',
+    href: '/corporate-lawyers/',
+    icon: 'M3 21l18 0 M3 10l18 0 M5 6l7 -3l7 3 M4 10l0 11 M20 10l0 11 M8 14l0 3 M12 14l0 3 M16 14l0 3',
+    items: [
+      ['Incorporation', '/get-incorporated-in-ontario/'],
+      ['Contract Reviews'],
+      ['Starting a New Business', '/start-a-new-business/'],
+      ['Purchase or Sale of a Business', '/purchase-and-sale-of-a-business/'],
+      ['Personal Real Estate Corporations (PREC)'],
+      ['Being Your Counsel'],
+    ],
+  },
+  {
+    title: 'Wills & Estates',
+    href: '/wills-and-estates/',
+    icon: 'M14 3v4a1 1 0 0 0 1 1h4 M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z M9 9l1 0 M9 13l6 0 M9 17l6 0',
+    items: [
+      ['Last Will And Testament'],
+      ['Multiple Wills'],
+      ['Power Of Attorney'],
+      ['Estate Planning And Administration'],
+      ['Probate Applications'],
+    ],
+  },
+  {
+    title: 'Immigration Law',
+    href: '/immigration-law-services/',
+    icon: 'M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0 M3.6 9h16.8 M3.6 15h16.8 M11.5 3a17 17 0 0 0 0 18 M12.5 3a17 17 0 0 1 0 18',
+    items: [
+      ['Permanent Residency'],
+      ['Work Visa'],
+      ['Study Permit'],
+      ['Family Sponsorship'],
+      ['Visitor Visa'],
+      ['Business Immigration'],
+    ],
+  },
+];
+---
+
+<section class="section">
+  <div class="container">
+    <h2 class="title">Our<span>Services</span></h2>
+    <ul class="grid">
+      {services.map((s) => (
+        <li class="card">
+          <span class="icon" aria-hidden="true">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d={s.icon} /></svg>
+          </span>
+          <h3><a href={s.href}>{s.title}</a></h3>
+          <ul>
+            {s.items.map(([label, href]) => <li>{href ? <a href={href}>{label}</a> : label}</li>)}
+          </ul>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 64px 28px;
+    margin: 72px 0 0;
+    padding: 0;
+  }
+
+  .card {
+    position: relative;
+    padding: 48px 24px 28px;
+    border: 1px solid #9e9e9e;
+    border-radius: var(--radius-card);
+  }
+
+  .icon {
+    position: absolute;
+    top: -32px;
+    left: 20px;
+    display: grid;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  h3 {
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #111;
+  }
+
+  h3 a {
+    text-decoration: none;
+  }
+
+  h3 a:hover {
+    color: var(--color-primary);
+  }
+
+  .card ul {
+    list-style: disc;
+    margin: 14px 0 0;
+    padding-left: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+  }
+
+  .card li + li {
+    margin-top: 4px;
+  }
+
+  .card ul a {
+    text-decoration: none;
+  }
+
+  .card ul a:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 1023px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 56px;
+      margin-top: 56px;
+    }
+  }
+</style>

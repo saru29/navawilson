@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+const team = (await getCollection('team')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout
+  title="About Us | Nava Wilson"
+  description="Nava Wilson is a Toronto law firm recognized as a top 10 real estate law firm in Ontario by First Canadian Title for the past decade."
+>
+  <main>
+    <section class="section">
+      <div class="container intro">
+        <h1 class="title">About<span>Nava Wilson</span></h1>
+        <p>
+          Nava Wilson LLP is a Toronto-based law firm with a strong focus on Real Estate that has been recognized as one of the
+          top 10 law firms in Ontario for the past decade by First Canadian Title Insurance. We provide services in Real Estate,
+          Immigration, Corporate Law, Litigation, and Wills and Estates, and have a strong commitment to making the justice
+          system more accessible and understood. We aim to empower our clients and communities by helping them understand their
+          legal rights and responsibilities.
+        </p>
+        <p>
+          Legal procedures can be complex, but we strive to simplify them and ensure they are transparent for everyone involved.
+          In addition to our client work, we actively engage in advocacy and capacity-building efforts, both locally and
+          globally, to drive positive change and inspire future generations. Looking forward to working with you!
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Our<span>Team</span></h2>
+        <ul class="team">
+          {team.map((member) => (
+            <li>
+              <a href={`/our-team/${member.id}/`}>
+                {member.data.photo && <img src={member.data.photo} alt={member.data.name} loading="lazy" width="510" height="465" />}
+                <h3>{member.data.name}</h3>
+                {member.data.role && <p class="role">{member.data.role}</p>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title">Contact<span>Us</span></h2>
+        <ContactForm />
+      </div>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .intro p {
+    max-width: 860px;
+    margin: 24px auto 0;
+    font-size: var(--fs-lead);
+  }
+
+  .intro p:first-of-type {
+    margin-top: 40px;
+  }
+
+  .team {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 28px;
+    margin: 48px 0 0;
+    padding: 0;
+  }
+
+  .team a {
+    text-decoration: none;
+  }
+
+  .team img {
+    border-radius: var(--radius-card);
+  }
+
+  .team h3 {
+    margin-top: 14px;
+    font-size: 18px;
+  }
+
+  .team a:hover h3 {
+    color: var(--color-primary);
+  }
+
+  .role {
+    font-size: 14px;
+    color: var(--color-text-muted);
+  }
+</style>

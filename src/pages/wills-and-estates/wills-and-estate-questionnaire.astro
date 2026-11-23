@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { EMAIL, PHONE, PHONE_HREF } from '../../data/site';
+---
+
+<BaseLayout
+  title="Wills & Estate Questionnaire | Nava Wilson"
+  description="Start your will and power of attorney with Nava Wilson. Contact our wills and estates team to receive the questionnaire."
+>
+  <main class="section">
+    <div class="container center">
+      <h1 class="title">Wills &amp; Estate<span>Questionnaire</span></h1>
+      <p>
+        To get started on your will and powers of attorney, contact our wills and estates team. We’ll send you the questionnaire
+        and a secure way to share your documents.
+      </p>
+      <div class="links">
+        <a href={PHONE_HREF} class="btn">Call {PHONE}</a>
+        <a href={`mailto:${EMAIL}?subject=Wills%20and%20estates%20questionnaire`} class="btn">Email {EMAIL}</a>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .center {
+    text-align: center;
+  }
+
+  p {
+    max-width: 680px;
+    margin: 28px auto 32px;
+    font-size: var(--fs-lead);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+</style>
