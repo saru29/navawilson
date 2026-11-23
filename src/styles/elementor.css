@@ -9,14 +9,23 @@
 }
 
 .el-page {
-  padding-bottom: 32px;
+  padding-bottom: 8px;
 }
 
 /* ---- Sections and columns (Elementor columns are flex-wrap rows of widgets) ---- */
 .el-section.el-top {
   max-width: calc(var(--content-width) + 2 * var(--container-padding));
   margin-inline: auto;
-  padding: 36px var(--container-padding);
+  padding: 24px var(--container-padding);
+}
+
+/* Elementor's percentage paddings leave large gaps; keep the vertical rhythm tighter. */
+.el-section.el-top:not(.el-bg) {
+  padding-block: 24px !important;
+}
+
+.el-section.el-inner:not(.el-bg) {
+  padding-block: 0 !important;
 }
 
 .el-section.el-top > .el-row {
@@ -35,7 +44,7 @@
 /* Hero: the first gradient block runs edge to edge under the header. */
 .el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) {
   max-width: none;
-  padding: 0 8px;
+  padding: 0 8px !important;
 }
 
 .el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) > .el-row {
@@ -50,6 +59,7 @@
 .el-page > .el-section:first-child > .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'] {
   padding: 40px max(var(--container-padding), calc((100% - var(--content-width)) / 2)) 64px;
   border-radius: 0 0 11px 11px !important;
+  padding-block: 56px 64px !important;
 }
 
 .el-page > .el-section:first-child > .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'] > .el-row {

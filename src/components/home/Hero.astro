@@ -1,8 +1,4 @@
----
-import bubbles from '../../assets/home/bubbles.png';
----
-
-<section class="hero" style={`--bubbles: url(${bubbles.src})`}>
+<section class="hero">
   <div class="container">
     <h1>
       <span>The Bigger Your <em>Dream</em></span>{' '}
@@ -14,11 +10,9 @@ import bubbles from '../../assets/home/bubbles.png';
 
 <style>
   .hero {
-    padding: 72px 0 150px;
+    padding: 64px 0 72px;
     text-align: center;
-    background:
-      var(--bubbles) center bottom / 100% auto no-repeat,
-      linear-gradient(#d4d4db, #f1f2fa);
+    background: linear-gradient(#d4d4db, #f1f2fa);
     border-radius: 0 0 var(--radius-card) var(--radius-card);
   }
 
@@ -44,7 +38,7 @@ import bubbles from '../../assets/home/bubbles.png';
 
   @media (max-width: 767px) {
     .hero {
-      padding: 48px 0 90px;
+      padding: 40px 0 48px;
     }
   }
 </style>

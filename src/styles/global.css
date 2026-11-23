@@ -18,7 +18,7 @@
 
   --content-width: 1140px;
   --container-padding: 24px;
-  --section-space: 72px;
+  --section-space: 48px;
   --radius-card: 20px;
   --radius-panel: 32px;
 }
@@ -27,7 +27,7 @@
   :root {
     --fs-h1: 42px;
     --fs-h2: 36px;
-    --section-space: 56px;
+    --section-space: 40px;
   }
 }
 
@@ -36,7 +36,7 @@
     --fs-h1: 32px;
     --fs-h2: 30px;
     --fs-lead: 16px;
-    --section-space: 44px;
+    --section-space: 32px;
   }
 }
 

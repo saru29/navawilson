@@ -19,10 +19,17 @@ const reviews = [
 <section class="section">
   <div class="container grid">
     <div class="quotes">
-      <svg class="mark" width="56" height="56" viewBox="0 0 56 56" aria-hidden="true">
-        <rect width="56" height="56" rx="10" fill="var(--color-primary)" />
-        <text x="28" y="48" text-anchor="middle" font-size="48" font-weight="700" fill="#fff" font-family="Georgia, serif">”</text>
-      </svg>
+      <div class="head">
+        <svg class="mark" width="56" height="56" viewBox="0 0 56 56" aria-hidden="true">
+          <rect width="56" height="56" rx="10" fill="var(--color-primary)" />
+          <text x="28" y="48" text-anchor="middle" font-size="48" font-weight="700" fill="#fff" font-family="Georgia, serif">”</text>
+        </svg>
+        <div class="controls">
+          <button type="button" class="arrow prev" aria-label="Previous review">‹</button>
+          <button type="button" class="arrow next" aria-label="Next review">›</button>
+          <a href={GOOGLE_REVIEWS_URL} class="btn" target="_blank" rel="noopener">View All</a>
+        </div>
+      </div>
       <ul class="track" aria-label="Client reviews">
         {reviews.map((r) => (
           <li>
@@ -33,11 +40,6 @@ const reviews = [
           </li>
         ))}
       </ul>
-      <div class="controls">
-        <button type="button" class="arrow prev" aria-label="Previous review">‹</button>
-        <button type="button" class="arrow next" aria-label="Next review">›</button>
-        <a href={GOOGLE_REVIEWS_URL} class="btn" target="_blank" rel="noopener">View All</a>
-      </div>
     </div>
     <Image src={reviewsArt} alt="" width={420} densities={[1, 2]} class="art" />
   </div>
@@ -95,17 +97,22 @@ const reviews = [
     scrollbar-width: none;
   }
 
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
   .controls {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-top: 32px;
   }
 
   .controls .btn {
-    margin-left: auto;
-    margin-right: auto;
-    padding-inline: 56px;
+    margin-left: 8px;
+    padding-inline: 32px;
   }
 
   .arrow {

@@ -4,7 +4,7 @@ Rebuilding navawilson.law (WordPress + Elementor on Cloudways) as an Astro stati
 This file is the progress log and the record of decisions. Page content lives in `src/content/` (imported from WordPress), not here.
 
 **Decisions**
-- **Convert the site as it is.** Same content, wording, layout and colours as the live site. Anything that looks wrong goes in "Questions for the consultant" below instead of being changed. That list becomes a document for the consultant at the end.
+- **Convert the site as it is.** Same content, wording, layout and colours as the live site. Small style tweaks (spacing, polish) are fine and listed under Step 6. Anything that looks wrong goes in "Questions for the consultant" below instead of being changed. That list becomes a document for the consultant at the end.
 - Separate repo, owned by saru29 next to the iClosed repos.
 - Astro 7 on Node 22 (`.nvmrc`). Plain CSS with variables. JS only where the live site has interaction (carousels), plus analytics and the two embedded forms.
 - All 61 blog posts move over at their existing URLs.
@@ -95,7 +95,10 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 
 **Known gaps**: on phones the "Why Choose Us" timeline dots are hidden. Elementor uses separate mobile offsets, which the converter doesn't read.
 
-**Deliberate differences from live**: the General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
+**Deliberate differences from live** (style only; content and colours unchanged):
+- Tighter spacing everywhere (Nov 23, requested): Elementor's percentage paddings are capped (hero 56/64px, sections 24px), homepage sections 48px apart, smaller gaps around cards, carousel and footer.
+- Homepage hero has no red dots; service cards have a soft shadow and lift on hover; review arrows and "View All" sit beside the quote mark.
+- The General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
 
 ---
 
