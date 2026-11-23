@@ -295,6 +295,16 @@
   margin-inline: auto;
 }
 
+/* Two-column rows get a wider gutter (48px instead of 20px). */
+@media (min-width: 768px) {
+  .el-row:has(> .el-col:nth-child(2):last-child) {
+    margin-inline: -24px;
+  }
+  .el-row:has(> .el-col:nth-child(2):last-child) > .el-col {
+    padding-inline: 24px;
+  }
+}
+
 /* ---- Icon + heading rows: the icon hugs its heading instead of taking 24% of the column. ---- */
 .el-col > .el-iconw.w-initial:has(+ .el-heading) {
   width: auto !important;
