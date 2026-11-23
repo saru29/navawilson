@@ -1,0 +1,659 @@
+{
+  "title": "Selling a Home",
+  "seoTitle": "Selling a Home | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "11% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Selling a <em>Home</em>"
+                    },
+                    {
+                      "id": "f0aff37",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "#363636",
+                          "font-size": "14px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,84%)",
+                          "max-width": "84%",
+                          "--container-widget-width": "84%",
+                          "padding": "0% 10% 0% 10%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>When potential buyers make offers to purchase (also called an Ontario Agreement of Purchase and Sale), Nava Wilson real estate lawyers can review the legal details to ensure it’s right for you. We advise you on real estate deposits, seller’s rights and obligations, and legal options if buyers withdraw offers. Lawyers manage the legal formalities involved in finalizing real estate deals in Ontario.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "1120be9",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "63895e3",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "f75b9ef",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"68\" height=\"71\" viewBox=\"0 0 68 71\"><text data-name=\"1\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"24.245\" y=\"53\">1</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Execute the Agreement of Purchase and Sale (APS)"
+                    }
+                  ]
+                },
+                {
+                  "id": "5e68c0d",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "ff82d91",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"71\" viewBox=\"0 0 96 71\"><text data-name=\"2\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"33.369\" y=\"53\">2</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Contact us and forward the APS"
+                    }
+                  ]
+                },
+                {
+                  "id": "1c14db5",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "b8092b4",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"85\" height=\"71\" viewBox=\"0 0 85 71\"><text data-name=\"3\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"27.11\" y=\"53\">3</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Our team gathers documents from you"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "dd6b499",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "e646189",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "117e785",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "5% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "8996fef",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e6f7500",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "How We <mark>Work</mark>"
+                    },
+                    {
+                      "id": "ca382a6",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Virtual Real Estate Closings"
+                    },
+                    {
+                      "id": "fc3b31b",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Real Estate made easy. We offer virtual real estate closings with enhanced client interactions.</p>"
+                    },
+                    {
+                      "id": "2e3cd60",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "8a19d18",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "69265fe",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "5de3f59",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "#434141",
+                  "font-size": "44px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Selling a Home: <mark>What to Know</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "0a02bed",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "f81b84b",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "f02009f",
+                      "hide": [],
+                      "cls": [],
+                      "type": "accordion",
+                      "items": [
+                        {
+                          "title": "Mortgage Discharge Statement",
+                          "html": "<p>Please contact your mortgage lender to confirm the payout amount along with penalties – if applicable. This will be available to you in the Mortgage Discharge Statement.</p>"
+                        },
+                        {
+                          "title": "Arriving At Your Listing Price",
+                          "html": "<p>Research the market to determine the fair market value of your home to understand what price to list and sell your house.</p>"
+                        },
+                        {
+                          "title": "Make Necessary Repairs & Prep Property",
+                          "html": "<p>Carry out any required small repairs and prep work to maximize resale value. Typical projects which increase resale value include repainting, closet and cabinet organizers, cleaning, etc.</p><p>Be wary of any major renovations, and do your research regarding which are the most valuable to carry out. The amount spent on renovations may not increase the property value as much as you may assume.</p>"
+                        },
+                        {
+                          "title": "Estimate Your Costs To Sell",
+                          "html": "<ul><li>Real estate agent commission (which can range between 2% to 6% of the final sale price of the house)</li><li>Advertising costs, signs, other fees (if you plan to sell on your own without a Realtor)</li><li>Staging fees (if you choose to stage your home)</li><li>Lawyer fees and disbursements</li><li>Any costs associated with maintenance and preparing your home for sale</li></ul>"
+                        },
+                        {
+                          "title": "Calculate Your Estimated Proceeds",
+                          "html": "<p>To calculate the estimated proceeds:</p><ul><li>Deduct your mortgage payoff from your home's fair market value</li><li>Then deduct your costs to sell from the remainder to get an estimate of the proceeds you will be paid at closing.</li></ul><p>Will your closing proceeds cover your costs to buy a new home? If not, do you have funds to make up the difference? Make sure you seek out expert advice to address how to navigate such scenarios.</p>"
+                        },
+                        {
+                          "title": "Accepting An Offer",
+                          "html": "<p>Once an offer is made, you can choose to deny or accept it. Some offers may be conditional on certain factors coming to fruition (on finances being received, inspections or surveys being done, etc.)</p>"
+                        },
+                        {
+                          "title": "OREA Agreement",
+                          "html": "<p>If you are using a Real Estate agent, an OREA agreement is a standard form agreement signed between sellers and their real estate agents.</p>"
+                        },
+                        {
+                          "title": "Documents Your Home Buyer May Need",
+                          "html": "<p><b>Surveys </b>- Most purchasers will have a clause in the offer to purchase, which requires the vendor to provide an existing survey. The survey is useful for the location of lot boundaries, check the lot size, location of the building on the lot, setbacks, encroachments, easements, etc., which can be reviewed by the purchaser’s lawyer when doing the legal processing for the purchase.</p><p><b>Property Tax Receipts</b></p><p><b>Renovation Contracts</b></p><p><b>Transferrable Warranties</b></p>"
+                        },
+                        {
+                          "title": "Chattels VS Fixtures",
+                          "html": "<p>The Agreement Of Purchase And Sale may list certain properties within the house that can either be chattels or fixtures. Chattels are personal items that are tangible and moveable, for example, furniture, which you will likely take with you when you move.</p><p>Fixtures are items attached to the house, which you likely won’t be moving with you.</p>"
+                        },
+                        {
+                          "title": "Documents Required By a Lawyer",
+                          "html": "<ul><li>Copy of Agreement of Purchase and Sale</li><li>Details of any existing mortgage or lines of credit against property</li><li>Copy of any existing survey of the property</li><li>Current year’s realty tax bill</li><li>At least one key to the property</li><li>You will need to confirm that you have contacted utility providers to arrange a final reading of meters before you move out</li></ul>"
+                        },
+                        {
+                          "title": "Installment Payments",
+                          "html": "<p>Be aware that any Property Tax, Mortgage Payments, Common Expenses, etc., due before the closing date MUST be paid by the seller before the closing date. These amounts will be noted in the Statement of Adjustments, and you will likely be given a credit for such payments.</p>"
+                        },
+                        {
+                          "title": "Sale Price & Closing Adjustments",
+                          "html": "<p>Your Agreement of Purchase and Sale states that the balance of the purchase price on the closing date will be paid by certified cheque, subject to the usual adjustments.</p><p>On a resale home, an adjustment is any item that has been prepaid by the Seller, which is applied beyond the closing date and will benefit the purchaser after the closing date. The amount that has been overpaid by the Seller is pro-rated, and a credit is given to the seller as an adjustment on closing.</p><p>Examples of such adjustments on the sale of a home are prepaid realty taxes, prepaid condominium fees, and fuel oil (if the property has an oil furnace).</p>"
+                        },
+                        {
+                          "title": "Spousal Consent",
+                          "html": "<p>If the ownership/deed is in one spouse’s name, but the home was used as a matrimonial home, the spouse who is not the registered owner must consent to the sale. Net proceeds from the sale transaction must be directed to the registered owner and the consenting spouse.</p>"
+                        },
+                        {
+                          "title": "Final Closing",
+                          "html": "<ul><li>You must attend the law office to sign all closing documentation before the closing date of your transaction. Our office will contact you one (1) week before the closing date of your transaction to schedule an appointment.</li><li>All the registered owners (and spouses IF a matrimonial home is the property being sold) must attend the appointment.</li><li>Ensure you receive final readings of utility usage.</li><li>Cancel or transfer your cable, phone, and internet services.</li></ul>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "How do I get started with selling my property in Ontario?",
+                  "html": "<p>Start by preparing your property, setting a competitive price, and choosing a method for listing (through an agent or as a for-sale-by-owner).</p>"
+                },
+                {
+                  "title": "How can I determine the market value of my property in Ontario?",
+                  "html": "<p>You can evaluate your property's market value by conducting a comparative market analysis or obtaining a professional appraisal.</p>"
+                },
+                {
+                  "title": "What legal obligations do I have as a seller in Ontario regarding property disclosures?",
+                  "html": "<p>Sellers are legally obligated to disclose known material defects and issues about the property that could affect its value or safety.</p>"
+                },
+                {
+                  "title": "How can I ensure a smooth closing process for my property sale?",
+                  "html": "<p>&nbsp;Work closely with your real estate lawyer to ensure all legal requirements are met, including title transfer and possession details.</p>"
+                },
+                {
+                  "title": "How can I resolve title issues or disputes related to my property sale?",
+                  "html": "<p>Nava Wilson real estate lawyers can assist in resolving title issues or disputes and ensuring a smooth property transfer.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

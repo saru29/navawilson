@@ -1,11 +1,16 @@
 ---
 import { EMAIL, PHONE, PHONE_HREF, REFERRAL_OPTIONS, SERVICE_OPTIONS, WEB3FORMS_ACCESS_KEY } from '../data/site';
 
+interface Props {
+  bare?: boolean;
+}
+
+const { bare = false } = Astro.props;
 const formReady = WEB3FORMS_ACCESS_KEY !== '';
 const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
 ---
 
-<div class="panel">
+<div class:list={['panel', { bare }]}>
   {formReady ? (
     <form class="form" action="https://api.web3forms.com/submit" method="post">
       <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
@@ -53,6 +58,13 @@ const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
     padding: 64px 24px;
     background: var(--color-tint);
     border-radius: var(--radius-panel);
+  }
+
+  .panel.bare {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    background: none;
   }
 
   .form {

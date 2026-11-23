@@ -50,19 +50,6 @@ const services = [
       ['Probate Applications'],
     ],
   },
-  {
-    title: 'Immigration Law',
-    href: '/immigration-law-services/',
-    icon: 'M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0 M3.6 9h16.8 M3.6 15h16.8 M11.5 3a17 17 0 0 0 0 18 M12.5 3a17 17 0 0 1 0 18',
-    items: [
-      ['Permanent Residency'],
-      ['Work Visa'],
-      ['Study Permit'],
-      ['Family Sponsorship'],
-      ['Visitor Visa'],
-      ['Business Immigration'],
-    ],
-  },
 ];
 ---
 
@@ -89,9 +76,10 @@ const services = [
   .grid {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 64px 28px;
-    margin: 72px 0 0;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 72px 40px;
+    max-width: 660px;
+    margin: 72px auto 0;
     padding: 0;
   }
 
@@ -149,12 +137,6 @@ const services = [
 
   .card ul a:hover {
     color: var(--color-primary);
-  }
-
-  @media (max-width: 1023px) {
-    .grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
   }
 
   @media (max-width: 600px) {

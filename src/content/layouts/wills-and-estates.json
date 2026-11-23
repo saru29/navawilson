@@ -1,0 +1,484 @@
+{
+  "title": "Wills and Estates",
+  "seoTitle": "Wills and Estates Lawyers in Toronto, Scarborough | Nava Wilson",
+  "description": "Nava Wilson LLP's Wills and Estate Lawyers in Toronto specializing in wills, estates, power of attorney and estate administration. Call Now!",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "10% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "#434141",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h1",
+                      "html": "Wills and <em>Estates</em>"
+                    },
+                    {
+                      "id": "f0aff37",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "padding": "0% 10% 0% 10%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>It’s always a good time to take care of yourself and the ones you love. As experienced Wills and Estate lawyers in Ontario, we understand the importance of planning for the future and protecting your assets. Our team is dedicated to providing you with the best legal advice and guidance to help you plan for tomorrow by assisting with wills, power of attorney, estate planning, probate applications and administration of estates.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "8a19d18",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "69265fe",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "612ecce",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our <mark>Services</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "0a02bed",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "f81b84b",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "f02009f",
+                      "hide": [],
+                      "cls": [],
+                      "type": "accordion",
+                      "items": [
+                        {
+                          "title": "Last Will and Testament",
+                          "html": "<p>Multiple Wills are legal documents that allow you to separate the distribution of your assets into different categories, typically those that require probate and those that do not.</p><p>For example:<br>One Will can cover <strong>assets that require probate</strong>, such as real estate or bank accounts.</p><p>Another Will can deal with <strong>assets that may not require probate</strong>, like private company shares, personal belongings, or other items.</p><p>Using Multiple Wills can <strong>reduce probate fees</strong>, streamline the transfer process, and ensure your wishes are clearly followed.</p><p><strong>Probate and Administration</strong><br>The probate process is a court process to:</p><ol><li>validate and authenticate the will;</li><li>provide a Certificate of Appointment of Estate Trustee. This is essentially the Trustee's authority to act on behalf of the Estate and administer the wishes of the deceased</li></ol><p>If there is no will, the probate process allows an individual to apply to court to be granted authority to act as trustee on behalf of the estate.</p><p>Estate Administration is the process of managing and settling a deceased person’s estate. It includes:</p><ul><li>Collecting and protecting assets;</li><li>Paying debts, taxes, and expenses;</li><li>Distributing the remaining estate to beneficiaries in accordance with the will. If there is no will, then in accordance with <strong>Ontario’s succession laws</strong>.</li></ul><pre><strong>Administration Process</strong>\nThe Estate Administration process ensures:</pre><ol><li>All assets of the deceased are properly <strong>identified and secured</strong>.</li><li>Outstanding <strong>debts</strong>, <strong>taxes</strong>, <strong>and expenses</strong> are settled.</li><li>Beneficiaries receive their inheritance <strong>according to the Will</strong>.</li><li>If there is no Will, the estate trustee distributes the estate <strong>according to Ontario law</strong>.</li></ol>"
+                        },
+                        {
+                          "title": "Multiple Wills",
+                          "html": "Multiple Wills are legal documents that allow you to separate the distribution of your assets into different categories, typically those that require probate and those that do not. <br> <br> For example: One Will can cover <strong>assets that require probate</strong>, such as real estate or bank accounts. Another Will can deal with <strong>assets that may not require probate</strong>, like private company shares, personal belongings, or other items. Using Multiple Wills can <strong>reduce probate fees</strong>, streamline the transfer process, and ensure your wishes are clearly followed. <br> <br> <strong>Probate and Administration</strong> The probate process is a court process to: <br> <ol> <li>validate and authenticate the will;</li> <li>provide a Certificate of Appointment of Estate Trustee. This is essentially the Trustee's authority to act on behalf of the Estate and administer the wishes of the deceased</li> </ol> <br> If there is no will, the probate process allows an individual to apply to court to be granted authority to act as trustee on behalf of the estate."
+                        },
+                        {
+                          "title": "Power of attorney for property or personal care",
+                          "html": "<p><b>What is the Power of Attorney?</b></p><p>A power of attorney is a legal document that gives someone you trust the right to make financial or health care decisions for you. This trusted person does not have to be a lawyer to be your attorney. It can be a trusted family member or a friend. <br><br><b>When should I consider getting a Power of Attorney?</b></p><p>You should consider having a power of attorney in place, regardless of your age or financial situation.</p><p>If something happens to you, for example, an accident or illness that impacts your ability to make financial or healthcare decisions for yourself, you will need someone to make those decisions on your behalf.&nbsp;</p><p><b>Two types of powers of attorney:</b></p><ul><li>personal care</li><li>property</li></ul><p><b>Personal care</b></p><p>An attorney for personal care can make decisions about your:</p><ul><li>health care</li><li>housing</li><li>other aspects of your personal life, such as meals and clothing</li></ul><p>If you do not have an attorney for personal care, your family can make some decisions, but not all.</p><p><b>Property</b></p><p>An attorney for property can make decisions about your financial affairs, including:</p><ul><li>paying your bills</li><li>collecting money owed to you</li><li>maintaining or selling your house</li><li>managing your investments</li></ul><p>If you don't have a designated property attorney, your family, including your spouse, are unable to make financial decisions on your behalf if you are incapacitated,&nbsp; without going through the legal process of obtaining a court-appointed guardianship.</p><p><b>To make a power of attorney, you must be:</b></p><ul><li>mentally capable</li><li>at least 18 years old to make a power of attorney for property</li><li>at least 16 years old to make a power of attorney personal care </li></ul>"
+                        },
+                        {
+                          "title": "Estate planning, including real estate transfers",
+                          "html": "<p><b>What is Estate Planning?</b></p><p>Estate planning includes a wide variety of elements, including legal documents and preparations for your family. An estate plan can include everything from a power of attorney to a last will. It spans the naming of an executor to carry out your wishes, appointing a guardian for minor children, and more. Moreover, it can include digital assets ( cryptocurrency, social media accounts) and beloved pets.</p>"
+                        },
+                        {
+                          "title": "Estate Administration",
+                          "html": "<strong>Estate Administration</strong> is the process of managing and settling a deceased person’s estate. It includes: <ul> <li>Collecting and protecting assets;</li> <li>Paying debts, taxes, and expenses;</li> <li>Distributing the remaining estate to beneficiaries in accordance with the will. If there is no will, then in accordance with <strong>Ontario’s succession laws</strong>.</li> </ul><br> <strong>Administration Process</strong> The Estate Administration process ensures: <ol> <li>All assets of the deceased are properly <strong>identified and secured</strong>.</li> <li>Outstanding <strong>debts</strong>, <strong>taxes</strong>, <strong>and expenses</strong> are settled.</li> <li>Beneficiaries receive their inheritance <strong>according to the Will</strong>.</li> <li>If there is no Will, the estate trustee distributes the estate <strong>according to Ontario law</strong>.</li> </ol>"
+                        },
+                        {
+                          "title": "Probate applications",
+                          "html": "<p><b>What is Probate?</b><b><br></b></p><p>When a person dies, they may leave behind belongings, real estate and other assets and liabilities, which is collectively called their estate.</p><p>In Ontario, an estate trustee is the only person with the legal authority to manage or distribute an estate.</p><p>Probate is a procedure to ask the court to either:</p><ul><li>give a person the authority to act as the estate trustee of an estate</li><li>confirm the authority of a person named as the estate trustee in the deceased’s Will and</li><li>formally approve that the deceased’s Will is their valid last Will</li></ul>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "ca61c04",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "47f6f73",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "e401253",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Benefits Of a <mark>Last Will</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "13ccdf8",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "a8c7270",
+                  "width": 10,
+                  "hide": [],
+                  "cls": [],
+                  "items": []
+                },
+                {
+                  "id": "6bba8c0",
+                  "width": 20,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "68f7baa",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2023/12/Component-60-%E2%80%93-1.png",
+                      "alt": "",
+                      "width": 269,
+                      "height": 233
+                    },
+                    {
+                      "id": "064b140",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "12px 12px 12px 12px"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Ensure the distribution of your assets as per your wishes."
+                    }
+                  ]
+                },
+                {
+                  "id": "d36df56",
+                  "width": 20,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "362baab",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2023/12/Component-61-%E2%80%93-1.png",
+                      "alt": "",
+                      "width": 269,
+                      "height": 233
+                    },
+                    {
+                      "id": "d1fba60",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "12px 12px 12px 12px"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Appoint a guardian for minor children and pets."
+                    }
+                  ]
+                },
+                {
+                  "id": "2839d16",
+                  "width": 20,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "4ea4fc1",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2023/12/Component-62-%E2%80%93-1.png",
+                      "alt": "",
+                      "width": 269,
+                      "height": 233
+                    },
+                    {
+                      "id": "48cd838",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "12px 12px 12px 12px"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Minimize payment of estate taxes."
+                    }
+                  ]
+                },
+                {
+                  "id": "ad019fd",
+                  "width": 20,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "2226e8a",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2023/12/Component-63-%E2%80%93-1.png",
+                      "alt": "",
+                      "width": 269,
+                      "height": 233
+                    },
+                    {
+                      "id": "3cd3006",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "12px 12px 12px 12px"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Avoid a lengthy probate process for your family."
+                    }
+                  ]
+                },
+                {
+                  "id": "ae50280",
+                  "width": 8.66,
+                  "hide": [],
+                  "cls": [],
+                  "items": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

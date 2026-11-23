@@ -1,0 +1,85 @@
+{
+  "title": "Contact Us",
+  "seoTitle": "Experienced Real Estate lawyers in Scarborough | Nava Wilson Professional Corporation",
+  "description": "Nava Wilson LLP offers Real Estate, Wills and Estates, Corporate and Immigration law services in Scarborough, Toronto, Reach out!",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "2fc1b9d",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "0% 0% 10% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "fa664ad",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "89c684b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center",
+                  "padding": "3% 0% 3% 0%"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "49px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h1",
+              "html": "Contact <mark>Us</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "4c205c7",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "#f1f2fa",
+                  "border-radius": "35px 35px 35px 35px",
+                  "padding": "10% 17% 10% 17%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "bb4f4ef",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "6b42593",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "button": {
+                          "font-weight": "500",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "16px 60px 16px 60px"
+                        }
+                      },
+                      "type": "form"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

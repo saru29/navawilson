@@ -1,0 +1,640 @@
+{
+  "title": "Small Claims Court",
+  "seoTitle": "Small Claims Court | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "2px 0px 0px 0px"
+        }
+      },
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "10% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Small Claims <em>Court</em>"
+                    },
+                    {
+                      "id": "12f05c5",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,65%)",
+                          "max-width": "65%",
+                          "--container-widget-width": "65%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>The Nava Wilson litigation team ensures that the rights of our clients are protected to the fullest extent of the law.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "2% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "473abaa",
+              "hide": [],
+              "cls": [
+                "property-types"
+              ],
+              "type": "tabs",
+              "tabs": [
+                {
+                  "label": "Starting a claim",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "2567758",
+                              "hide": [],
+                              "cls": [],
+                              "type": "accordion",
+                              "items": [
+                                {
+                                  "title": "What You Need To Know Before You Begin",
+                                  "html": "<p>Small Claims Court is meant to be a Court that can be accessible to everyone. The forms follow a more 'fill in the blank' style. This means that the process is a lot more straightforward and easier to navigate. In Small Claims Court, we can provide you with guidance or act on your behalf.</p>"
+                                },
+                                {
+                                  "title": "How To Start A Claim",
+                                  "html": "<p>If you fall within the monetary limits and your claim is within the limitation periods, you may have grounds to begin your claim. This is usually commenced with a Plaintiff’s Claim.</p>"
+                                },
+                                {
+                                  "title": "How To Determine If You Have A Claim In Small Claims Court",
+                                  "html": "<p>Monetary Claim Amounts: You can sue someone in Small Claims Court if the amount you are seeking is valued at $35,000 or less. If the amount is greater than $35,000, you will need to commence your claim in the Superior Court.</p><p>Limitation Period: A claim must commence within 2 years of when the claim is ‘discovered.’ If you are unsure of whether you have adequate time to begin your claim, speak to a lawyer.</p>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Defending a claim",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "2567758",
+                              "hide": [],
+                              "cls": [],
+                              "type": "accordion",
+                              "items": [
+                                {
+                                  "title": "When A Claim Is Started Against You",
+                                  "html": "<p>If you are served with a claim that has been commenced against you, it is advisable to file a Defence. Failure to file a response will give the plaintiff the ability to ask the court to find you responsible for the full amount being claimed.</p>"
+                                },
+                                {
+                                  "title": "Costs",
+                                  "html": "<p>Based on the outcome of the claim, you may be responsible for legal costs and filing costs with interest. However, it is at the discretion of the judge.</p>"
+                                },
+                                {
+                                  "title": "How To Defend Your Claim",
+                                  "html": "<p>In order to defend your claim, you must fill out the requisite forms. Remember that forms are time sensitive so it's better to act sooner than later.</p>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "071b2b5",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "50eb0bc",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "b54e27c",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "4% 0% 4% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "e471f40",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "ee42354",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "38px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "If you have questions about any part of this <em>process</em>"
+                    },
+                    {
+                      "id": "13e0e1f",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "38px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "please call us to <em>clarify.</em>"
+                    },
+                    {
+                      "id": "05cb64c",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "d850cff",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "cc64563",
+          "width": 55.876,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "c20619a",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "44px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "What is the Small <em>Claims Court?</em>"
+            },
+            {
+              "id": "b94e9d6",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left",
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "16px",
+                  "font-weight": "400"
+                }
+              },
+              "type": "text",
+              "html": "<p>The Ontario Small Claims Court is a branch of the Superior Court of Justice that deals with an array of civil disputes, including but not limited to breach of contract, property damage, wrongful termination, personal injury claims, and the collection of overdue accounts. With a monetary limit of Thirty-Five Thousand Dollars ($35,000), the Small Claims Court provides plaintiffs and defendants with a cost-effective and efficient remedy to resolve their disputes.</p>"
+            }
+          ]
+        },
+        {
+          "id": "d4b5275",
+          "width": 44.08,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "align-content": "center",
+              "align-items": "center"
+            }
+          },
+          "items": [
+            {
+              "id": "bf1c1da",
+              "hide": [],
+              "cls": [],
+              "type": "image",
+              "src": "/wp-content/uploads/2024/01/small-claim-court.jpg",
+              "alt": "",
+              "width": 626,
+              "height": 501
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "eab9d7d",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3ceb88d",
+          "width": 41.956,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "b448119",
+              "hide": [],
+              "cls": [],
+              "type": "image",
+              "src": "/wp-content/uploads/2023/12/right-image.png",
+              "alt": "",
+              "width": 514,
+              "height": 467
+            }
+          ]
+        },
+        {
+          "id": "44b48da",
+          "width": 58,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "align-content": "center",
+              "align-items": "center"
+            }
+          },
+          "items": [
+            {
+              "id": "af6f72f",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "44px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "What can I <em>sue for?</em>"
+            },
+            {
+              "id": "3e2a1f5",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left",
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "16px",
+                  "font-weight": "400"
+                }
+              },
+              "type": "text",
+              "html": "<p>You can sue for claims for money owed under an agreement, such as:</p><ul><li>goods or services sold and delivered that weren’t paid for</li><li>unpaid loans</li><li>unpaid rent</li><li>NSF (non-sufficient funds) cheques</li></ul><p>You can sue for claims for damages, such as:</p><ul><li>property damage</li><li>clothes damaged by a dry cleaner</li><li>unpaid depts</li></ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "#ce2028",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What is the role of a Small Claims Court lawyer in Ontario?",
+                  "html": "<p>Small Claims Court lawyers in Ontario specialize in handling legal matters involving small monetary disputes, providing legal representation and guidance to individuals seeking resolution.</p>"
+                },
+                {
+                  "title": "What types of cases do Small Claims Court lawyers handle in Ontario?",
+                  "html": "<p>Small Claims Court lawyers in Ontario handle a variety of cases, including contract disputes, property damage claims, unpaid invoices, and other disputes with a monetary value up to a specified limit.</p>"
+                },
+                {
+                  "title": "What is the process for filing a case in the Small Claims Court in Ontario?",
+                  "html": "<p>&nbsp;The process involves filing a claim, serving notice to the other party, attending settlement conferences, and potentially proceeding to a trial. A Small Claims Court lawyer can guide you through each step.</p>"
+                },
+                {
+                  "title": "What is the monetary limit at the Small Claims Court?",
+                  "html": "<p>The monetary limit of the Small Claims Court is Thirty-Five Thousand Dollars ($35,000 CAD).</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

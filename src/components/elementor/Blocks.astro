@@ -1,0 +1,146 @@
+---
+// Renders the JSON tree written by scripts/lib/elementor.mjs. Recursive via Astro.self.
+import ContactForm from '../ContactForm.astro';
+import PostCarousel from '../PostCarousel.astro';
+
+interface Props {
+  items: any[];
+  top?: boolean;
+}
+
+const { items, top = false } = Astro.props;
+
+const css = (...parts: (Record<string, string | number> | undefined)[]) => {
+  const merged = Object.assign({}, ...parts.filter(Boolean));
+  return Object.entries(merged).map(([k, v]) => `${k}:${v}`).join(';') || undefined;
+};
+
+// Icon colours and sizes become custom properties because the SVG is injected as raw HTML.
+const iconVars = (s: any = {}) => {
+  const icon = s.icon ?? {};
+  const svg = s.svg ?? {};
+  const vars: Record<string, string> = {};
+  if (icon['font-size']) vars['--icon-size'] = icon['font-size'];
+  if (svg.height) vars['--icon-size'] = svg.height;
+  if (icon.fill || icon.color) vars['--icon-color'] = icon.fill ?? icon.color;
+  if (svg.fill) vars['--icon-color'] = svg.fill;
+  if (icon['background-color']) vars['--icon-bg'] = icon['background-color'];
+  if (icon.padding) vars['--icon-pad'] = icon.padding;
+  if (icon['border-radius']) vars['--icon-radius'] = icon['border-radius'];
+  if (s.listIcon?.fill) vars['--list-icon-color'] = s.listIcon.fill;
+  if (s.listIcon?.width) vars['--list-icon-size'] = s.listIcon.width;
+  if (s.listText?.color) vars['--list-text-color'] = s.listText.color;
+  return vars;
+};
+
+const classes = (it: any, ...more: (string | false | undefined)[]) =>
+  [...more, ...(it.cls ?? []), ...(it.hide ?? []).map((d: string) => `hide-${d}`)].filter(Boolean).join(' ');
+
+const hasBg = (s: any) =>
+  s?.['background-image'] || (s?.['background-color'] && s['background-color'] !== 'transparent');
+---
+
+{items.map((it) => {
+  const s = it.style ?? {};
+
+  if (it.type === 'section') {
+    return (
+      <section class={classes(it, 'el-section', top ? 'el-top' : 'el-inner', hasBg(s.self) && 'el-bg')} style={css(s.self)}>
+        <div class="el-row">
+          {it.columns.map((col: any) => (
+            <div
+              class={classes(col, 'el-col', hasBg(col.style?.self) && 'el-bg')}
+              style={css(col.style?.self, { '--w': `${col.width}%` })}
+            >
+              <Astro.self items={col.items} />
+            </div>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
+  const wrap = (base: string) => classes(it, 'el-w', base);
+  const self = css(s.self, iconVars(s));
+
+  switch (it.type) {
+    case 'heading': {
+      const Tag = it.tag as any;
+      return (
+        <div class={wrap('el-heading')} style={self}>
+          <Tag style={css(s.title)} set:html={it.html} />
+        </div>
+      );
+    }
+    case 'text':
+      return <div class={wrap('el-text')} style={self} set:html={it.html} />;
+    case 'button':
+      return <div class={wrap('el-button')} style={self}><a href={it.href} class="btn" style={css(s.button)}>{it.label}</a></div>;
+    case 'image': {
+      const img = <img src={it.src} alt={it.alt} width={it.width} height={it.height} loading="lazy" />;
+      return <div class={wrap('el-image')} style={self}>{it.href ? <a href={it.href}>{img}</a> : img}</div>;
+    }
+    case 'icon': {
+      const icon = <span class="el-icon" set:html={it.icon?.svg ?? ''} />;
+      return <div class={wrap('el-iconw')} style={self}>{it.href ? <a href={it.href}>{icon}</a> : icon}</div>;
+    }
+    case 'icon-box': {
+      const Tag = it.href ? 'a' : 'div';
+      return (
+        <Tag href={it.href} class={wrap('el-iconbox')} style={self}>
+          {it.icon?.svg && <span class="el-icon" set:html={it.icon.svg} />}
+          {it.title && <h3 style={css(s.title)}>{it.title}</h3>}
+          {it.text && <div class="el-ib-text" style={css(s.desc)} set:html={it.text} />}
+        </Tag>
+      );
+    }
+    case 'icon-list':
+      return (
+        <ul class={wrap('el-iconlist')} style={self}>
+          {it.items.map((li: any) => (
+            <li>
+              {li.icon?.svg && <span class="el-li-icon" set:html={li.icon.svg} />}
+              {li.href ? <a href={li.href}>{li.text}</a> : <span>{li.text}</span>}
+            </li>
+          ))}
+        </ul>
+      );
+    case 'accordion': {
+      const faq = it.cls?.includes('FAQ');
+      return (
+        <div class={wrap('el-accordion')} style={self}>
+          {it.items.map((item: any, i: number) => (
+            <details name={`acc-${it.id}`} open={faq && i === 0}>
+              <summary>{item.title}</summary>
+              <div class="el-acc-body" set:html={item.html} />
+            </details>
+          ))}
+        </div>
+      );
+    }
+    case 'tabs':
+      return (
+        <div class={wrap('el-tabs')} style={self}>
+          <div class="el-tablist">
+            {it.tabs.map((tab: any, i: number) => (
+              <label>
+                <input type="radio" name={`tabs-${it.id}`} checked={i === 0} data-tab={i} />
+                <span>{tab.label}</span>
+              </label>
+            ))}
+          </div>
+          {it.tabs.map((tab: any, i: number) => (
+            <div class="el-tabpanel" data-panel={i}><Astro.self items={tab.items} top /></div>
+          ))}
+        </div>
+      );
+    case 'posts':
+      return <div class={wrap('el-posts')}><PostCarousel slugs={it.slugs} /></div>;
+    case 'form':
+      return <div class={wrap('el-form')}><ContactForm bare /></div>;
+    case 'html':
+      return <div class={wrap('el-html')} set:html={it.html} />;
+    default:
+      return null;
+  }
+})}

@@ -1,0 +1,457 @@
+{
+  "title": "About Us",
+  "seoTitle": "Trusted Real Estate Lawyers in Scarborough, Toronto| Nava Wilson",
+  "description": "Trusted Real Estate Law, Immigration Law, Corporate Law and Wills and Estates Law firm in Scarborough, Toronto. Call us NOW!",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "8556b93",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "935b440",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "c553dda",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "7% 0% 7% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "dd1ccb1",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "efda39e",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "3% 0% 0% 0%"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h1",
+                      "html": "About <em>Nava Wilson LLP</em>"
+                    },
+                    {
+                      "id": "2d879e3",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,78%)",
+                          "max-width": "78%",
+                          "--container-widget-width": "78%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Nava Wilson LLP is a Toronto-based law firm with a strong focus on Real Estate that has been recognized as one of the top 10 law firms in Ontario for the past decade by First Canadian Title Insurance. We provide services in Real Estate, Immigration, Corporate Law, Litigation, and Wills and Estates, and have a strong commitment to making the justice system more accessible and understood. We aim to empower our clients and communities by helping them understand their legal rights and responsibilities.</p><p><br>Legal procedures can be complex, but we strive to simplify them and ensure they are transparent for everyone involved. In addition to our client work, we actively engage in advocacy and capacity-building efforts, both locally and globally, to drive positive change and inspire future generations. Looking forward to working with you!</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "4c5dbbc",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our <mark>Team</mark>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a401424",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "63034bc",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "padding": "0% 16% 0% 4%"
+            }
+          },
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "f5273e6",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "#f1f2fa",
+                  "border-radius": "29px 29px 29px 29px",
+                  "padding": "0% 5% 0% 5%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "d23d2d6",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "d7ad3cc",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2024/02/Image.jpg",
+                      "alt": "",
+                      "width": 511,
+                      "height": 465
+                    },
+                    {
+                      "id": "5f5da2e",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "#373737",
+                          "font-size": "22px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Kubes Navaratnam"
+                    },
+                    {
+                      "id": "a7b9723",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "#373737",
+                          "font-size": "17px",
+                          "font-weight": "400"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Managing Lawyer"
+                    },
+                    {
+                      "id": "6e47d72",
+                      "hide": [],
+                      "cls": [],
+                      "type": "text",
+                      "html": "<p>Kubes Navaratnam is the Managing Lawyer at Nava Wilson LLP. Today Kubes leads negotiations on complex, multi-million dollar deals …</p>"
+                    },
+                    {
+                      "id": "75f3112",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "button": {
+                          "font-size": "19px",
+                          "font-weight": "400",
+                          "fill": "var(--e-global-color-primary)",
+                          "color": "var(--e-global-color-primary)",
+                          "background-color": "rgba(97,206,112,0)",
+                          "padding": "0px 0px 0px 0px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "READ MORE",
+                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NjciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7f96693",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "padding": "0% 2% 0% 15%"
+            }
+          },
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "ac0cced",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "#f1f2fa",
+                  "border-radius": "29px 29px 29px 29px",
+                  "padding": "0% 5% 0% 5%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "2479700",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "097e010",
+                      "hide": [],
+                      "cls": [],
+                      "type": "image",
+                      "src": "/wp-content/uploads/2024/02/Group-652.png",
+                      "alt": "",
+                      "width": 511,
+                      "height": 465
+                    },
+                    {
+                      "id": "ef48978",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "#373737",
+                          "font-size": "22px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Gathya Manoharan"
+                    },
+                    {
+                      "id": "7f99953",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "#373737",
+                          "font-size": "17px",
+                          "font-weight": "400"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h5",
+                      "html": "Litigation Lawyer"
+                    },
+                    {
+                      "id": "fe4f08d",
+                      "hide": [],
+                      "cls": [],
+                      "type": "text",
+                      "html": "<p>Gathya Manoharan is a litigation associate at Nava Wilson LLP. Her area of work focuses on real estate breaches, construction…</p>"
+                    },
+                    {
+                      "id": "86c9800",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "button": {
+                          "font-size": "19px",
+                          "font-weight": "400",
+                          "fill": "var(--e-global-color-primary)",
+                          "color": "var(--e-global-color-primary)",
+                          "background-color": "rgba(97,206,112,0)",
+                          "padding": "0px 0px 0px 0px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "READ MORE",
+                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NzYiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "f75277f",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "3e143e5",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "padding": "0% 16% 0% 4%"
+            }
+          },
+          "items": []
+        },
+        {
+          "id": "08701fe",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "padding": "0% 2% 0% 15%"
+            }
+          },
+          "items": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "e7e8794",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "0% 0% 10% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "b6bc09e",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "a30263e",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center",
+                  "padding": "3% 0% 3% 0%"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "49px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Contact <mark>Us</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "fb9747d",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "#f1f2fa",
+                  "border-radius": "35px 35px 35px 35px",
+                  "padding": "10% 17% 10% 17%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "e6cbef7",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "1a37160",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "button": {
+                          "font-weight": "500",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "16px 60px 16px 60px"
+                        }
+                      },
+                      "type": "form"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

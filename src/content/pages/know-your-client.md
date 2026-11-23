@@ -1,8 +1,6 @@
 ---
 title: "know your client"
 seoTitle: "know your client | Nava Wilson Professional Corporation"
-kind: "legal"
-updated: "2024-02-22T21:39:37Z"
 ---
 
 ## Know Your Client

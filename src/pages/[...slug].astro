@@ -1,63 +1,58 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Blocks from '../components/elementor/Blocks.astro';
 import { formatDate } from '../lib/format';
+import '../styles/elementor.css';
 
-// Blog posts and imported pages both live at the site root, matching the WordPress URLs.
+// Blog posts and imported pages live at the site root, matching the WordPress URLs.
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
-  const pages = await getCollection('pages');
-  return [
-    ...posts.map((entry) => ({ params: { slug: entry.id }, props: { entry } })),
-    ...pages.map((entry) => ({ params: { slug: entry.id }, props: { entry } })),
-  ];
+  const collections = await Promise.all([getCollection('blog'), getCollection('pages'), getCollection('layouts')]);
+  return collections.flat().map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
-const isPost = entry.collection === 'blog';
 const data = entry.data;
-const heading = data.heading ?? data.title;
 const title = data.seoTitle ?? `${data.title} | Nava Wilson`;
+const isPost = entry.collection === 'blog';
+const Content = entry.collection === 'layouts' ? null : (await render(entry)).Content;
 ---
 
 <BaseLayout
   title={title}
   description={data.description}
-  image={isPost && 'image' in data ? data.image : undefined}
+  image={entry.collection === 'blog' ? entry.data.image : undefined}
   type={isPost ? 'article' : 'website'}
 >
-  <main>
-    <header class="banner">
-      <div class="container">
-        {isPost && <a href="/blogs/" class="back">← All articles</a>}
-        <h1>{heading}</h1>
-        {isPost && 'date' in data && (
-          <p class="meta">
-            <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
-            {data.categories.length > 0 && <> · {data.categories.join(', ')}</>}
-          </p>
-        )}
-      </div>
-    </header>
-    <article class="section">
-      <div class="container">
-        <div class="prose"><Content /></div>
-        {!isPost && data.kind === 'service' && (
-          <aside class="cta">
-            <h2>Talk to our team</h2>
-            <a href="/contact-us/" class="btn">Contact Us</a>
-          </aside>
-        )}
-      </div>
-    </article>
-  </main>
+  {entry.collection === 'layouts' ? (
+    <main class="el-page"><Blocks items={entry.data.sections} top /></main>
+  ) : (
+    <main>
+      <header class="banner">
+        <div class="container">
+          {isPost && <a href="/blogs/" class="back">← All articles</a>}
+          <h1>{('heading' in data && data.heading) || data.title}</h1>
+          {entry.collection === 'blog' && (
+            <p class="meta">
+              <time datetime={entry.data.date.toISOString()}>{formatDate(entry.data.date)}</time>
+              {entry.data.categories.length > 0 && <> · {entry.data.categories.join(', ')}</>}
+            </p>
+          )}
+        </div>
+      </header>
+      <article class="section">
+        <div class="container">
+          <div class="prose">{Content && <Content />}</div>
+        </div>
+      </article>
+    </main>
+  )}
 </BaseLayout>
 
 <style>
   .banner {
     padding-block: 56px;
-    background: linear-gradient(#e3e3ea, #f1f1fa);
+    background: linear-gradient(#d4d4db, #f1f2fa);
   }
 
   h1 {
@@ -78,22 +73,5 @@ const title = data.seoTitle ?? `${data.title} | Nava Wilson`;
     margin-top: 16px;
     font-size: 14px;
     color: var(--color-text-muted);
-  }
-
-  .cta {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    max-width: 760px;
-    margin-top: 48px;
-    padding: 28px 32px;
-    background: var(--color-tint);
-    border-radius: var(--radius-card);
-  }
-
-  .cta h2 {
-    font-size: 24px;
   }
 </style>

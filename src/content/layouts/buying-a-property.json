@@ -1,0 +1,1711 @@
+{
+  "title": "Buying a Property in the GTA",
+  "seoTitle": "Real Estate Lawyers | Buying Property In the GTA| Nava Wilson",
+  "description": "Real estate lawyers experienced in buying property in Toronto. Drafting agreements of purchase and sale, due diligence and more. Call us!",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "1px 0px 0px 0px"
+        }
+      },
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "9% 0% 9% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h1",
+                      "html": "Buying a Property in <em>Ontario</em>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "4c5dbbc",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Property <mark>Types</mark>"
+            },
+            {
+              "id": "473abaa",
+              "hide": [],
+              "cls": [
+                "property-types"
+              ],
+              "type": "tabs",
+              "tabs": [
+                {
+                  "label": "Freehold Home",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "8f0ad01",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "font-size": "14px",
+                                  "font-weight": "400"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>Freehold ownership grants you full ownership of both the land and the house without any shared space or joint management with neighbors. You have complete responsibility for maintaining your property and covering the associated property taxes.</p><p>Typically, detached and semi-detached homes, duplexes, and townhouses fall under the category of freehold ownership.</p>"
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "473a503",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "ac48758",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "9f7c7f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"1\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"12.613\" y=\"24\">1</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Sign Agreement of purchase and sale ( APS )"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "4ee866e",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "080ef40",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"2\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.37\" y=\"24\">2</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Contact Nava Wilson and send us the APS"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "3a5bc94",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "67161f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"3\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.979\" y=\"24\">3</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Our team gathers all documents from you"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "1746511",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "6ab2fde",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"4\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.151\" y=\"24\">4</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Initial meeting is set"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "e420113",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "c409498",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "2d7ef81",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"5\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.462\" y=\"24\">5</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Discuss costs, timelines and process"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "405b675",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "c416255",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "13px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"6\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.611\" y=\"24\">6</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Complete Title Search, Requisitions, Document Filing"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "5e346fb",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "0f88112",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"7\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.784\" y=\"24\">7</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Reviewing and Signing Documents"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "9bc73d9",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "409653a",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"8\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.485\" y=\"24\">8</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Closing (title is transferred)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Newly Built Condo",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "8f0ad01",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "font-size": "14px",
+                                  "font-weight": "400"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>The term “new condominiums” describes units that have never been lived in before. These condos can be in various stages of development, from planning and construction to recently finished, and they are typically bought directly from a developer. Many buyers find them appealing due to their pristine condition and contemporary features, including updated surfaces and appliances. Additionally, new condos often provide buyers with the opportunity to personalize their living spaces to suit their preferences.</p>"
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "473a503",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "ac48758",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "9f7c7f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"1\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"12.613\" y=\"24\">1</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Sign Agreement of Purchase and Sale (APS)"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "4ee866e",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "080ef40",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"2\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.37\" y=\"24\">2</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Contact Nava Wilson and send the APS"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "3a5bc94",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "67161f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"3\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.979\" y=\"24\">3</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Our team gathers documents from you"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "1746511",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "6ab2fde",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"4\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.151\" y=\"24\">4</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Initial meeting is set"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "e420113",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "c409498",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "2d7ef81",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"5\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.462\" y=\"24\">5</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Discuss costs, timelines and process"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "405b675",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "c416255",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "13px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"6\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.611\" y=\"24\">6</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Complete Title Search, Requisitions, Document Filing"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "5e346fb",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "0f88112",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"7\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.784\" y=\"24\">7</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Reviewing and Signing Documents"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "9bc73d9",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "409653a",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"8\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.485\" y=\"24\">8</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Closing (title is transferred)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Resale Property",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "8f0ad01",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "font-size": "14px",
+                                  "font-weight": "400"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>A resale home is one that has been previously owned and is not newly constructed. If you buy a house that’s been listed by a real estate agent or for sale by owner, that’s generally a resale home.</p>"
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "473a503",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "ac48758",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "9f7c7f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"1\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"12.613\" y=\"24\">1</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Sign Agreement of Purchase and Sale (APS)"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "4ee866e",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "080ef40",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"2\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.37\" y=\"24\">2</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Contact Nava Wilson and send the APS"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "3a5bc94",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "67161f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"3\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.979\" y=\"24\">3</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Our team gathers documents from you"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "1746511",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "6ab2fde",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"4\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.151\" y=\"24\">4</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Initial meeting is set"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "e420113",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "c409498",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "2d7ef81",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"5\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.462\" y=\"24\">5</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Discuss costs, timelines and process"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "405b675",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "c416255",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "13px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"6\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.611\" y=\"24\">6</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Complete Title Search, Requisitions, Document Filing"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "5e346fb",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "0f88112",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"7\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.784\" y=\"24\">7</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Reviewing and Signing Documents"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "9bc73d9",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "409653a",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"8\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.485\" y=\"24\">8</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Closing (title is transferred)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Resale Condo",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "8f0ad01",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "font-size": "14px",
+                                  "font-weight": "400"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>“Resale condominiums” are condos that have previously been lived in, often situated in older buildings, and are currently on the market by their current owners. Buying a resale condo offers several benefits, including the ability to inspect the unit, assess the condition of the building and its surroundings before committing to a purchase. You also have the opportunity to meet other unit owners, speak with a representative of the board of directors of the condominium corporation and ask questions of the property manager.</p>"
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "473a503",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "ac48758",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "9f7c7f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"1\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"12.613\" y=\"24\">1</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Sign Agreement of Purchase and Sale (APS)"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "4ee866e",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "080ef40",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"2\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.37\" y=\"24\">2</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Contact Nava Wilson"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "3a5bc94",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "67161f6",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"3\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.979\" y=\"24\">3</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Send the APS and Condo Status Certificate"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "1746511",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "6ab2fde",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"4\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.151\" y=\"24\">4</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Our team gathers documents from you"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "section",
+                              "inner": true,
+                              "id": "e420113",
+                              "hide": [],
+                              "cls": [],
+                              "columns": [
+                                {
+                                  "id": "c409498",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "2d7ef81",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"5\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.462\" y=\"24\">5</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Set up a meeting, discuss costs, timelines and process"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "405b675",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "c416255",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "13px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"6\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.611\" y=\"24\">6</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Complete Title Search, Requisitions, Document Filing"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "5e346fb",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "0f88112",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"7\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.784\" y=\"24\">7</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Reviewing and Signing Documents"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "9bc73d9",
+                                  "width": 25,
+                                  "hide": [],
+                                  "cls": [],
+                                  "items": [
+                                    {
+                                      "id": "409653a",
+                                      "hide": [],
+                                      "cls": [
+                                        "view-stacked",
+                                        "cst-icon-box",
+                                        "shape-circle"
+                                      ],
+                                      "style": {
+                                        "icon": {
+                                          "font-size": "35px",
+                                          "padding": "10px"
+                                        },
+                                        "desc": {
+                                          "color": "#fff",
+                                          "font-size": "14px",
+                                          "font-weight": "600"
+                                        }
+                                      },
+                                      "type": "icon-box",
+                                      "icon": {
+                                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"8\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.485\" y=\"24\">8</tspan></text></svg>"
+                                      },
+                                      "title": "",
+                                      "text": "Closing (title is transferred)"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "1b86556",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "5a17326",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "2923c8d",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "5% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "5625744",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "3e75168",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "How We <mark>Work</mark>"
+                    },
+                    {
+                      "id": "efbbad0",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Virtual Real Estate Closings"
+                    },
+                    {
+                      "id": "a8fd9cf",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Real Estate made easy. We offer virtual real estate closings with enhanced client interactions.<br><br></p>"
+                    },
+                    {
+                      "id": "037f088",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What are the basic steps involved in buying a property in Ontario?",
+                  "html": "<p>The basic steps include finding a property, making an offer, conducting due diligence, securing financing, and closing the deal. A real estate lawyer plays a vital role in ensuring a smooth transaction.</p>"
+                },
+                {
+                  "title": "What is the difference between a residential property and a commercial property in Ontario?",
+                  "html": "<p>Residential properties are for personal use, while commercial properties are for business purposes. They have distinct zoning and regulations.</p>"
+                },
+                {
+                  "title": "What is a typical timeline for closing a property deal in Ontario?",
+                  "html": "<p>On average, it takes about 60-90 days from accepting an offer to obtaining possession, but this can vary based on the specifics of the transaction.</p>"
+                },
+                {
+                  "title": "Are there any first-time homebuyer incentives or programs in Ontario?",
+                  "html": "<p>Yes, programs like the <a href=\"https://www.placetocallhome.ca/fthbi/first-time-homebuyer-incentive\">First-Time Home Buyer Incentive</a> and land transfer tax rebates may be available to eligible buyers.</p>"
+                },
+                {
+                  "title": "How can I protect myself from potential legal issues when buying a property?",
+                  "html": "<p>&nbsp;Engage a real estate lawyer, conduct due diligence, ensure clear title, and review all documents carefully.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "title": "Start a New Business",
+  "seoTitle": "Start a New Business | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "7% 0% 7% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Start a New <em>Business</em>"
+                    },
+                    {
+                      "id": "ff626f5",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,74%)",
+                          "max-width": "74%",
+                          "--container-widget-width": "74%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>When embarking on a new business venture, it’s crucial to thoughtfully assess the most suitable business structure. The chosen structure has lasting effects on owners and operators, influencing aspects like personal liability and tax obligations. Consulting with an experienced business lawyer is essential to identify the optimal structure for each unique situation.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5f9de9b",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "07bdc91",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "fdd990f",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our <mark>Services</mark>"
+            },
+            {
+              "id": "5c69ccb",
+              "hide": [],
+              "cls": [
+                "property-types"
+              ],
+              "type": "tabs",
+              "tabs": [
+                {
+                  "label": "Legal Structure",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "9d17cc1",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "02ed9a8",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "348410d",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "95f7734",
+                              "hide": [],
+                              "cls": [
+                                "w-auto"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "auto",
+                                  "max-width": "auto",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Sole Proprietorship"
+                            },
+                            {
+                              "id": "b66ed82",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>you are the sole owner and fully responsible for all debts and obligations related to your business.</p>"
+                            },
+                            {
+                              "id": "15dce52",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Advantages"
+                            },
+                            {
+                              "id": "12e847a",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "Easy and inexpensive to register",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Less regulatory",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Direct control of decision-making",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Minimal working capital required for start-up",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "All profits belong to you",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "d0531c3",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Disadvantages"
+                            },
+                            {
+                              "id": "f3f79f1",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "Unlimited liability",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Income is taxable at your personal rate",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Difficult to raise capital on your own",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "c56cc9d",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"66.098\" height=\"65.627\" viewBox=\"0 0 66.098 65.627\"><path data-name=\"Path 184\" d=\"M149.062,145.523l-2.615-5.209L156.6,116h-13.31l-.952,1.163V152.08c2.056.877,2.292,2.7,2.053,4.694a26.185,26.185,0,0,0,10.518,7.694,3.627,3.627,0,0,0,1.436.153c3.757.007,7.514,0,11.326,0a5.406,5.406,0,0,1,.085,2.045H110.538a5.227,5.227,0,0,1-.084-1.844c.391-.346.855-.192,1.277-.194,3.319-.014,6.639-.03,9.958.007a5.837,5.837,0,0,0,2.552-.556,26.319,26.319,0,0,0,9.57-7.28c-.173-1.936-.046-3.81,2.089-4.718V116.93l-1.375-.963H121.614l10.16,24.329-2.587,5.2H108.679l-2.608-5.183,10.186-24.4c-2.568,0-4.946.005-7.324,0-2.06-.006-2.752-.714-2.761-2.8,0-.353-.006-.706,0-1.059.033-1.718.793-2.487,2.536-2.491,5.311-.012,10.622,0,15.933,0q4.647,0,9.294,0c.576,0,1.176.071,1.4-.749l-1.8-2.454c1.129-1.456,2.185-3.033,3.463-4.4a3.028,3.028,0,0,1,4.654.42c1.031,1.265,1.976,2.6,3.032,4l-1.784,2.419c.214.962.961.764,1.586.764q12.282.009,24.564,0c1.158,0,2.383.015,2.76,1.295a4.848,4.848,0,0,1-.3,4.316,2.221,2.221,0,0,1-2.022.764c-2.431-.019-4.863-.007-7.516-.007l10.182,24.391-2.61,5.215Zm1.186,19.038a29.914,29.914,0,0,1-7.345-6.243h-7.581a30.131,30.131,0,0,1-7.333,6.243Zm-10.157-12.709V118.064h-1.967v33.788ZM124.8,129.9l.254-.164-5.805-13.872-.55-.073c-2.078,4.6-3.913,9.3-5.89,13.939l.382.3,5.854-6.029Zm29.752-3.451h9.516c-1.583-3.611-2.919-7.2-4.54-10.66l-.543.078Zm-20.781-14.672h-25.4v1.949h25.4Zm36.1,1.973v-2H144.488v2Zm-47.715,21.278v4.1h1.982v-6.189H113.707v6.21h2.047v-4.122ZM110.01,143.4h17.813a5.708,5.708,0,0,0,.852-1.992H109.018Zm40.374,0H168.2a5.77,5.77,0,0,0,.859-1.995H149.391Zm-11.29-33.835a3.17,3.17,0,1,0,3.2,3.184A3.2,3.2,0,0,0,139.094,109.567Zm16.015,21.081h8.38v-1.956h-8.332A5.465,5.465,0,0,0,155.109,130.648Zm8.38,2.3h-8.38a5.465,5.465,0,0,0,.048,1.956h8.332Zm-8.388,4.207a5.707,5.707,0,0,0,.051,1.956h8.359a5.58,5.58,0,0,0-.083-1.956Zm-13.073-30.767c-.7-.936-1.312-1.8-1.974-2.615a1.071,1.071,0,0,0-1.879,0c-.68.849-1.308,1.741-1.966,2.625l1.077,1.382a5.636,5.636,0,0,1,3.7-.05Zm10.916,32.779v-8.226l-.269-.024-3.434,8.25Zm12.972-8.262-.386.021c.34,2.734-.16,5.48.252,8.2h3.567Zm-50.607-.259h6.95l-3.352-3.556ZM142.244,156.1c.07-1.856-.116-2.054-1.822-2.061-.929,0-1.859-.008-2.789,0-1.572.016-1.847.382-1.536,2.06Zm-33.359-16.985h2.506v-5.612l-.16-.025Zm20.108.054-2.545-6.074v6.074Zm-11.076-.026h1.991v-2a5.646,5.646,0,0,0-1.991.064Z\" transform=\"translate(-106.071 -101.044)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "eb49e2d",
+                              "hide": [],
+                              "cls": [
+                                "w-auto"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "auto",
+                                  "max-width": "auto",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Partnership"
+                            },
+                            {
+                              "id": "e642db2",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>a non-incorporated business that is created between 2+ people with combined financial resources.</p>"
+                            },
+                            {
+                              "id": "0f57a0f",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Advantages"
+                            },
+                            {
+                              "id": "b4d9100",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "Easy and inexpensive to form",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Equal managing power",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Equal share in profits",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Possible tax advantages",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "2b73b0c",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Disadvantages"
+                            },
+                            {
+                              "id": "f809677",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "No legal separation between you and your business",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Unlimited liability",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Difficult to find a suitable partner",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Financially responsible for business decisions made by your partner(s)",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "197bc12",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "0503034",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "1e4ffa0",
+                              "hide": [],
+                              "cls": [
+                                "w-auto"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "auto",
+                                  "max-width": "auto",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Corporation"
+                            },
+                            {
+                              "id": "7debaa1",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>the most common form of business organization that is done at the federal or provincial level.</p>"
+                            },
+                            {
+                              "id": "0b84c71",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Advantages"
+                            },
+                            {
+                              "id": "4738653",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "Limited liability",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Continuous existence",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Separate legal entity",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Easier to raise capital",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Tax advantageous",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "id": "e417ebf",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "20px",
+                                  "font-weight": "600"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Disadvantages"
+                            },
+                            {
+                              "id": "35f54aa",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "listText": {
+                                  "color": "var(--e-global-color-secondary)"
+                                }
+                              },
+                              "type": "icon-list",
+                              "items": [
+                                {
+                                  "text": "Closely regulated",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "More expensive to set up",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Extensive corporate records required",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                },
+                                {
+                                  "text": "Residency requirements for directors",
+                                  "icon": {
+                                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Name Registration",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "79e1fd6",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "4849f5c",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "53db4ec",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "c411fbb",
+                              "hide": [],
+                              "cls": [
+                                "w-initial"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,79%)",
+                                  "max-width": "79%",
+                                  "--container-widget-width": "79%",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Business Name Registration"
+                            },
+                            {
+                              "id": "37117b2",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<ol><li>&nbsp;If you have a number corporation, you could register for an operating/trade/business name.</li><li>If you have a name corporation, you should register for an operating/trade/business name only if it is different than the corporation name.</li></ol><p>*The registration is valid for 5 years</p><p>We can register this for you within minutes!</p>"
+                            },
+                            {
+                              "id": "e3c4300",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"66.098\" height=\"65.627\" viewBox=\"0 0 66.098 65.627\"><path data-name=\"Path 184\" d=\"M149.062,145.523l-2.615-5.209L156.6,116h-13.31l-.952,1.163V152.08c2.056.877,2.292,2.7,2.053,4.694a26.185,26.185,0,0,0,10.518,7.694,3.627,3.627,0,0,0,1.436.153c3.757.007,7.514,0,11.326,0a5.406,5.406,0,0,1,.085,2.045H110.538a5.227,5.227,0,0,1-.084-1.844c.391-.346.855-.192,1.277-.194,3.319-.014,6.639-.03,9.958.007a5.837,5.837,0,0,0,2.552-.556,26.319,26.319,0,0,0,9.57-7.28c-.173-1.936-.046-3.81,2.089-4.718V116.93l-1.375-.963H121.614l10.16,24.329-2.587,5.2H108.679l-2.608-5.183,10.186-24.4c-2.568,0-4.946.005-7.324,0-2.06-.006-2.752-.714-2.761-2.8,0-.353-.006-.706,0-1.059.033-1.718.793-2.487,2.536-2.491,5.311-.012,10.622,0,15.933,0q4.647,0,9.294,0c.576,0,1.176.071,1.4-.749l-1.8-2.454c1.129-1.456,2.185-3.033,3.463-4.4a3.028,3.028,0,0,1,4.654.42c1.031,1.265,1.976,2.6,3.032,4l-1.784,2.419c.214.962.961.764,1.586.764q12.282.009,24.564,0c1.158,0,2.383.015,2.76,1.295a4.848,4.848,0,0,1-.3,4.316,2.221,2.221,0,0,1-2.022.764c-2.431-.019-4.863-.007-7.516-.007l10.182,24.391-2.61,5.215Zm1.186,19.038a29.914,29.914,0,0,1-7.345-6.243h-7.581a30.131,30.131,0,0,1-7.333,6.243Zm-10.157-12.709V118.064h-1.967v33.788ZM124.8,129.9l.254-.164-5.805-13.872-.55-.073c-2.078,4.6-3.913,9.3-5.89,13.939l.382.3,5.854-6.029Zm29.752-3.451h9.516c-1.583-3.611-2.919-7.2-4.54-10.66l-.543.078Zm-20.781-14.672h-25.4v1.949h25.4Zm36.1,1.973v-2H144.488v2Zm-47.715,21.278v4.1h1.982v-6.189H113.707v6.21h2.047v-4.122ZM110.01,143.4h17.813a5.708,5.708,0,0,0,.852-1.992H109.018Zm40.374,0H168.2a5.77,5.77,0,0,0,.859-1.995H149.391Zm-11.29-33.835a3.17,3.17,0,1,0,3.2,3.184A3.2,3.2,0,0,0,139.094,109.567Zm16.015,21.081h8.38v-1.956h-8.332A5.465,5.465,0,0,0,155.109,130.648Zm8.38,2.3h-8.38a5.465,5.465,0,0,0,.048,1.956h8.332Zm-8.388,4.207a5.707,5.707,0,0,0,.051,1.956h8.359a5.58,5.58,0,0,0-.083-1.956Zm-13.073-30.767c-.7-.936-1.312-1.8-1.974-2.615a1.071,1.071,0,0,0-1.879,0c-.68.849-1.308,1.741-1.966,2.625l1.077,1.382a5.636,5.636,0,0,1,3.7-.05Zm10.916,32.779v-8.226l-.269-.024-3.434,8.25Zm12.972-8.262-.386.021c.34,2.734-.16,5.48.252,8.2h3.567Zm-50.607-.259h6.95l-3.352-3.556ZM142.244,156.1c.07-1.856-.116-2.054-1.822-2.061-.929,0-1.859-.008-2.789,0-1.572.016-1.847.382-1.536,2.06Zm-33.359-16.985h2.506v-5.612l-.16-.025Zm20.108.054-2.545-6.074v6.074Zm-11.076-.026h1.991v-2a5.646,5.646,0,0,0-1.991.064Z\" transform=\"translate(-106.071 -101.044)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "ee4af22",
+                              "hide": [],
+                              "cls": [
+                                "w-initial"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,79%)",
+                                  "max-width": "79%",
+                                  "--container-widget-width": "79%",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "HST Number"
+                            },
+                            {
+                              "id": "500f4eb",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>You should register for an HST number if your business earns more than $30,000 in revenues (not profits) in a year.</p><p>You could also voluntarily register for the HST number if it is a new business and you plan to spend more than you earn in the first couple of months of operations.</p><p>*Nobody loves taxes, so we will work directly with your accountant to save you the tax headache!</p>"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "1da4379",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "3115ef9",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "5e07c6e",
+                              "hide": [],
+                              "cls": [
+                                "w-initial"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,79%)",
+                                  "max-width": "79%",
+                                  "--container-widget-width": "79%",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "WSIB"
+                            },
+                            {
+                              "id": "5284327",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>The Workplace Safety Insurance Board provides benefits and services to workers who have been injured/ill at work and can be mandatory by law for certain businesses. Find out more <a href=\"https://www.wsib.ca/en/businesses/registration-and-coverage/do-you-need-register-us\">here</a>.</p><p>*Not sure if your business must register with WSIB? Ask Us</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Business Space",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "d506cb9",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "#797979",
+                                  "font-size": "14px",
+                                  "font-weight": "400"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<p>At Nava Wilson LLP, our Corporate and Real Estate teams will work together to make starting a business easier than you think.</p>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "7b18cf6",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "01e6afe",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "6ff1622",
+                              "hide": [],
+                              "cls": [
+                                "view-stacked",
+                                "w-initial",
+                                "shape-circle"
+                              ],
+                              "style": {
+                                "icon": {
+                                  "font-size": "52px",
+                                  "padding": "10px",
+                                  "border-radius": "20px 20px 20px 20px"
+                                },
+                                "svg": {
+                                  "height": "52px"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,18%)",
+                                  "max-width": "18%",
+                                  "--container-widget-width": "18%"
+                                }
+                              },
+                              "type": "icon",
+                              "icon": {
+                                "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                              }
+                            },
+                            {
+                              "id": "587f1c6",
+                              "hide": [],
+                              "cls": [
+                                "w-initial"
+                              ],
+                              "style": {
+                                "title": {
+                                  "color": "#000",
+                                  "font-size": "26px",
+                                  "font-weight": "700"
+                                },
+                                "self": {
+                                  "width": "var(--container-widget-width,79%)",
+                                  "max-width": "79%",
+                                  "--container-widget-width": "79%",
+                                  "align-self": "center"
+                                }
+                              },
+                              "type": "heading",
+                              "tag": "h2",
+                              "html": "Essential elements in a lease:"
+                            },
+                            {
+                              "id": "70157a8",
+                              "hide": [],
+                              "cls": [],
+                              "style": {
+                                "self": {
+                                  "color": "var(--e-global-color-secondary)",
+                                  "font-size": "15px",
+                                  "font-weight": "400",
+                                  "padding": "0% 0% 0% 0%"
+                                }
+                              },
+                              "type": "text",
+                              "html": "<ol><li>Identifying the landlord and the tenant</li><li>A proper description of the premises</li><li>Base rent and additional rent (TMI)</li><li>The length of the term and renewals</li><li>Commencement date that is fixed or determinable</li></ol>"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "bf9cf49",
+                          "width": 50,
+                          "hide": [],
+                          "cls": [],
+                          "items": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "45dd7e9",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "18baa6d",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "895181a",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "5% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "4880b1b",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "0f86d79",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Let us help you <em>decide</em>"
+                    },
+                    {
+                      "id": "7f85bc7",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "which is the right fit for <em>you!</em>"
+                    },
+                    {
+                      "id": "6418066",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What legal steps are essential when starting a new business in Toronto, Ontario?",
+                  "html": "<p>Critical legal steps include choosing a business structure, registering the business, obtaining necessary permits and licenses, and drafting contracts. Consulting with a corporate lawyer is recommended to ensure compliance.</p>"
+                },
+                {
+                  "title": "What type of business structure is most suitable for my new venture, and how do I choose?",
+                  "html": "<p>The choice of business structure (sole proprietorship, partnership, corporation, etc.) depends on factors like liability, tax implications, and business goals. Seeking advice from a business lawyer helps determine the optimal structure for your specific needs.</p>"
+                },
+                {
+                  "title": "How do I protect my business name and brand legally?",
+                  "html": "<p>To safeguard your business name and brand, consider registering trademarks. A business lawyer can guide you through the registration process and provide advice on intellectual property protection.</p>"
+                },
+                {
+                  "title": "Are there specific regulations and permits I need to be aware of when starting a business in Toronto?",
+                  "html": "<p>Yes, various regulations and permits apply, depending on your industry. A business lawyer can help identify and obtain the necessary permits and ensure compliance with local, provincial, and federal regulations</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

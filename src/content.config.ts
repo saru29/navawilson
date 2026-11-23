@@ -24,8 +24,16 @@ const pages = defineCollection({
     heading: z.string().optional(),
     seoTitle: z.string().optional(),
     description: z.string().optional(),
-    kind: z.enum(['legal', 'service']),
-    updated: z.coerce.date().optional(),
+  }),
+});
+
+const layouts = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/layouts' }),
+  schema: z.object({
+    title: z.string(),
+    seoTitle: z.string().optional(),
+    description: z.string().optional(),
+    sections: z.array(z.any()),
   }),
 });
 
@@ -40,4 +48,4 @@ const team = defineCollection({
   }),
 });
 
-export const collections = { blog, pages, team };
+export const collections = { blog, pages, layouts, team };

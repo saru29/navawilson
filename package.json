@@ -17,6 +17,7 @@
     "astro": "^7.4.13"
   },
   "devDependencies": {
+    "cheerio": "^1.2.0",
     "turndown": "^7.2.5",
     "turndown-plugin-gfm": "^1.0.2"
   }

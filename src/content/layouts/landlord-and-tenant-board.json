@@ -1,0 +1,490 @@
+{
+  "title": "Landlord and Tenant Board",
+  "seoTitle": "Landlord and Tenant Board | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "7% 0% 7% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Landlord and Tenant <em>Board</em>"
+                    },
+                    {
+                      "id": "12f05c5",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,65%)",
+                          "max-width": "65%",
+                          "--container-widget-width": "65%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>When navigating landlord and tenant board litigation, it is vital to carefully consider your approach to resolving disputes. Seeking guidance from a seasoned legal professional specializing in landlord and tenant board matters is crucial to identify the most effective strategies and ensure a favourable resolution tailored to the specific circumstances of each case.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "1% 0% 2% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "473abaa",
+              "hide": [],
+              "cls": [
+                "property-types"
+              ],
+              "type": "tabs",
+              "tabs": [
+                {
+                  "label": "For Landlord",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "2567758",
+                              "hide": [],
+                              "cls": [],
+                              "type": "accordion",
+                              "items": [
+                                {
+                                  "title": "Your Tenant Has Failed To Pay Rent",
+                                  "html": "<p>When your tenant fails to pay rent, you can serve your tenant with a Notice To End Your Tenancy For Non-payment Of Rent, which gives them a specific amount of time before they must vacate.</p>"
+                                },
+                                {
+                                  "title": "There Is Illegal Activity In The Rental Unit",
+                                  "html": "<p>The form used in this instance is the N6-Notice To End Your Tenancy For Illegal Acts. The form provides three separate reasons to end the tenancy. Depending on the circumstances, you can pick the corresponding reason.</p>"
+                                },
+                                {
+                                  "title": "Ending The Tenancy Because Of Personal Use",
+                                  "html": "<p>You can choose to end the tenancy agreement if you or one of your family members would like to live in the rental unit. It is important to note that under the Residential Tenancies Act, \"family members\" are limited to your parents, children and spouse.</p>"
+                                },
+                                {
+                                  "title": "There Is Damage To The Rental Unit",
+                                  "html": "<p>When your tenant or a guest of your tenant causes damage to the unit, you may be able to terminate the tenancy agreement. The form used is the N5-Notice To End Tenancy For Interfering With Others, Damage Or Overcrowding.</p>"
+                                },
+                                {
+                                  "title": "Ending The Tenancy At The End Of The Lease",
+                                  "html": "<p>A landlord and tenant can agree to end the tenancy at any time, even during the term of a lease. They can make an oral agreement to end the tenancy, but it is best to have a written agreement. This way, if there is any confusion about the agreement, both the landlord and tenant have a written copy to refer to. Written agreements should be signed by all parties included in the Agreement</p>"
+                                },
+                                {
+                                  "title": "How To Collect Rent The Tenant Owes",
+                                  "html": "<p>To collect rental amounts owed, you can file an L9 form. However, this form can only be filed if the tenant is currently living in the rental unit.</p>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "For Tenant",
+                  "items": [
+                    {
+                      "type": "section",
+                      "inner": false,
+                      "id": "1bf9ffa",
+                      "hide": [],
+                      "cls": [],
+                      "columns": [
+                        {
+                          "id": "af8e74e",
+                          "width": 100,
+                          "hide": [],
+                          "cls": [],
+                          "items": [
+                            {
+                              "id": "2567758",
+                              "hide": [],
+                              "cls": [],
+                              "type": "accordion",
+                              "items": [
+                                {
+                                  "title": "Maintenance Issues In The Rental Unit",
+                                  "html": "<p>If there are issues in your unit that must be repaired and your landlord has failed to address them, you can apply to the Landlord and Tenant Board to remedy the situation.</p>"
+                                },
+                                {
+                                  "title": "Ending Your Tenancy",
+                                  "html": "<p>If you would like to end your tenancy, you must provide your landlord with a Form N9 stating the date that you will move out. There is a minimum notice period that must be provided.</p>"
+                                },
+                                {
+                                  "title": "Challenging The Landlord’s Notice To End Your Tenancy",
+                                  "html": "<p>If you believe that your landlord is ending the tenancy in bad faith, you may have a claim against them in order to prohibit the termination of the tenancy agreement.</p>"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "48b61a8",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "6ca1da5",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "1731326",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "5% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "3e28ea8",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "ee42354",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Let us guide <em>you</em>"
+                    },
+                    {
+                      "id": "8e7b0e2",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "padding": "0% 0% 0% 0%"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Through the <em>process!</em>"
+                    },
+                    {
+                      "id": "b054eb2",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "45px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What does a Landlord and Tenant Board lawyer do in Ontario?",
+                  "html": "<p>Landlord and Tenant Board lawyers in Ontario specialize in handling legal matters related to landlord-tenant disputes, including issues such as eviction, lease agreements, and property rights.</p>"
+                },
+                {
+                  "title": "How do I know if I need a Landlord and Tenant Board lawyer in Ontario?",
+                  "html": "<p>If you are facing challenges or disputes with your landlord or tenant, consulting with a Landlord and Tenant Board lawyer in Ontario can help assess your situation and provide legal guidance.</p>"
+                },
+                {
+                  "title": "How can I find a qualified Landlord and Tenant Board lawyer in Ontario?",
+                  "html": "<p>You can search for Landlord and Tenant Board lawyers in Ontario through legal directories, referrals, or by contacting local law firms specializing in real estate and tenancy law.</p>"
+                },
+                {
+                  "title": "What is the process for filing a case with the Landlord and Tenant Board in Ontario?",
+                  "html": "<p>The process involves submitting the appropriate forms to the Landlord and Tenant Board, attending hearings, and presenting your case. A Landlord and Tenant Board lawyer can guide you through each step.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

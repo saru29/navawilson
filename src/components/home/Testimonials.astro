@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import reviewsArt from '../../assets/home/reviews.png';
+import { GOOGLE_REVIEWS_URL } from '../../data/site';
 
 const reviews = [
   { name: 'Vasanthan Ratna Ananthan', text: 'It was a great pleasure dealing with Vinthan. He and his office were on the ball for my concerns and they guided me for all my requirements. Very very professional and no cutting corners. Will recommend them to anyone in a heartbeat.' },
@@ -11,7 +12,7 @@ const reviews = [
   { name: 'Oleg Stolbunov', text: 'Nava Wilson LLP are a team of professionals who takes a load off your back. Experienced, dedicated, and very clear in communication. I wish them a great success and recommend their service to everyone who is buying or selling property. Thank you Nava Wilson LLP!' },
   { name: 'Ashley Rose', text: 'This place provides excellent legal services! I had the pleasure of dealing with Vinthan. His work ethics, knowledge and professionalism exceeded past my expectations. He really took the time to answer all my questions thoroughly and ensured my needs were met for my file in every way! He has a level of knowledge which I believe lead to the results we were seeking. I would highly recommend Nava Wilson LLP if you are looking for high quality services at a time efficient pace! Thank you!' },
   { name: 'Lilouti Surjan', text: 'In my dealing with this law firm, the communication between us were excellent and polite. Every question and statement I requested was answered promptly via e-mails and calls; for me, this is an exceptional service. In addition, I was given advice what to do on certain issues. I will not hesitate to recommend one.' },
-  { name: 'Carmen Moulton', text: 'I was introduced to this firm by my real estate agent. I couldn’t ask for a better legal team to guide me through the purchase of my business. All my questions were answered in a timely manner. This firm far exceeded my expectations. Vinthan, you were sent from God to me. I could not have done this without you.' },
+  { name: 'Carmen Moulton', text: 'I was introduced to this firm by my real estate agent. I couldn’t ask for a better legal team to guide ne through the purchase of my business. All my questions were answered in a timely manner. This firm far exceeded my expectations. Vinthan, you were sent from God to me. I could not have done this without you.' },
 ];
 ---
 
@@ -32,11 +33,22 @@ const reviews = [
           </li>
         ))}
       </ul>
-      <p class="hint">Swipe or scroll for more reviews</p>
+      <div class="controls">
+        <button type="button" class="arrow prev" aria-label="Previous review">‹</button>
+        <button type="button" class="arrow next" aria-label="Next review">›</button>
+        <a href={GOOGLE_REVIEWS_URL} class="btn" target="_blank" rel="noopener">View All</a>
+      </div>
     </div>
     <Image src={reviewsArt} alt="" width={420} densities={[1, 2]} class="art" />
   </div>
 </section>
+
+<script>
+  const track = document.querySelector<HTMLElement>('.quotes .track');
+  const step = () => track?.clientWidth ?? 0;
+  document.querySelector('.quotes .prev')?.addEventListener('click', () => track?.scrollBy({ left: -step(), behavior: 'smooth' }));
+  document.querySelector('.quotes .next')?.addEventListener('click', () => track?.scrollBy({ left: step(), behavior: 'smooth' }));
+</script>
 
 <style>
   .grid {
@@ -79,10 +91,35 @@ const reviews = [
     color: #111;
   }
 
-  .hint {
-    margin-top: 12px;
-    font-size: 13px;
-    color: var(--color-text-muted);
+  .track {
+    scrollbar-width: none;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 32px;
+  }
+
+  .controls .btn {
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 56px;
+  }
+
+  .arrow {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-tint);
+    color: var(--color-primary);
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
   }
 
   .art {

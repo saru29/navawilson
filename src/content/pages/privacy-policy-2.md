@@ -1,8 +1,6 @@
 ---
 title: "privacy policy"
 seoTitle: "privacy policy | Nava Wilson Professional Corporation"
-kind: "legal"
-updated: "2024-07-31T15:42:13Z"
 ---
 
 ## Nava Wilson LLP WebSite Privacy Policy

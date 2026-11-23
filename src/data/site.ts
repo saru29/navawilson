@@ -6,6 +6,9 @@ export const EMAIL = 'info@navawilson.law';
 export const ADDRESS_LINES = ['10 Milner Business Court, Suite 210', 'Toronto, ON, M1B 3C6'];
 export const MAP_URL = 'https://maps.app.goo.gl/vdgrBur6t14fzVzk9';
 
+export const GOOGLE_REVIEWS_URL =
+  'https://www.google.com/search?q=nava+wilson+llp#lrd=0x89d4d0e50e3cdacf:0x3287858e2fe20910,1,,,';
+
 export const GTM_ID = 'GTM-M6H6DWP';
 // Web3Forms key for info@navawilson.law; empty shows an email button instead of the form.
 export const WEB3FORMS_ACCESS_KEY = '';

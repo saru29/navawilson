@@ -1,0 +1,531 @@
+/* Pages rendered from Elementor JSON (src/components/elementor/Blocks.astro).
+   Breakpoints follow Elementor: mobile ≤767px, tablet 768–1024px, desktop ≥1025px. */
+
+:root {
+  --e-global-color-primary: var(--color-primary);
+  --e-global-color-secondary: var(--color-heading);
+  --e-global-color-text: var(--color-text);
+  --e-global-color-accent: #61ce70;
+}
+
+.el-page {
+  padding-bottom: 32px;
+}
+
+/* ---- Sections and columns (Elementor columns are flex-wrap rows of widgets) ---- */
+.el-section.el-top {
+  max-width: calc(var(--content-width) + 2 * var(--container-padding));
+  margin-inline: auto;
+  padding: 36px var(--container-padding);
+}
+
+.el-section.el-bg {
+  padding: 56px 32px;
+}
+
+.el-section.el-top.el-bg {
+  padding-inline: max(32px, var(--container-padding));
+}
+
+/* Hero: the first gradient block runs edge to edge under the header. */
+.el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) {
+  max-width: none;
+  padding: 0 8px;
+}
+
+.el-page > .el-section:first-child > .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'] {
+  padding: 40px max(var(--container-padding), calc((100% - var(--content-width)) / 2)) 64px;
+  border-radius: 0 0 11px 11px !important;
+}
+
+.el-row {
+  display: flex;
+  margin-inline: -10px;
+}
+
+.el-col {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  row-gap: 20px;
+  flex: 0 0 var(--w);
+  min-width: 0;
+  padding: 10px;
+}
+
+.el-col > * {
+  width: 100%;
+}
+
+.el-col > .w-auto {
+  width: auto;
+  max-width: 100%;
+}
+
+.el-col > .w-initial {
+  width: var(--container-widget-width, auto);
+}
+
+.el-col > .abs {
+  position: absolute;
+  width: auto;
+}
+
+.el-section.el-inner {
+  border-radius: 11px;
+}
+
+@media (max-width: 767px) {
+  .el-row {
+    flex-direction: column;
+  }
+  .el-col {
+    flex-basis: auto;
+  }
+  .el-section.el-top:not(.el-bg):not(:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'])) {
+    padding-inline: var(--container-padding) !important;
+  }
+  .el-col > .abs {
+    display: none;
+  }
+  .el-section.el-bg {
+    padding: 40px 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .hide-desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hide-tablet {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
+/* ---- Headings and text ---- */
+.el-heading > * {
+  color: var(--color-heading);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.el-heading h1 {
+  font-size: var(--fs-h1);
+}
+
+.el-heading h2 {
+  font-size: var(--fs-h2);
+}
+
+.el-heading h3 {
+  font-size: 26px;
+}
+
+.el-heading :is(h4, h5, h6, p, div) {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .el-heading > * {
+    font-size: min(var(--fs-h2), 1em) !important;
+  }
+  .el-heading h1,
+  .el-heading h2 {
+    font-size: var(--fs-h2) !important;
+  }
+}
+
+.el-heading em {
+  font-style: normal;
+  color: var(--color-primary);
+}
+
+.el-heading mark {
+  display: inline-block;
+  margin-left: 0.15em;
+  padding: 0.05em 0.35em;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 0 0.6em 0 0;
+}
+
+.el-heading a {
+  text-decoration: none;
+}
+
+.el-heading a:hover {
+  color: var(--color-primary);
+}
+
+.el-text {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.el-text :where(p, ul, ol) + :where(p, ul, ol, h2, h3, h4) {
+  margin-top: 12px;
+}
+
+.el-text :where(h2, h3, h4) {
+  margin-bottom: 8px;
+}
+
+.el-text :where(ul, ol) {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.el-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.el-text ul li {
+  position: relative;
+  padding-left: 16px;
+}
+
+.el-text ul li + li {
+  margin-top: 8px;
+}
+
+.el-text ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.el-text a {
+  color: var(--color-primary);
+}
+
+.el-button .btn {
+  min-width: 200px;
+  text-transform: uppercase;
+}
+
+.el-button.align-center {
+  text-align: center;
+}
+
+.el-button.align-right {
+  text-align: right;
+}
+
+.el-button.align-justify .btn {
+  width: 100%;
+}
+
+.el-image img {
+  margin-inline: auto;
+}
+
+/* ---- Icons ---- */
+.el-icon {
+  display: inline-grid;
+  place-items: center;
+  line-height: 0;
+  color: var(--icon-color, var(--color-primary));
+  font-size: var(--icon-size, 50px);
+}
+
+.el-icon svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.el-icon svg text {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+}
+
+.el-iconw .el-icon,
+.el-iconbox .el-icon {
+  padding: var(--icon-pad, 0);
+  border-radius: var(--icon-radius, 0);
+}
+
+.view-stacked .el-icon {
+  padding: var(--icon-pad, 0.5em);
+  background: var(--icon-bg, var(--color-primary));
+  color: var(--icon-color, var(--color-white));
+}
+
+.view-stacked.shape-circle .el-icon {
+  border-radius: var(--icon-radius, 50%);
+}
+
+.el-iconlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  color: var(--list-text-color, inherit);
+}
+
+.el-iconlist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.el-iconlist li + li {
+  margin-top: 10px;
+}
+
+.el-li-icon {
+  flex: none;
+  line-height: 0;
+  margin-top: 0.45em;
+  color: var(--list-icon-color, var(--color-primary));
+}
+
+.el-li-icon svg {
+  width: var(--list-icon-size, 8px);
+  height: var(--list-icon-size, 8px);
+  fill: currentColor;
+}
+
+.el-iconlist a {
+  text-decoration: none;
+}
+
+.el-iconbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.el-iconbox h3 {
+  font-size: 20px;
+  color: var(--color-heading);
+}
+
+.el-iconbox .el-ib-text {
+  font-size: 15px;
+}
+
+/* Numbered step cards ("1 Sign Agreement of purchase and sale"). */
+.el-iconbox.cst-icon-box {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  margin-top: 24px;
+  padding: 36px 16px 20px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.el-iconbox.cst-icon-box .el-icon {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 3px solid var(--color-white);
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.el-iconbox.cst-icon-box .el-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.el-iconbox.cst-icon-box h3 {
+  display: none;
+}
+
+.el-iconbox.cst-icon-box .el-ib-text {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+/* ---- Accordions ---- */
+.el-accordion details {
+  border-bottom: 1px solid #333;
+}
+
+.el-accordion summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 6px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-heading);
+  cursor: pointer;
+}
+
+.el-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.el-accordion summary::after {
+  content: '';
+  flex: none;
+  margin-left: auto;
+  border: 6px solid transparent;
+  border-top-color: var(--color-primary);
+  margin-top: 6px;
+}
+
+.el-accordion details[open] summary::after {
+  transform: rotate(180deg);
+  margin-top: -6px;
+}
+
+.el-acc-body {
+  padding: 4px 6px 18px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.el-acc-body :where(p, ul, ol) + :where(p, ul, ol) {
+  margin-top: 10px;
+}
+
+.el-acc-body :where(ul, ol) {
+  margin: 0;
+  padding-left: 20px;
+}
+
+/* FAQ variant: lavender pills, numbered. */
+.el-accordion.FAQ {
+  counter-reset: faq;
+}
+
+.el-accordion.FAQ details {
+  counter-increment: faq;
+  border: 0;
+  border-radius: 20px;
+  background: var(--color-tint);
+}
+
+.el-accordion.FAQ details + details {
+  margin-top: 12px;
+}
+
+.el-accordion.FAQ summary {
+  gap: 4px;
+  padding: 14px 24px;
+  font-size: 14px;
+  color: #000;
+}
+
+.el-accordion.FAQ summary::before {
+  content: counter(faq) '.';
+}
+
+.el-accordion.FAQ summary::after {
+  border-top-color: #333;
+  border-width: 5px;
+}
+
+.el-accordion.FAQ details[open] summary {
+  color: var(--color-primary);
+}
+
+.el-accordion.FAQ .el-acc-body {
+  padding: 4px 24px 22px;
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+/* ---- Tabs (radio inputs, no JS) ---- */
+.el-tablist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 40px;
+  margin-bottom: 28px;
+}
+
+.el-tablist label {
+  position: relative;
+  padding-bottom: 22px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+.el-tablist input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.el-tablist label:has(input:checked) {
+  color: var(--color-primary);
+}
+
+.el-tablist label:has(input:checked)::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.el-tablist label:has(input:focus-visible) span {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+}
+
+.el-tabpanel {
+  display: none;
+}
+
+.el-tabs:has(> .el-tablist input[data-tab='0']:checked) > .el-tabpanel[data-panel='0'],
+.el-tabs:has(> .el-tablist input[data-tab='1']:checked) > .el-tabpanel[data-panel='1'],
+.el-tabs:has(> .el-tablist input[data-tab='2']:checked) > .el-tabpanel[data-panel='2'],
+.el-tabs:has(> .el-tablist input[data-tab='3']:checked) > .el-tabpanel[data-panel='3'],
+.el-tabs:has(> .el-tablist input[data-tab='4']:checked) > .el-tabpanel[data-panel='4'],
+.el-tabs:has(> .el-tablist input[data-tab='5']:checked) > .el-tabpanel[data-panel='5'] {
+  display: block;
+}
+
+.el-tabpanel .el-section.el-top {
+  padding: 0;
+}
+
+.el-tabpanel .el-section + .el-section {
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .el-tablist {
+    gap: 8px 20px;
+  }
+  .el-tablist label {
+    font-size: 16px;
+  }
+}

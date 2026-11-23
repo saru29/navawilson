@@ -1,0 +1,933 @@
+{
+  "title": "Refinancing a Property in Ontario",
+  "seoTitle": "Refinancing a Property in Ontario | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "8556b93",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "935b440",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "c553dda",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "10% 0% 6% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "dd1ccb1",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "efda39e",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Refinancing a Property in <em>Ontario</em>"
+                    },
+                    {
+                      "id": "2d879e3",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,65%)",
+                          "max-width": "65%",
+                          "--container-widget-width": "65%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Nava Wilson real estate lawyers collaborate with both individual and business clients to secure and facilitate financing for commercial and residential properties. By conducting thorough document reviews and meticulous preparation, we guarantee the protection of our clients’ interests throughout the entire process.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "52ecab6",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "0% 0% 0% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "4d68399",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "align-content": "center",
+              "align-items": "center"
+            }
+          },
+          "items": [
+            {
+              "id": "4d0032a",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left",
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "16px",
+                  "font-weight": "600"
+                }
+              },
+              "type": "text",
+              "html": "When refinancing or securing a mortgage on a property, the firm will handle the following:"
+            },
+            {
+              "id": "f95a588",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "listIcon": {
+                  "fill": "#585858"
+                },
+                "self": {
+                  "padding": "0% 15% 0% 0%"
+                }
+              },
+              "type": "icon-list",
+              "items": [
+                {
+                  "text": "Complete necessary searches, including title searches and PPSA searches;",
+                  "icon": {
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                  }
+                },
+                {
+                  "text": "Arrange to payout balances owing on any existing financing to be paid from the proceeds;",
+                  "icon": {
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "09c6f09",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "listIcon": {
+                  "fill": "#585858"
+                }
+              },
+              "type": "icon-list",
+              "items": [
+                {
+                  "text": "Prepare and review all documentation;",
+                  "icon": {
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                  }
+                },
+                {
+                  "text": "Register the mortgage on title.",
+                  "icon": {
+                    "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7c2e270",
+          "width": 50,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "7e99a11",
+              "hide": [],
+              "cls": [],
+              "type": "image",
+              "src": "/wp-content/uploads/2024/02/Illustraton-04-1024x1024.png",
+              "alt": "",
+              "width": 800,
+              "height": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "4c5dbbc",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "How it <mark>works?</mark>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "1fe223e",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "6ad9524",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "97f7299",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "62368dc",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "cd36d07",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"68\" height=\"71\" viewBox=\"0 0 68 71\"><text data-name=\"1\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"24.245\" y=\"53\">1</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Sign a new loan commitment with the lender"
+                    }
+                  ]
+                },
+                {
+                  "id": "1609797",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e14fb07",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"71\" viewBox=\"0 0 96 71\"><text data-name=\"2\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"33.369\" y=\"53\">2</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Initiate contact with Nava Wilson LLP and obtain a quote for costs"
+                    }
+                  ]
+                },
+                {
+                  "id": "ccbf247",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "02a7f65",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "cst-home-icon-box",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "background-color": "#fff",
+                          "fill": "#000",
+                          "color": "#000",
+                          "border-color": "#fff",
+                          "font-size": "56px",
+                          "padding": "8px"
+                        },
+                        "title": {
+                          "font-size": "14px",
+                          "font-weight": "700"
+                        },
+                        "desc": {
+                          "color": "#fff",
+                          "font-size": "20px",
+                          "font-weight": "600"
+                        }
+                      },
+                      "type": "icon-box",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"85\" height=\"71\" viewBox=\"0 0 85 71\"><text data-name=\"3\" fill=\"#434141\" font-size=\"50\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"27.11\" y=\"53\">3</tspan></text></svg>"
+                      },
+                      "title": "",
+                      "text": "Nava Wilson LLP team provides detailed instructions about the next steps"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "e38218a",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "af7ba2f",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "156de4b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "7% 0% 7% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0d57196",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "4926912",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "37px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "If you have questions about any part of this process"
+                    },
+                    {
+                      "id": "cd44cff",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "37px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "please call us to clarify."
+                    },
+                    {
+                      "id": "df00b89",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "Contact Us",
+                      "href": "/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "256fcb7",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "fc329c1",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "c8772df",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Why Choose <mark>Us</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "f8afb6f",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "4d6b16b",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "border-style": "solid",
+                      "border-width": "0px 0px 0px 1px",
+                      "border-color": "var(--e-global-color-secondary)",
+                      "padding": "35px 35px 35px 35px"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "21a8e3a",
+                      "hide": [],
+                      "cls": [
+                        "w-auto",
+                        "abs"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "30px"
+                        },
+                        "svg": {
+                          "height": "30px"
+                        },
+                        "self": {
+                          "width": "auto",
+                          "max-width": "auto",
+                          "top": "34px",
+                          "left": "-17px"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                      }
+                    },
+                    {
+                      "id": "5d8f696",
+                      "hide": [],
+                      "cls": [
+                        "w-auto",
+                        "abs"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "30px"
+                        },
+                        "svg": {
+                          "height": "30px"
+                        },
+                        "self": {
+                          "width": "auto",
+                          "max-width": "auto",
+                          "top": "32px",
+                          "left": "355px"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                      }
+                    },
+                    {
+                      "id": "7b13d18",
+                      "hide": [],
+                      "cls": [
+                        "w-auto",
+                        "abs"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "30px"
+                        },
+                        "svg": {
+                          "height": "30px"
+                        },
+                        "self": {
+                          "width": "auto",
+                          "max-width": "auto",
+                          "top": "35px",
+                          "left": "730px"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                      }
+                    },
+                    {
+                      "id": "50ab296",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "30px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Transparent"
+                    },
+                    {
+                      "id": "12f5853",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400",
+                          "padding": "0% 0% 0% 0%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>We value proactive and transparent communication to ensure our client’s peace of mind.</p>"
+                    }
+                  ]
+                },
+                {
+                  "id": "99e7580",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "border-style": "solid",
+                      "border-width": "0px 0px 0px 1px",
+                      "border-color": "var(--e-global-color-secondary)",
+                      "padding": "35px 35px 35px 35px"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "66becf0",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "30px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Experienced"
+                    },
+                    {
+                      "id": "395bd18",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400",
+                          "padding": "0% 0% 0% 0%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Seasoned lawyers and a team equipped to offer professional and smooth legal services</p>"
+                    }
+                  ]
+                },
+                {
+                  "id": "d3e3a10",
+                  "width": 33,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "border-style": "solid",
+                      "border-width": "0px 0px 0px 1px",
+                      "border-color": "var(--e-global-color-secondary)",
+                      "padding": "35px 35px 35px 35px"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "5c640fc",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "30px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Accessible"
+                    },
+                    {
+                      "id": "b792c47",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400",
+                          "padding": "0% 0% 0% 0%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Both in-office and virtual signing options to meet every client’s needs.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "How can I find a qualified Real Estate lawyer for property refinancing in Ontario?",
+                  "html": "<p>You can search for Real Estate lawyers in Ontario with expertise in property refinancing through legal directories, referrals, or by contacting local law firms specializing in real estate law.</p>"
+                },
+                {
+                  "title": "How long does it typically take to complete the refinancing of a property in Ontario?",
+                  "html": "<p>The timeline varies based on the complexity of the transaction, the responsiveness of involved parties, and other factors. A Real Estate lawyer can provide an estimate based on the specifics of your refinancing.</p>"
+                },
+                {
+                  "title": "Why should I consider hiring a real estate lawyer for mortgage refinancing?",
+                  "html": "<p>Mortgage refinancing is a complex legal transaction involving paperwork, terms, and potential pitfalls. A real estate lawyer helps homeowners make informed decisions, preventing adverse effects on their future finances.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

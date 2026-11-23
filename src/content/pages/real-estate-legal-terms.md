@@ -1,8 +1,6 @@
 ---
 title: "REAL ESTATE LEGAL TERMS"
 seoTitle: "REAL ESTATE LEGAL TERMS | Nava Wilson Professional Corporation"
-kind: "service"
-updated: "2024-02-22T22:22:49Z"
 ---
 
 ## REAL ESTATE GLOSSARY

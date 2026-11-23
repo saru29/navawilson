@@ -1,0 +1,430 @@
+{
+  "title": "Purchase And Sale Of A Business",
+  "seoTitle": "Purchase And Sale Of A Business | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "9% 0% 7% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Purchase And Sale Of A <em>Business</em>"
+                    },
+                    {
+                      "id": "ff626f5",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "14px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,60%)",
+                          "max-width": "60%",
+                          "--container-widget-width": "60%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "The buying or selling of a business represents a crucial and impactful transaction. Such dealings are frequently intricate, involving financial, real estate, and tax factors. At Nava Wilson LLP, our corporate lawyers possess the expertise and resources to adeptly navigate clients through the process of buying or selling a business. Our goal is to safeguard their interests and minimize exposure to potential risks."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5f9de9b",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "07bdc91",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "e6f7500",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "48px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our <mark>Services</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "0e6d504",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "e060758",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "d093987",
+                      "hide": [],
+                      "cls": [],
+                      "type": "accordion",
+                      "items": [
+                        {
+                          "title": "Step 1: Agreement",
+                          "html": "<p><strong>We prepare an agreement to safeguard your rights:</strong></p><ul><li>Non-competition/non-solicitation</li><li>Tax considerations</li><li>Confidentiality</li><li>Liability-free</li><li>Representations and Warranties</li></ul>"
+                        },
+                        {
+                          "title": "Step 2: Due Diligence",
+                          "html": "<p>We do our due diligence searches and ask the right questions to ensure you are protected:</p><ul><li>Have the employees been paid vacation pay?</li><li>Has the seller filed for bankruptcy?</li><li>Can the bank seize the equipment used for the business?</li><li>Does the seller have a lawsuit pending?</li><li>Does the seller really own the goods he is selling?</li><li>Has the business passed zoning, health and fire inspections?</li></ul>"
+                        },
+                        {
+                          "title": "Step 3: Negotiation",
+                          "html": "<p>We are masters of negotiation, defenders of your rights, and creative thinkers in navigating the landscape of closing your transaction</p>"
+                        },
+                        {
+                          "title": "Step 4: Closing",
+                          "html": "<p>The most satisfying part of our job - after all, when something ends, something new begins, and a new beginning is always a new opportunity.</p>"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "9a7314a",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "0d7780b",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "c3129ea",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "5% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "5b2e612",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "8835c42",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Buy &amp; Sell With <em>Confidence</em>"
+                    },
+                    {
+                      "id": "4e5842c",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "45px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "5a91606",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "10eeda7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "0a78809",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "45px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "2bea2d7",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What legal considerations should I keep in mind when buying or selling a business in Ontario?",
+                  "html": "<p>When engaging in the purchase or sale of a business in Ontario, it's crucial to consider factors such as contractual obligations, regulatory compliance, intellectual property rights, and potential liabilities. Consulting with a corporate lawyer is advisable to navigate these complexities.</p>"
+                },
+                {
+                  "title": "What steps are involved in the legal process of buying a business in Toronto?",
+                  "html": "<p>The legal process of buying a business in Toronto typically includes due diligence, negotiation of terms, drafting and reviewing contracts, obtaining necessary permits, and completing the transfer of assets. A business lawyer can guide you through each step.</p>"
+                },
+                {
+                  "title": "How can I protect myself from potential liabilities when selling a business in Toronto?",
+                  "html": "<p>Implementing clear contractual terms, conducting thorough due diligence, and addressing any outstanding legal issues before the sale can help minimize liabilities. A business lawyer can advise on risk mitigation strategies.</p>"
+                },
+                {
+                  "title": "Can I use the same lawyer for both buying and selling a business transaction?",
+                  "html": "<p>While it is possible for the same lawyer to represent both parties, it's generally advisable for each party to have independent legal counsel. This ensures that each party's interests are fully represented and avoids potential conflicts of interest.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 ---
 title: "Terms Of Use"
 seoTitle: "Terms Of Use | Nava Wilson Professional Corporation"
-kind: "legal"
-updated: "2024-02-22T17:39:48Z"
 ---
 
 ## Terms of Use Agreement

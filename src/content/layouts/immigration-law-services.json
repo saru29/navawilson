@@ -1,0 +1,1223 @@
+{
+  "title": "Immigration Law Services",
+  "seoTitle": "Canadian Immigration Lawyers in Scarborough, Toronto | Nava Wilson Professional Corporation",
+  "description": "Experienced Canadian immigration lawyers, ready to assist you with permanent residence, visitor visas, work permits, study permits. Book now!",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "10% 0% 5% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "justify-content": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h1",
+                      "html": "Immigration <em>Law</em>"
+                    },
+                    {
+                      "id": "41e63e5",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "width": "var(--container-widget-width,65%)",
+                          "max-width": "65%",
+                          "--container-widget-width": "65%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "Immigrating to Canada is a life-changing experience, which sometimes can be challenging. That’s why, at Nava Wilson, we specialize in providing legal assistance to new immigrants and their families. Having a diverse in-house team, we understand first-hand the value of support and transparency in the immigration process and strive to provide clear and concise guidance throughout the entire journey. Whether you’re seeking to obtain a visitor visa, work permit, study permit, permanent residency, or citizenship, we’re here to guide you every step of the way!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "286e1f7",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Try our free <em>PR Assessment</em>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "3342d64",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "295dc3f",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "1a8ccbd",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "font-weight": "var(--e-global-typography-text-font-weight)"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h4",
+                      "html": "Not sure which immigration pathway is right for you? Our free assessment evaluates your profile across 70+ permanent residency pathways to find your best options for coming to Canada."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "0a62ec6",
+              "hide": [],
+              "cls": [],
+              "columns": [
+                {
+                  "id": "846d34b",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "9ea4d5e",
+                      "hide": [],
+                      "cls": [
+                        "align-right",
+                        "w-initial"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "#ce2028",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,56%)",
+                          "max-width": "56%",
+                          "--container-widget-width": "56%"
+                        }
+                      },
+                      "type": "button",
+                      "label": "Try Now",
+                      "href": "/nava-wilson-pc-pr-assessment/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "2d20ed5",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "8be07c5",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "2924418",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our Practice <em>Areas</em>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "a08c5bf",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "3ba10b7",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "426ee94",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"1\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"12.613\" y=\"24\">1</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "37a6489",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/visit-canada/\">Post-Graduate Work Permit (PGWP)</a>",
+                      "href": "https://libertasimmigration.ca/visit-canada/"
+                    },
+                    {
+                      "id": "269cea9",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Open work permit for graduates of eligible Canadian institutions",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Valid for up to 3 years based on program length",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Pathway to gaining Canadian work experience for PR",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "430b4ab",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "f0d27a3",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"2\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.37\" y=\"24\">2</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "bdb727e",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/study-in-canada/\">Study Permit</a>",
+                      "href": "https://libertasimmigration.ca/study-in-canada/"
+                    },
+                    {
+                      "id": "bb3b911",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Study Permit",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          },
+                          "href": "https://libertasimmigration.ca/study-permit-in-canada/"
+                        },
+                        {
+                          "text": "Student Direct Stream",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          },
+                          "href": "https://libertasimmigration.ca/student-direct-streamsds/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "1eaba34",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "aba8d57",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "1f75bd2",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"3\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.979\" y=\"24\">3</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "1365e33",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/work-in-canada/\">Work Visa</a>",
+                      "href": "https://libertasimmigration.ca/work-in-canada/"
+                    },
+                    {
+                      "id": "184e61a",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Work Permit (Temporary Foreign Worker)",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "LMIA (Labour Market Impact Assessment)",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "PGWP (Post Graduate Work Permit)",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "4871db7",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "df495ea",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"4\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.151\" y=\"24\">4</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "348ae14",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/family-sponsorship-in-canada/\">Provincial Nominee Program (PNP)</a>",
+                      "href": "https://libertasimmigration.ca/family-sponsorship-in-canada/"
+                    },
+                    {
+                      "id": "b1a8966",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Province-specific streams tailored to local labour market needs",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          },
+                          "href": "https://libertasimmigration.ca/spousal-sponsorship-in-canada/"
+                        },
+                        {
+                          "text": "Enhanced nomination adds 600 points to Express Entry profile",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          },
+                          "href": "https://libertasimmigration.ca/parent-and-grandparent-sponsorship-in-canada/"
+                        },
+                        {
+                          "text": "Available for skilled workers, graduates, and entrepreneurs",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          },
+                          "href": "https://libertasimmigration.ca/parent-and-grandparent-sponsorship-in-canada/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "3ac9111",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "2e8a151",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "fd95c7e",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"5\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.462\" y=\"24\">5</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "2655f2a",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/work-in-canada/\">Express Entry</a>",
+                      "href": "https://libertasimmigration.ca/work-in-canada/"
+                    },
+                    {
+                      "id": "ec5ac88",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Federal points-based system for skilled worker immigration",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Manages applications for FSWP, FSTP, and CEC",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Competitive draws held regularly based on CRS score",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "0f9bdf8",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "c8f2673",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"6\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.611\" y=\"24\">6</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "fc458a7",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/family-sponsorship-in-canada/\">Visitor Visa / Super Visa</a>",
+                      "href": "https://libertasimmigration.ca/family-sponsorship-in-canada/"
+                    },
+                    {
+                      "id": "c438812",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Temporary authorization to visit Canada for tourism or family",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Super Visa allows parents and grandparents to stay up to 5 years per visit",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Multiple-entry options available for frequent travellers",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "965b628",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "aba2e90",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "b20f034",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"7\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"10.784\" y=\"24\">7</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "2f32965",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/work-in-canada/\">Parental Sponsorship</a>",
+                      "href": "https://libertasimmigration.ca/work-in-canada/"
+                    },
+                    {
+                      "id": "e98887e",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Canadian citizens and PRs can sponsor parents and grandparents",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Includes Super Visa as a faster alternative option",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Grants permanent residency upon successful approval",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "8bf99bb",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "637d1e7",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><text data-name=\"8\" fill=\"#fff\" font-size=\"23\" font-family=\"Poppins-Bold, Poppins\" font-weight=\"700\"><tspan x=\"9.485\" y=\"24\">8</tspan></text></svg>"
+                      }
+                    },
+                    {
+                      "id": "d049a9f",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/family-sponsorship-in-canada/\">Spousal Sponsorship</a>",
+                      "href": "https://libertasimmigration.ca/family-sponsorship-in-canada/"
+                    },
+                    {
+                      "id": "32053ce",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Sponsor your spouse, common-law, or conjugal partner for PR",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Inland and outland application streams available",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Open work permit available while application is in progress",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "b4a4138",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "5add5fe",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "af04ca7",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"34\" height=\"32\" viewBox=\"0 0 34 32\"><g transform=\"translate(9.928, 24) scale(0.023000, -0.023000)\"><path d=\"M321 135Q374 135 396.0 182.0Q418 229 418 335Q396 304 358.0 287.0Q320 270 273 270Q209 270 159.0 296.5Q109 323 80.5 375.5Q52 428 52 503Q52 577 82.5 632.0Q113 687 169.5 717.0Q226 747 303 747Q451 747 510.0 655.0Q569 563 569 384Q569 254 545.5 169.5Q522 85 466.5 41.0Q411 -3 315 -3Q239 -3 185.5 27.0Q132 57 103.5 106.0Q75 155 71 214H229Q244 135 321 135ZM404 500Q404 548 378.0 574.0Q352 600 308 600Q264 600 238.5 573.5Q213 547 213 501Q213 458 238.5 431.5Q264 405 312 405Q354 405 379.0 430.5Q404 456 404 500Z\" fill=\"#fff\"></path></g></svg>"
+                      }
+                    },
+                    {
+                      "id": "70a0f3c",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "23px",
+                          "font-weight": "700"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "<a href=\"https://libertasimmigration.ca/work-in-canada/\">Citizenship</a>",
+                      "href": "https://libertasimmigration.ca/work-in-canada/"
+                    },
+                    {
+                      "id": "897af66",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "listText": {
+                          "color": "var(--e-global-color-secondary)"
+                        }
+                      },
+                      "type": "icon-list",
+                      "items": [
+                        {
+                          "text": "Apply after meeting physical presence and language requirements",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Requires passing the Canadian citizenship test",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        },
+                        {
+                          "text": "Grants the right to a Canadian passport and full civic rights",
+                          "icon": {
+                            "svg": "<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-circle\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z\"></path></svg>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "8f1bd2e",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "8a19d18",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 3% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "69265fe",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "8e69189",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "#434141",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Our <em>Process</em>"
+            },
+            {
+              "id": "32a3310",
+              "hide": [],
+              "cls": [],
+              "type": "image",
+              "src": "/wp-content/uploads/2023/12/Component-57-%E2%80%93-1-1024x403.png",
+              "alt": "",
+              "width": 800,
+              "height": 315
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

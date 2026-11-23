@@ -1,0 +1,640 @@
+{
+  "title": "Real Estate Breaches",
+  "seoTitle": "Real Estate Breaches | Nava Wilson Professional Corporation",
+  "sections": [
+    {
+      "type": "section",
+      "inner": false,
+      "id": "7334bac",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "8d43ced",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "e04cc39",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "10% 0% 6% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "0fe94a4",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "7cfee13",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "55px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Real Estate <em>Breaches</em>"
+                    },
+                    {
+                      "id": "41e63e5",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center",
+                          "font-size": "16px",
+                          "font-weight": "400",
+                          "padding": "0% 10% 0% 10%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>Whether you are selling or buying a home, we can help you start or defend a lawsuit as a result of a breach of an agreement of purchase and sale.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "814927e",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 6% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "1127eb5",
+          "width": 55.876,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "align-content": "center",
+              "align-items": "center"
+            }
+          },
+          "items": [
+            {
+              "id": "f2e77ec",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "37px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "What is a Real Estate <mark>Breach?</mark>"
+            },
+            {
+              "id": "4e54835",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "left",
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "16px",
+                  "font-weight": "400"
+                }
+              },
+              "type": "text",
+              "html": "<p>In the complex world of real estate transactions, agreements play a crucial role in defining the terms between buyers and sellers. If either party fails to meet their responsibilities, it leads to a breach of contract. At Nava Wilson, we can help you understand the consequences of breaching the contract and the rights and solutions accessible to both buyers and sellers in Ontario.</p>"
+            }
+          ]
+        },
+        {
+          "id": "44871bf",
+          "width": 44.08,
+          "hide": [],
+          "cls": [],
+          "style": {
+            "self": {
+              "align-content": "center",
+              "align-items": "center"
+            }
+          },
+          "items": [
+            {
+              "id": "b702d57",
+              "hide": [],
+              "cls": [],
+              "type": "image",
+              "src": "/wp-content/uploads/2024/02/Illustraton-03-s-1024x757.png",
+              "alt": "",
+              "width": 800,
+              "height": 591
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "a9151b9",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "0% 0% 0% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "3953663",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "4c5dbbc",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Real Estate Breach <mark>Examples</mark>"
+            },
+            {
+              "type": "section",
+              "inner": true,
+              "id": "6087b58",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "4% 0% 0% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "006b69c",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "9b5f59f",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                      }
+                    },
+                    {
+                      "id": "a26c9c7",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "25px",
+                          "font-weight": "500"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Breach of Contract by Buyer: Failure to Provide the Deposit"
+                    },
+                    {
+                      "id": "0931e43",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400",
+                          "padding": "0% 0% 0% 0%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>The primary responsibility of a buyer in the agreement of purchase and sale is to provide the required funds for the purchase of the property, including the initial deposit and the remaining purchase price on the closing date.</p><p>One of the most common breaches by a buyer is the inability to provide the required deposit within the specified timeframe, typically 24 hours after the offer is accepted. This failure amounts to an immediate violation of the Agreement of Purchase and Sale (APS), and the seller can deem that transaction at an end.</p><p>Although the buyer breached the contract shortly after signing, the seller is still entitled to the deposit. That means the seller could re-list the property and enter into an agreement to sell to someone else for a higher price and still go after the purchaser for the deposit. In some instances where the deposit is substantial compared to the purchase price, exceptions may apply.</p>"
+                    }
+                  ]
+                },
+                {
+                  "id": "7db6aac",
+                  "width": 50,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "flex-start",
+                      "align-items": "flex-start"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "bc01924",
+                      "hide": [],
+                      "cls": [
+                        "view-stacked",
+                        "w-initial",
+                        "shape-circle"
+                      ],
+                      "style": {
+                        "icon": {
+                          "font-size": "52px",
+                          "padding": "10px",
+                          "border-radius": "20px 20px 20px 20px"
+                        },
+                        "svg": {
+                          "height": "52px"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,24%)",
+                          "max-width": "24%",
+                          "--container-widget-width": "24%"
+                        }
+                      },
+                      "type": "icon",
+                      "icon": {
+                        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"67.699\" height=\"53.139\" viewBox=\"0 0 67.699 53.139\"><path data-name=\"Path 197\" d=\"M214.518,627.935v4.132c0,3.954.006,7.909,0,11.863,0,2.168-.74,2.909-2.928,2.91q-28.848.008-57.7,0a2.394,2.394,0,0,1-1.452-.224c-.42-.435-.3-1-.3-1.525q-.008-23.793,0-47.586c0-2.714,1.055-3.786,3.73-3.789q13.75-.014,27.5,0a2.032,2.032,0,0,1,1.635.426c2.559,2.583,5.131,5.153,7.714,7.742V610.3a22.657,22.657,0,0,0,3.31-2.4c1.907-1.433,2.91-1.453,4.808.015,2.053,1.587,4.1,3.182,6.417,4.981,0-.882-.012-1.482,0-2.081.037-1.543.664-2.2,2.213-2.271.942-.04,1.888-.041,2.83,0a2.021,2.021,0,0,1,2.216,2.3c.029,2.559.008,5.119.008,7.709,1.158.9,2.29,1.783,3.42,2.666,1.75,1.37,2.3,3.006,1.57,4.687-.751,1.735-2.307,2.4-4.608,1.969A1.522,1.522,0,0,0,214.518,627.935ZM153.94,645.1h28.333V627.827l-.722.141a3.625,3.625,0,0,1-3.072-6.414c.483-.4.987-.78,1.484-1.166l11.032-8.583v-8.782c-1.584,0-3.064,0-4.545,0-2.215-.008-3.012-.786-3.033-2.987-.015-1.512,0-3.024,0-4.451a2.928,2.928,0,0,0-1.632-.238q-12.74-.011-25.481,0c-2.307,0-2.54.235-2.54,2.556q0,22.784,0,45.569A3.178,3.178,0,0,0,153.94,645.1Zm30.172-18.727V645.1h7.442c0-.6,0-1.08,0-1.565,0-3.907-.01-7.814.005-11.72.007-1.87.745-2.6,2.622-2.606,2.739-.015,5.479-.008,8.218,0,2.221,0,2.922.689,2.926,2.883.008,3.862,0,7.724.01,11.586,0,.477-.14.988.159,1.394H212.8V626.422c-4.444-3.453-8.941-6.95-13.445-10.441a1.531,1.531,0,0,0-2.078.145Q190.7,621.263,184.112,626.369Zm14.477-18.1a4.548,4.548,0,0,0-1.654.971q-8.461,6.572-16.914,13.155a5.014,5.014,0,0,0-.9.806,1.849,1.849,0,0,0-.019,2.475,1.818,1.818,0,0,0,2.407.551,6.272,6.272,0,0,0,1-.68q6.761-5.247,13.516-10.5c1.87-1.45,2.944-1.442,4.814.012q6.863,5.335,13.725,10.671c1.273.986,2.425.943,3.2-.064.744-.967.466-2.144-.763-3.122-1.364-1.085-2.742-2.154-4.146-3.255v-9.1a19.006,19.006,0,0,0-3.8.069c-.625,1.743.531,3.664-.955,5.31Zm-5.335,36.843h10.317V630.953H193.254ZM189.2,601.33l-4.129-4.13c.057,1.2-.253,2.66.231,4.13Zm-21.472,13.721v10.491H157.284V615.051Zm-1.516,1.548h-7.355v7.355h7.355Zm-8.966-18.4h10.5v10.462h-10.5Zm8.97,1.628h-7.423v7.293h7.423Zm-8.975,42.528V631.907c3.481-.4,6.951-.114,10.5-.176v10.627Zm8.973-1.593v-7.331h-7.381v7.331Zm20.005-34.524c.445-1.359-.314-1.505-1.265-1.5q-6.718.005-13.437,0a1.907,1.907,0,0,0-1.2.235c-.333.289-.348.652-.014,1.267Zm-15.89-5.557a.921.921,0,0,0,.074,1.356h10.185a1.05,1.05,0,0,0,.077-1.356Zm8.79,37.705q-3.5-.029-7,0a2.816,2.816,0,0,0-1.833.254c-.34.407-.332.8.129,1.271h9.638C180.6,638.739,180.053,638.4,179.118,638.389Zm-8.851-4.023a.968.968,0,0,0,.31,1.43c2.817,0,5.853.025,8.888-.018.71-.01,1.02-.483.661-1.411Zm0-16.863c-.305.611-.288,1.01.127,1.328h8.268a.978.978,0,0,0,.074-1.328Zm4.963,5.566c.28-.533.354-.931-.127-1.355h-4.729c-.416.476-.4.841.021,1.419A20.76,20.76,0,0,0,175.23,623.07Zm-15.631-2.9c-.15,1.218,1.537,2.976,3.1,3.072.945-1.854,2.406-3.527,2.945-5.564-.679-.525-1.047-.48-1.467-.189l-2.073,3.536C160.131,619.993,160.131,619.993,159.6,620.171Zm5.892-18.7c.3-.572-.086-1.014-.882-1.111-1.258,1-1.534,2.79-2.68,3.905-.7-.358-.984-1.174-1.777-1.219-.479.118-.7.409-.707,1.024a12.769,12.769,0,0,0,2.844,2.679A27.759,27.759,0,0,0,165.491,601.467ZM165.51,635c.262-.583-.223-.991-1.015-.928-1.094,1.045-1.484,2.651-2.49,3.81-.768-.233-1.018-1.131-1.825-1.164-.545.083-.763.408-.711,1.111a15.622,15.622,0,0,0,2.865,2.591A28.043,28.043,0,0,0,165.51,635Z\" transform=\"translate(-152.12 -593.711)\" fill=\"#fff\"></path></svg>"
+                      }
+                    },
+                    {
+                      "id": "8419fe8",
+                      "hide": [],
+                      "cls": [
+                        "w-initial"
+                      ],
+                      "style": {
+                        "title": {
+                          "color": "#000",
+                          "font-size": "25px",
+                          "font-weight": "500"
+                        },
+                        "self": {
+                          "width": "var(--container-widget-width,75%)",
+                          "max-width": "75%",
+                          "--container-widget-width": "75%",
+                          "align-self": "center"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Breach of Contract by Seller: Failure to Provide Vacant Possession"
+                    },
+                    {
+                      "id": "0ff1b52",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "15px",
+                          "font-weight": "400",
+                          "padding": "0% 0% 0% 0%"
+                        }
+                      },
+                      "type": "text",
+                      "html": "<p>A breach by a seller occurs most often when they fail to provide vacant possession of the property at the agreed-upon closing date. Vacant possession means that the property is free from furniture, personal belongings, garbage and tenants.</p><p>When the issue is furniture, personal belongings or garbage, the lawyers or realtors will often negotiate some form of compensation for the buyer or alternatively will arrange for the seller to pick up what was left behind. However, when the issue is tenants that have not vacated, this constitutes a much more significant breach and often results in the transaction not being completed.</p>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "f19b623",
+      "hide": [],
+      "cls": [],
+      "columns": [
+        {
+          "id": "59906e7",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "40f69dd",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "background-color": "transparent",
+                  "background-image": "linear-gradient(180deg,#d4d4db 0%,#f1f2fa 100%)",
+                  "border-radius": "11px 11px 11px 11px",
+                  "padding": "3% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "e46ec7f",
+                  "width": 100,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "505c83f",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "37px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "If you have questions about any part of this <em>process</em>"
+                    },
+                    {
+                      "id": "78817a7",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "center"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "37px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "please call us to <em>clarify.</em>"
+                    },
+                    {
+                      "id": "44d402f",
+                      "hide": [],
+                      "cls": [
+                        "align-center"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "text-transform": "uppercase",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "REACH OUT",
+                      "href": "/contact-us/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "b3d9dd0",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "7% 0% 7% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "d1861ea",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "type": "section",
+              "inner": true,
+              "id": "be2ea3b",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "padding": "0% 0% 3% 0%"
+                }
+              },
+              "columns": [
+                {
+                  "id": "b4c35db",
+                  "width": 58.036,
+                  "hide": [],
+                  "cls": [],
+                  "items": [
+                    {
+                      "id": "e85b43c",
+                      "hide": [],
+                      "cls": [],
+                      "style": {
+                        "self": {
+                          "text-align": "left"
+                        },
+                        "title": {
+                          "color": "var(--e-global-color-secondary)",
+                          "font-size": "50px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "type": "heading",
+                      "tag": "h2",
+                      "html": "Featured <mark>Insights</mark>"
+                    }
+                  ]
+                },
+                {
+                  "id": "308e76d",
+                  "width": 41.921,
+                  "hide": [],
+                  "cls": [],
+                  "style": {
+                    "self": {
+                      "align-content": "center",
+                      "align-items": "center"
+                    }
+                  },
+                  "items": [
+                    {
+                      "id": "1911295",
+                      "hide": [],
+                      "cls": [
+                        "align-right"
+                      ],
+                      "style": {
+                        "button": {
+                          "font-size": "16px",
+                          "font-weight": "700",
+                          "background-color": "var(--e-global-color-primary)",
+                          "border-radius": "35px 35px 35px 35px",
+                          "padding": "15px 70px 15px 70px"
+                        }
+                      },
+                      "type": "button",
+                      "label": "View All",
+                      "href": "/blogs/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "716132e",
+              "hide": [],
+              "cls": [],
+              "type": "posts",
+              "slugs": [
+                "why-title-insurance-is-essential-for-ontario-homebuyers",
+                "lawyer-for-buying-pre-construction",
+                "permanent-residence-pr-in-canada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "inner": false,
+      "id": "beda37a",
+      "hide": [],
+      "cls": [],
+      "style": {
+        "self": {
+          "padding": "3% 0% 4% 0%"
+        }
+      },
+      "columns": [
+        {
+          "id": "ee11e6b",
+          "width": 100,
+          "hide": [],
+          "cls": [],
+          "items": [
+            {
+              "id": "71d1f84",
+              "hide": [],
+              "cls": [],
+              "style": {
+                "self": {
+                  "text-align": "center"
+                },
+                "title": {
+                  "color": "var(--e-global-color-secondary)",
+                  "font-size": "50px",
+                  "font-weight": "700"
+                }
+              },
+              "type": "heading",
+              "tag": "h2",
+              "html": "Frequently Asked <mark>Questions</mark>"
+            },
+            {
+              "id": "7f93fd1",
+              "hide": [],
+              "cls": [
+                "FAQ"
+              ],
+              "type": "accordion",
+              "items": [
+                {
+                  "title": "What is the role of a Real Estate Breaches lawyer in Ontario?",
+                  "html": "<p>A Real Estate Breaches lawyer in Ontario specializes in addressing legal matters related to breaches of real estate agreements, providing legal guidance and representation to individuals facing issues with property transactions.</p>"
+                },
+                {
+                  "title": "How do I know if I need a Real Estate Breaches lawyer in Ontario?",
+                  "html": "<p>If you are experiencing issues or disputes related to a breach of a real estate agreement, consulting with a Real Estate Breach lawyer in Ontario is advisable for an assessment of your situation and guidance on potential legal remedies.</p>"
+                },
+                {
+                  "title": "What types of real estate breaches do lawyers handle in Ontario?",
+                  "html": "<p>Real Estate Breaches lawyers in Ontario handle various breaches, including failure to provide the required deposit, failure to close the transaction, misrepresentations, and other violations of terms outlined in real estate agreements.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

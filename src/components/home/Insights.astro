@@ -1,10 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
-import PostCard from '../PostCard.astro';
+import PostCarousel from '../PostCarousel.astro';
 
-const posts = (await getCollection('blog'))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 3);
+const slugs = [
+  'why-title-insurance-is-essential-for-ontario-homebuyers',
+  'lawyer-for-buying-pre-construction',
+  'permanent-residence-pr-in-canada',
+  'breach-of-real-estate-contracts',
+  'mortgage-investment-corporations-in-ontario',
+  'power-of-sale-process-ontario',
+];
 ---
 
 <section class="section">
@@ -13,7 +17,7 @@ const posts = (await getCollection('blog'))
       <h2 class="title">Featured<span>Insights</span></h2>
       <a href="/blogs/" class="btn">View All</a>
     </div>
-    <ul class="grid">{posts.map((post) => <li><PostCard post={post} /></li>)}</ul>
+    <PostCarousel slugs={slugs} />
   </div>
 </section>
 
@@ -27,21 +31,6 @@ const posts = (await getCollection('blog'))
 
   .head .btn {
     padding-inline: 44px;
-  }
-
-  .grid {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 24px;
-    margin: 40px 0 0;
-    padding: 0;
-  }
-
-  @media (max-width: 900px) {
-    .grid {
-      grid-template-columns: minmax(0, 1fr);
-    }
   }
 
   @media (max-width: 600px) {

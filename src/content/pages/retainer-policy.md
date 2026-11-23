@@ -1,8 +1,6 @@
 ---
 title: "Retainer Policy"
 seoTitle: "Retainer Policy | Nava Wilson Professional Corporation"
-kind: "legal"
-updated: "2024-07-31T15:45:20Z"
 ---
 
 ## Retainer and Billing Policies
