@@ -45,7 +45,10 @@ export const localiseUrl = (url = '') => {
 // Fixes the firm approved: current name (not on legal pages, which the firm updates itself) and typos.
 const LEGAL_PAGES = /privacy-policy|terms-of-use|retainer-policy|know-your-client/;
 const fixContent = (rel, content) => {
-  const fixed = content.replaceAll('Real State Law Service', 'Real Estate Law Service').replaceAll('Torontowith', 'Toronto with');
+  const fixed = content
+    .replaceAll('Real State Law Service', 'Real Estate Law Service')
+    .replaceAll('Torontowith', 'Toronto with')
+    .replaceAll('"href": "/wills-and-estates/get-started-today/"', '"href": "/wills-and-estates/wills-and-estate-questionnaire/"');
   return LEGAL_PAGES.test(rel) ? fixed : fixed.replaceAll('Nava Wilson LLP', 'Nava Wilson PC');
 };
 
