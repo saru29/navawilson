@@ -81,7 +81,7 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 
 - **Input**: the live rendered page, plus NitroPack's combined stylesheets. Tab panels embed other Elementor templates, which aren't in the API content.
 - **Structure**: section → columns (width %) → widgets, recursively. Elements hidden on every device are dropped (e.g. the lorem-ipsum "Closing Cost Calculation" blocks).
-- **Widgets**: heading, text, button, image, icon, icon box, icon list, accordion (FAQ and plain), tabs, posts carousel, form, HTML.
+- **Widgets**: heading, text, button (popup links become an in-card "Read more"), image, icon, icon box, icon list, accordion (FAQ and plain), tabs, posts carousel, form, HTML.
 - **Styles read from Elementor's per-element CSS**: backgrounds and gradients, radius, padding, borders, alignment, heading sizes and colours, icon sizes and colours, widget widths, absolute positions, column alignment.
 - **Layout model**: like Elementor, a column is a flex-wrap row of widgets with 10px padding. Widgets are full width unless Elementor gave them a width, which is how icon + heading sit side by side.
 - **Tabs** use radio inputs and accordions use `<details>`, so neither needs JS.
@@ -102,6 +102,7 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 - Homepage Services redesigned: four cards in a row (two on tablet, one on phone), icon inside the card, red check marks, "Learn more" link, red top accent on hover. Same services, links and colours.
 - Icon + heading rows (services, breach examples, Wills packages): the icon sits next to its heading instead of taking 24% of the column; those headings share one colour, weight and size (24–28px). Step cards in a row are equal height.
 - Two-column rows have a 48px gutter on tablet and desktop (Elementor's is 20px).
+- About team cards: "Read more" expands the full bio in the card (live opens an Elementor popup). Cards sit side by side near the centre with matching square photos.
 - Homepage hero has no red dots; review arrows and "View All" sit beside the quote mark.
 - The General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
 
@@ -129,7 +130,7 @@ Collected while converting. The site copies the live version in each case; nothi
 
 **Content**
 1. Firm name: the logo and footer say "Nava Wilson PC / Professional Corporation", but the About page, reviews and team bios say "Nava Wilson LLP". Which is current?
-2. Team bios are cut off ("…") on the live site. Are full bios available?
+2. Team bios: the cards show a teaser and the full bio opens in a popup on live. The new site opens it inside the card instead ("Read more" / "Read less"). The separate `/our-team/...` pages still have the cut-off text; should they use the full bios too, or be dropped?
 3. The About page shows 2 of the 4 team members. Malliha Wilson and Sutharsan Vasanthan have bio pages but aren't listed. Intended?
 4. The homepage lists four service areas. Immigration is hidden there and missing from the menu, though it has its own page. Intended?
 5. The Immigration page links to libertasimmigration.ca (14 links) for family sponsorship, work, study and visit pages. Is that a partner firm, and should those links stay?

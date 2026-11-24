@@ -25,7 +25,7 @@ const Content = entry.collection === 'layouts' ? null : (await render(entry)).Co
   type={isPost ? 'article' : 'website'}
 >
   {entry.collection === 'layouts' ? (
-    <main class="el-page"><Blocks items={entry.data.sections} top /></main>
+    <main class="el-page"><Blocks items={entry.data.sections} popups={entry.data.popups} top /></main>
   ) : (
     <main>
       <header class="banner">

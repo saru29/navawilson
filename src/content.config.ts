@@ -34,6 +34,7 @@ const layouts = defineCollection({
     seoTitle: z.string().optional(),
     description: z.string().optional(),
     sections: z.array(z.any()),
+    popups: z.record(z.string(), z.array(z.any())).optional(),
   }),
 });
 

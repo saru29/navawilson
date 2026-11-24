@@ -6,9 +6,21 @@ import PostCarousel from '../PostCarousel.astro';
 interface Props {
   items: any[];
   top?: boolean;
+  popups?: Record<string, any[]>;
 }
 
-const { items, top = false } = Astro.props;
+const { items, top = false, popups = {} } = Astro.props;
+
+// Text widgets from an Elementor popup (the name and role headings repeat the card, so they're skipped).
+const popupText = (id: string) => {
+  const out: string[] = [];
+  const walk = (list: any[] = []) => list.forEach((it) => {
+    if (it.type === 'text') out.push(it.html);
+    it.columns?.forEach((c: any) => walk(c.items));
+  });
+  walk(popups[id]);
+  return out.join('');
+};
 
 const css = (...parts: (Record<string, string | number> | undefined)[]) => {
   const merged = Object.assign({}, ...parts.filter(Boolean));
@@ -52,7 +64,7 @@ const hasBg = (s: any) =>
               class={classes(col, 'el-col', hasBg(col.style?.self) && 'el-bg')}
               style={css(col.style?.self, { '--w': `${col.width}%` })}
             >
-              <Astro.self items={col.items} />
+              <Astro.self items={col.items} popups={popups} />
             </div>
           ))}
         </div>
@@ -75,7 +87,18 @@ const hasBg = (s: any) =>
     case 'text':
       return <div class={wrap('el-text')} style={self} set:html={it.html} />;
     case 'button':
-      return <div class={wrap('el-button')} style={self}><a href={it.href} class:list={['el-btn', it.size && `size-${it.size}`]} style={css(s.button)}>{it.label}</a></div>;
+      return (
+        <div class={wrap('el-button')} style={self}>
+          {it.popup
+            ? (
+              <details class="el-more">
+                <summary class="el-btn" style={css(s.button)}><span class="more">{it.label}</span><span class="less">READ LESS</span></summary>
+                <div class="el-more-body" set:html={popupText(it.popup)} />
+              </details>
+            )
+            : <a href={it.href} class:list={['el-btn', it.size && `size-${it.size}`]} style={css(s.button)}>{it.label}</a>}
+        </div>
+      );
     case 'image': {
       const img = <img src={it.src} alt={it.alt} width={it.width} height={it.height} loading="lazy" />;
       return <div class={wrap('el-image')} style={self}>{it.href ? <a href={it.href}>{img}</a> : img}</div>;
@@ -130,7 +153,7 @@ const hasBg = (s: any) =>
             ))}
           </div>
           {it.tabs.map((tab: any, i: number) => (
-            <div class="el-tabpanel" data-panel={i}><Astro.self items={tab.items} top /></div>
+            <div class="el-tabpanel" data-panel={i}><Astro.self items={tab.items} popups={popups} top /></div>
           ))}
         </div>
       );

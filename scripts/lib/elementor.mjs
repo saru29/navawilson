@@ -195,7 +195,13 @@ function convertWidget($, el, ctx) {
     case 'button': {
       const $a = $c.find('a.elementor-button').first();
       const size = $a.attr('class')?.match(/elementor-size-(xs|sm|md|lg|xl)/)?.[1];
-      return { type, label: $a.text().replace(/\s+/g, ' ').trim(), href: localiseUrl($a.attr('href')), size };
+      const label = $a.text().replace(/\s+/g, ' ').trim();
+      const popup = popupId($a.attr('href'));
+      if (popup) {
+        ctx.popups.add(popup);
+        return { type, label, popup, size };
+      }
+      return { type, label, href: localiseUrl($a.attr('href')), size };
     }
     case 'image': {
       const $img = $c.find('img').first();
@@ -318,11 +324,27 @@ export const stylesheetUrls = (html) =>
   [...new Set([...html.matchAll(/href=["'](https:[^"']+\.css)(?:\?[^"']*)?["']/g)].map((m) => m[1]))]
     .filter((href) => /combinedCss|elementor\/css/.test(href));
 
+// "#elementor-action:action=popup:open&settings=<base64 {"id":"4667"}>" -> "4667"
+function popupId(href = '') {
+  const settings = decodeURIComponent(href).match(/action=popup:open&settings=([A-Za-z0-9+/=]+)/)?.[1];
+  if (!settings) return undefined;
+  try {
+    return String(JSON.parse(Buffer.from(settings, 'base64').toString()).id);
+  } catch {
+    return undefined;
+  }
+}
+
 export function convertPage(html, { postSlug, externalCss = '' }) {
   const $ = cheerio.load(html);
   const css = externalCss + '\n' + $('style').map((_, el) => $(el).text()).get().join('\n');
-  const ctx = { styles: parseCss(css), postSlug, unknown: new Set() };
+  const ctx = { styles: parseCss(css), postSlug, unknown: new Set(), popups: new Set() };
   const root = $('[data-elementor-type="wp-page"]').first();
   const sections = convertChildren($, root, ctx);
-  return { sections, unknown: [...ctx.unknown] };
+  const popups = {};
+  for (const id of ctx.popups) {
+    const $popup = $(`[data-elementor-type="popup"][data-elementor-id="${id}"]`).first();
+    if ($popup.length) popups[id] = convertChildren($, $popup, ctx);
+  }
+  return { sections, popups, unknown: [...ctx.unknown] };
 }

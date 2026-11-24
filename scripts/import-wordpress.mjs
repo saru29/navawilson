@@ -114,9 +114,9 @@ for (const p of pages) {
   // Tab panels embed other Elementor templates, so convert the rendered page rather than the API content.
   const html = await (await fetch(`${SITE}/${path}/`)).text();
   const sheets = await Promise.all(stylesheetUrls(html).map(fetchCss));
-  const { sections, unknown } = convertPage(html, { postSlug, externalCss: sheets.join('\n') });
+  const { sections, popups, unknown } = convertPage(html, { postSlug, externalCss: sheets.join('\n') });
   if (unknown.length) console.log(`  ${path}: unknown widgets ${unknown.join(', ')}`);
-  await write(`src/content/layouts/${path}.json`, JSON.stringify({ ...meta, sections }, null, 2) + '\n');
+  await write(`src/content/layouts/${path}.json`, JSON.stringify({ ...meta, sections, ...(Object.keys(popups).length && { popups }) }, null, 2) + '\n');
   layoutPages++;
 }
 console.log(`pages: ${textPages} text, ${layoutPages} layout`);
