@@ -1,0 +1,54 @@
+---
+// A group of fields people can add more of ("Add another child"). Field names are numbered: "Child 2 – Name".
+interface RepeatField {
+  label: string;
+  type?: 'text' | 'email' | 'tel' | 'date' | 'number';
+  required?: boolean;
+  desc?: string;
+}
+
+interface Props {
+  title: string;
+  item: string;
+  fields: RepeatField[];
+  required?: boolean;
+  desc?: string;
+}
+
+const { title, item, fields, required = false, desc } = Astro.props;
+const row = (n: number) => fields.map((f) => ({ ...f, name: `${item} ${n} – ${f.label}` }));
+---
+
+<fieldset class="q-repeater" data-item={item}>
+  <legend class="q-label">{title}{required && <span class="req" aria-hidden="true">*</span>}</legend>
+  {desc && <p class="q-desc">{desc}</p>}
+  <div class="q-rows">
+    <div class="q-row">
+      <p class="q-row-title">{item} <span class="q-row-n">1</span></p>
+      <div class="q-grid">
+        {row(1).map((f) => (
+          <label class="q-field">
+            <span class="q-label">{f.label}{(f.required && required) && <span class="req" aria-hidden="true">*</span>}</span>
+            <input name={f.name} type={f.type ?? 'text'} required={f.required && required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
+            {f.desc && <span class="q-desc">{f.desc}</span>}
+          </label>
+        ))}
+      </div>
+    </div>
+  </div>
+  <template>
+    <div class="q-row">
+      <p class="q-row-title">{item} <span class="q-row-n"></span> <button type="button" class="q-remove">Remove</button></p>
+      <div class="q-grid">
+        {fields.map((f) => (
+          <label class="q-field">
+            <span class="q-label">{f.label}{f.required && <span class="req" aria-hidden="true">*</span>}</span>
+            <input type={f.type ?? 'text'} required={f.required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
+            {f.desc && <span class="q-desc">{f.desc}</span>}
+          </label>
+        ))}
+      </div>
+    </div>
+  </template>
+  <button type="button" class="q-add">+ Add another {item.toLowerCase()}</button>
+</fieldset>

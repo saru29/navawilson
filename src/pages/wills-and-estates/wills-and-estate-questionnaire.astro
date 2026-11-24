@@ -1,42 +1,616 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { EMAIL, PHONE, PHONE_HREF } from '../../data/site';
+import Choice from '../../components/wills/Choice.astro';
+import Field from '../../components/wills/Field.astro';
+import Repeater from '../../components/wills/Repeater.astro';
+import { EMAIL, PHONE, PHONE_HREF, WEB3FORMS_ACCESS_KEY } from '../../data/site';
+
+const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
+const steps = ['Your Information', 'Family', 'Executors', 'Beneficiaries', 'Assets', 'Funeral Wishes', 'Other Notes', 'Submit'];
+const person = [
+  { label: 'Name', required: true },
+  { label: 'Relationship' },
+  { label: 'Phone', type: 'tel' as const },
+  { label: 'Email', type: 'email' as const },
+];
+const guardian = [{ label: 'Name', required: true }, { label: 'Phone', type: 'tel' as const }];
+const guardianDesc = 'A person legally appointed to care for and make decisions on behalf of someone who is unable to do so themselves.';
+const assets = [
+  ['Real Estate', 'Real Estate', 'In a few words, describe your wishes regarding your real estate'],
+  ['Bank Accounts (institutions, joint or sole ownership)', 'Bank Accounts', 'In a few words, describe your wishes pertaining to your bank account assets.'],
+  ['Investments', 'Investments', 'In a few words, describe your wishes pertaining to your investment assets.'],
+  ['Corporate Interests', 'Corporate Interests', 'In a few words, describe your wishes pertaining to your corporate interest assets, including shares or ownership in any business.'],
+  ['Personal property of significant value (e.g. vehicles, jewellery or artwork)', 'Personal property of significant value', 'In a few words, describe your wishes pertaining to your personal property of significant value, such as, vehicles, jewellery, or artwork.'],
+];
 ---
 
 <BaseLayout
   title="Wills & Estate Questionnaire | Nava Wilson"
-  description="Start your will and power of attorney with Nava Wilson. Contact our wills and estates team to receive the questionnaire."
+  description="Start your Will and Powers of Attorney with Nava Wilson PC: tell us about your family, executors, beneficiaries and wishes."
 >
   <main class="section">
-    <div class="container center">
+    <div class="container">
       <h1 class="title">Wills &amp; Estate<span>Questionnaire</span></h1>
-      <p>
-        To get started on your will and powers of attorney, contact our wills and estates team. We’ll send you the questionnaire
-        and a secure way to share your documents.
-      </p>
-      <div class="links">
-        <a href={PHONE_HREF} class="btn">Call {PHONE}</a>
-        <a href={`mailto:${EMAIL}?subject=Wills%20and%20estates%20questionnaire`} class="btn">Email {EMAIL}</a>
-      </div>
+
+      <form class="q" action="https://api.web3forms.com/submit" method="post" data-wills-form novalidate>
+        <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+        <input type="hidden" name="subject" value="Wills & Estate Questionnaire" />
+        <input type="hidden" name="from_name" value="Nava Wilson website" />
+        <input type="hidden" name="redirect" value={thanksUrl} />
+        <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" />
+
+        <div class="q-progress" aria-hidden="true">
+          <p>NavaWilson PC Will Questionnaire – Step <span data-step-n>1</span> of {steps.length}: <strong data-step-title>{steps[0]}</strong></p>
+          <div class="q-bar"><span data-bar></span></div>
+        </div>
+
+        <section class="q-step" data-step="1">
+          <h2>Your Information</h2>
+          <div class="q-grid">
+            <Field label="Full Name" required autocomplete="name" />
+            <Field label="Email" type="email" required autocomplete="email" />
+            <Field label="Phone" type="tel" required autocomplete="tel" />
+            <Field
+              label="Marital Status"
+              type="select"
+              required
+              options={['Single', 'Married', 'Divorced', 'Separated, with formal Separation Agreement', 'Separated, with no formal Separation Agreement', 'Common Law']}
+            />
+            <div class="q-when" data-when="Marital Status" data-values="Married|Separated, with formal Separation Agreement|Separated, with no formal Separation Agreement|Common Law">
+              <Field label="Spouse/Partner's Name" required />
+            </div>
+          </div>
+        </section>
+
+        <section class="q-step" data-step="2">
+          <h2>Family</h2>
+          <Choice legend="Do you have any children?" options={['Yes', 'No']} required />
+          <div class="q-when" data-when="Do you have any children?" data-values="Yes">
+            <Repeater title="Children" item="Child" required fields={[{ label: 'Name', required: true }, { label: 'Date of Birth', type: 'date' }]} />
+          </div>
+          <Choice
+            legend="Do you have any dependents under 18?"
+            options={['Yes', 'No']}
+            required
+            note="Note: Dependents are individuals under 18 who depend on you for financial support and care"
+          />
+          <div class="q-when" data-when="Do you have any dependents under 18?" data-values="Yes">
+            <Repeater title="Guardian(s)" item="Guardian" required desc={guardianDesc} fields={guardian} />
+          </div>
+        </section>
+
+        <section class="q-step" data-step="3">
+          <h2>Executors <small>(Person who will handle your estate)</small></h2>
+          <Repeater
+            title="Main Executor"
+            item="Main Executor"
+            required
+            desc="Our first choice to manage and distribute your estate; this person will handle everything from filing taxes to carrying out your final wishes."
+            fields={person}
+          />
+          <Repeater
+            title="Alternate Executor"
+            item="Alternate Executor"
+            desc="A backup executor who steps in if my primary executor is unable or unwilling to act. We strongly recommend appointing an Alternate Executor."
+            fields={person}
+          />
+        </section>
+
+        <section class="q-step" data-step="4">
+          <h2>List of Beneficiaries</h2>
+          <p class="q-intro">List each person you wish to leave something to. Even if you are unsure of the specific amount or item, we will guide you through the process.</p>
+          <Repeater
+            title="Beneficiaries"
+            item="Beneficiary"
+            required
+            fields={[
+              { label: 'Name', required: true },
+              { label: 'Relationship', desc: 'Their relationship to you (e.g., son, sister, friend, spouse)' },
+              { label: 'Phone', type: 'tel' },
+              { label: 'Email', type: 'email' },
+            ]}
+          />
+          <Choice legend="One or more of my beneficiaries are a minor" options={['Yes', 'No']} />
+          <div class="q-when" data-when="One or more of my beneficiaries are a minor" data-values="Yes">
+            <div class="q-grid">
+              <Field label="Name of beneficiary that is a minor" required />
+              <Field label="Phone" name="Minor beneficiary – Phone" type="tel" />
+            </div>
+            <Choice legend="Do they share the same Guardian as specified in Step 2?" options={['Yes', 'No']} />
+            <div class="q-when" data-when="Do they share the same Guardian as specified in Step 2?" data-values="No">
+              <Repeater title="Guardian(s)" item="Minor's Guardian" required desc={guardianDesc} fields={guardian} />
+            </div>
+          </div>
+          <Repeater
+            title="Specific gifts (Optional)"
+            item="Gift"
+            desc="List any particular items you wish to leave to a specific person. If you would like to divide an item among more than one person, please indicate the percentage each person should receive."
+            fields={[{ label: 'Gift Item', desc: 'e.g. jewelry, a vehicle, property, or a sentimental item' }, { label: 'Name of recipient' }]}
+          />
+          <Repeater
+            title="Residual Estate"
+            item="Residual Beneficiary"
+            required
+            desc="The person who receives everything left over after all specific gifts, debts, and expenses have been paid — this is often a spouse, child, or close family member."
+            fields={[{ label: 'Name', required: true }, { label: 'Phone', type: 'tel' }, { label: 'Ownership (%)', type: 'number' }]}
+          />
+        </section>
+
+        <section class="q-step" data-step="5">
+          <h2>Assets <small>(Optional)</small></h2>
+          <p class="q-intro">All property and possessions you own, whether solely or jointly, that have monetary or personal value and may form part of your estate.</p>
+          <p class="q-note">
+            <strong>Please complete this section only if you would like to divide specific assets or accounts among beneficiaries.</strong>
+            We generally recommend keeping your Will simple by referring to “all accounts” or “all assets,” rather than listing individual items, since new accounts or assets added in the future may otherwise require updates to your Will.
+          </p>
+          <Choice legend="I would like to add the following assets:" options={assets.map(([o]) => o)} multiple />
+          <div class="q-grid">
+            {assets.map(([option, label, desc]) => (
+              <div class="q-when wide" data-when="I would like to add the following assets:" data-values={option}>
+                <Field label={label} desc={desc} wide />
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section class="q-step" data-step="6">
+          <h2>Funeral Wishes</h2>
+          <p class="q-intro">Indicate your preferred arrangements (burial, cremation, or no preference) and any special requests to guide your loved ones.</p>
+          <div class="q-grid">
+            <Field label="Do you have any funeral wishes?" type="select" required options={['Yes', 'No']} />
+            <div class="q-when" data-when="Do you have any funeral wishes?" data-values="Yes">
+              <Field label="Preferred Disposition of Remains" type="select" options={['Burial', 'Cremation', 'No Preference']} />
+            </div>
+            <div class="q-when wide" data-when="Do you have any funeral wishes?" data-values="Yes">
+              <Field label="Other special requests" type="textarea" />
+            </div>
+          </div>
+        </section>
+
+        <section class="q-step" data-step="7">
+          <h2>Other Notes &amp; Special Instructions</h2>
+          <p class="q-intro">Include any wishes regarding pets, charitable donations, or anything else you'd like your lawyer to consider.</p>
+          <Choice legend="Please select any that you wish to add" options={['Instructions regarding pets', 'Charitable Donations', 'Other Instructions']} multiple />
+          <div class="q-grid">
+            <div class="q-when wide" data-when="Please select any that you wish to add" data-values="Instructions regarding pets">
+              <Field label="Pet Care Instructions" desc={'e.g. "leave my dog to my sister Jane"'} wide />
+            </div>
+            <div class="q-when wide" data-when="Please select any that you wish to add" data-values="Charitable Donations">
+              <Field label="Charitable Donations" type="textarea" required desc="Specific organizations and any amounts or percentages you'd like to leave." />
+            </div>
+            <div class="q-when wide" data-when="Please select any that you wish to add" data-values="Other Instructions">
+              <Field label="Other Instructions" type="textarea" required desc="Anything else that you'd like to let us know" />
+            </div>
+          </div>
+        </section>
+
+        <section class="q-step" data-step="8">
+          <h2>Submit</h2>
+          <p class="q-intro">Thank you for completing the questionnaire! Kindly click "Submit" to ensure your responses are saved.</p>
+        </section>
+
+        <p class="q-status" role="status" aria-live="polite" hidden></p>
+
+        <div class="q-nav">
+          <button type="button" class="btn q-prev" data-prev>Previous</button>
+          <button type="button" class="btn" data-next>Next</button>
+          <button type="submit" class="btn" data-submit>Submit</button>
+        </div>
+      </form>
+
+      <p class="q-help">Questions? Call <a href={PHONE_HREF}>{PHONE}</a> or email <a href={`mailto:${EMAIL}`}>{EMAIL}</a>.</p>
     </div>
   </main>
 </BaseLayout>
 
-<style>
-  .center {
-    text-align: center;
+<script>
+  import { EMAIL, PHONE } from '../../data/site';
+
+  const form = document.querySelector<HTMLFormElement>('[data-wills-form]')!;
+  const steps = [...form.querySelectorAll<HTMLElement>('.q-step')];
+  const prev = form.querySelector<HTMLButtonElement>('[data-prev]')!;
+  const next = form.querySelector<HTMLButtonElement>('[data-next]')!;
+  const submit = form.querySelector<HTMLButtonElement>('[data-submit]')!;
+  const status = form.querySelector<HTMLElement>('.q-status')!;
+  let current = 0;
+
+  form.classList.add('js');
+
+  const valuesOf = (name: string) =>
+    [...form.querySelectorAll<HTMLInputElement | HTMLSelectElement>(`[name="${CSS.escape(name)}"]`)]
+      .filter((el) => !el.disabled && (!(el instanceof HTMLInputElement) || !['radio', 'checkbox'].includes(el.type) || el.checked))
+      .map((el) => el.value);
+
+  // Hidden conditional sections are disabled, so they're neither validated nor sent.
+  const applyConditions = () => {
+    for (const block of form.querySelectorAll<HTMLElement>('.q-when')) {
+      const visible = !block.parentElement!.closest('.q-when[hidden]') && valuesOf(block.dataset.when!).some((v) => block.dataset.values!.split('|').includes(v));
+      block.hidden = !visible;
+      block.querySelectorAll<HTMLInputElement>('input, select, textarea').forEach((el) => (el.disabled = !visible));
+    }
+  };
+
+  const renumber = (repeater: HTMLElement) => {
+    const item = repeater.dataset.item!;
+    repeater.querySelectorAll<HTMLElement>('.q-rows > .q-row').forEach((row, i) => {
+      row.querySelector('.q-row-n')!.textContent = String(i + 1);
+      row.querySelectorAll<HTMLInputElement>('[data-field]').forEach((input) => (input.name = `${item} ${i + 1} – ${input.dataset.field}`));
+    });
+  };
+
+  for (const repeater of form.querySelectorAll<HTMLElement>('.q-repeater')) {
+    const rows = repeater.querySelector<HTMLElement>('.q-rows')!;
+    const template = repeater.querySelector<HTMLTemplateElement>('template')!;
+    repeater.querySelector('.q-add')!.addEventListener('click', () => {
+      const row = template.content.firstElementChild!.cloneNode(true) as HTMLElement;
+      row.querySelector('.q-remove')!.addEventListener('click', () => {
+        row.remove();
+        renumber(repeater);
+      });
+      rows.append(row);
+      renumber(repeater);
+      row.querySelector('input')?.focus();
+    });
   }
 
-  p {
-    max-width: 680px;
-    margin: 28px auto 32px;
-    font-size: var(--fs-lead);
+  const show = (index: number) => {
+    current = index;
+    steps.forEach((step, i) => (step.hidden = i !== index));
+    prev.hidden = index === 0;
+    next.hidden = index === steps.length - 1;
+    submit.hidden = index !== steps.length - 1;
+    form.querySelector('[data-step-n]')!.textContent = String(index + 1);
+    form.querySelector('[data-step-title]')!.textContent = steps[index].querySelector('h2')!.firstChild!.textContent!.trim();
+    form.querySelector<HTMLElement>('[data-bar]')!.style.width = `${((index + 1) / steps.length) * 100}%`;
+    status.hidden = true;
+  };
+
+  const stepIsValid = (step: HTMLElement) => {
+    const invalid = [...step.querySelectorAll<HTMLInputElement>('input, select, textarea')].find((el) => !el.disabled && el.type !== 'hidden' && !el.checkValidity());
+    if (!invalid) return true;
+    invalid.reportValidity();
+    return false;
+  };
+
+  prev.addEventListener('click', () => {
+    show(current - 1);
+    form.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  next.addEventListener('click', () => {
+    if (!stepIsValid(steps[current])) return;
+    show(current + 1);
+    form.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  form.addEventListener('change', applyConditions);
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const firstInvalid = steps.findIndex((step) => [...step.querySelectorAll<HTMLInputElement>('input, select, textarea')].some((el) => !el.disabled && !el.checkValidity()));
+    if (firstInvalid !== -1) {
+      show(firstInvalid);
+      stepIsValid(steps[firstInvalid]);
+      return;
+    }
+
+    const data: Record<string, string> = {};
+    for (const [key, value] of new FormData(form)) {
+      if (typeof value !== 'string' || value.trim() === '') continue;
+      data[key] = data[key] ? `${data[key]}, ${value}` : value;
+    }
+    data.subject = `Wills & Estate Questionnaire – ${data['Full Name'] ?? ''}`.trim();
+    data.page = location.href;
+
+    submit.disabled = true;
+    submit.textContent = 'Submitting…';
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.success) throw new Error(result.message);
+      location.assign('/contact-us/thanks/');
+    } catch {
+      status.textContent = `Sorry, your questionnaire didn't go through. Please try again, or call ${PHONE} or email ${EMAIL}.`;
+      status.hidden = false;
+      submit.disabled = false;
+      submit.textContent = 'Submit';
+    }
+  });
+
+  applyConditions();
+  show(0);
+</script>
+
+<style is:global>
+  .q {
+    max-width: 820px;
+    margin: 40px auto 0;
+    padding: 40px;
+    border-radius: var(--radius-panel);
+    background: var(--color-tint);
   }
 
-  .links {
+  .q-progress {
+    display: none;
+    margin-bottom: 28px;
+    font-size: 15px;
+  }
+
+  .q.js .q-progress {
+    display: block;
+  }
+
+  .q-bar {
+    height: 6px;
+    margin-top: 10px;
+    border-radius: 999px;
+    background: #dcdcea;
+    overflow: hidden;
+  }
+
+  .q-bar span {
+    display: block;
+    height: 100%;
+    background: var(--color-primary);
+    transition: width 0.3s;
+  }
+
+  .q-step + .q-step {
+    margin-top: 48px;
+  }
+
+  .q.js .q-step + .q-step {
+    margin-top: 0;
+  }
+
+  .q-step h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .q-step h2 small {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+  }
+
+  .q-intro,
+  .q-note {
+    margin: 0 0 20px;
+  }
+
+  .q-note {
+    padding: 16px 18px;
+    border-left: 4px solid var(--color-primary);
+    border-radius: 8px;
+    background: var(--color-white);
+    font-size: 15px;
+  }
+
+  .q-note strong {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .q-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 20px;
+  }
+
+  .q-grid > .wide,
+  .q-grid .q-field.wide {
+    grid-column: 1 / -1;
+  }
+
+  .q-when[hidden] {
+    display: none;
+  }
+
+  .q-when > .q-grid + .q-choice {
+    margin-top: 16px;
+  }
+
+  .q-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .q-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-heading);
+  }
+
+  .q .req {
+    margin-left: 2px;
+    color: var(--color-primary);
+  }
+
+  .q-desc {
+    font-size: 14px;
+    color: var(--color-text-muted);
+  }
+
+  .q input:not([type='radio'], [type='checkbox']),
+  .q select,
+  .q textarea {
+    width: 100%;
+    padding: 11px 14px;
+    border: 1px solid #d6d6e4;
+    border-radius: 10px;
+    background: var(--color-white);
+    font: inherit;
+    font-size: 16px;
+    color: var(--color-text);
+  }
+
+  .q input:focus,
+  .q select:focus,
+  .q textarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+  }
+
+  .q-choice,
+  .q-repeater {
+    margin: 0 0 24px;
+    padding: 0;
+    border: 0;
+  }
+
+  .q-choice legend,
+  .q-repeater legend {
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .q-options {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .q-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border: 1px solid #d6d6e4;
+    border-radius: 999px;
+    background: var(--color-white);
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .q-option:has(input:checked) {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .q-option input {
+    accent-color: var(--color-primary);
+  }
+
+  .q-choice .q-desc {
+    margin: 10px 0 0;
+  }
+
+  .q-repeater > .q-desc {
+    margin: -4px 0 12px;
+  }
+
+  .q-row {
+    padding: 18px;
+    border-radius: 14px;
+    background: var(--color-white);
+  }
+
+  .q-row + .q-row {
+    margin-top: 12px;
+  }
+
+  .q-row-title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  .q-remove {
+    margin-left: auto;
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-size: 14px;
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .q-add {
+    margin-top: 12px;
+    padding: 8px 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--color-primary);
+    cursor: pointer;
+  }
+
+  .q-add:hover,
+  .q-remove:hover {
+    text-decoration: underline;
+  }
+
+  .q-nav {
+    display: flex;
     gap: 12px;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-top: 32px;
+  }
+
+  .q-nav [hidden] {
+    display: none;
+  }
+
+  .q-prev {
+    margin-right: auto;
+    background: var(--color-white);
+    color: var(--color-primary);
+  }
+
+  .q-prev:hover {
+    background: #e2e2f0;
+  }
+
+  .q-nav [data-prev],
+  .q-nav [data-next] {
+    display: none;
+  }
+
+  .q.js .q-nav [data-prev]:not([hidden]),
+  .q.js .q-nav [data-next]:not([hidden]) {
+    display: inline-flex;
+  }
+
+  .q-status {
+    margin: 20px 0 0;
+    text-align: center;
+    color: var(--color-primary);
+  }
+
+  .q-help {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .q-help a {
+    color: var(--color-primary);
+  }
+
+  .q .botcheck {
+    display: none;
+  }
+
+  @media (max-width: 767px) {
+    .q {
+      padding: 24px 16px;
+      border-radius: var(--radius-card);
+    }
+    .q-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
   }
 </style>
