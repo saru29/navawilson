@@ -42,7 +42,15 @@ export const localiseUrl = (url = '') => {
   return OLD_URLS[out] ?? (out || '/');
 };
 
+// Fixes the firm approved: current name (not on legal pages, which the firm updates itself) and typos.
+const LEGAL_PAGES = /privacy-policy|terms-of-use|retainer-policy|know-your-client/;
+const fixContent = (rel, content) => {
+  const fixed = content.replaceAll('Real State Law Service', 'Real Estate Law Service').replaceAll('Torontowith', 'Toronto with');
+  return LEGAL_PAGES.test(rel) ? fixed : fixed.replaceAll('Nava Wilson LLP', 'Nava Wilson PC');
+};
+
 export async function write(rel, content) {
+  content = fixContent(rel, content);
   const file = join(ROOT, rel);
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, content);

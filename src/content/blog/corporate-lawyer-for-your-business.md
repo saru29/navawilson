@@ -9,7 +9,7 @@ categories: ["Corporate Law"]
 image: "/wp-content/uploads/2023/01/pexels-divinetechygirl-1181248-scaled.jpg"
 ---
 
-Recently Nava Wilson LLP was named the [Best Corporate Lawyers in Toronto](https://www.thebesttoronto.com/top-corporate-lawyers-toronto/) by The Best Toronto. The Best Toronto serves as a guide to the best things that Toronto offers, from the top products to the most dependable services. In light of this event, we’ve decided to share some core information business owners should know about corporate law.
+Recently Nava Wilson PC was named the [Best Corporate Lawyers in Toronto](https://www.thebesttoronto.com/top-corporate-lawyers-toronto/) by The Best Toronto. The Best Toronto serves as a guide to the best things that Toronto offers, from the top products to the most dependable services. In light of this event, we’ve decided to share some core information business owners should know about corporate law.
 
 ## What is corporate law?
 

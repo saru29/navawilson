@@ -126,24 +126,25 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 
 ## Questions for the consultant
 
-Collected while converting. The site copies the live version in each case; nothing here has been changed.
+Still open. The site copies the live version in each case unless noted.
 
 **Content**
-1. Firm name: the logo and footer say "Nava Wilson PC / Professional Corporation", but the About page, reviews and team bios say "Nava Wilson LLP". Which is current?
-2. Team bios: the cards show a teaser and the full bio opens in a popup on live. The new site opens it inside the card instead ("Read more" / "Read less"). The separate `/our-team/...` pages still have the cut-off text; should they use the full bios too, or be dropped?
-3. The About page shows 2 of the 4 team members. Malliha Wilson and Sutharsan Vasanthan have bio pages but aren't listed. Intended?
-4. The homepage lists four service areas. Immigration is hidden there and missing from the menu, though it has its own page. Intended?
-5. The Immigration page links to libertasimmigration.ca (14 links) for family sponsorship, work, study and visit pages. Is that a partner firm, and should those links stay?
-6. Typos on the live site: a review says "guide ne through" ("me"); the contact form label says "Service Requried"; the Real Estate Law page's internal title is "Real State Law Service".
-7. `/litigation-lawyerss/` has a double "s" in its URL. Keep it (it's indexed) or rename with a redirect?
-8. There's no copyright line in the live footer. Add one?
-9. The Wills and Estates column in the Practice Areas menu is empty on the live site. The new site lists the three existing Wills pages under it (General Will & POA Planning, Will & POA for Couples, High-Income / Legacy Estate Planning). OK?
+1. `/litigation-lawyerss/` has a double "s" in its URL. Keep it (it's indexed) or rename with a redirect?
+2. The Wills and Estates column in the Practice Areas menu is empty on the live site. The new site lists the three existing Wills pages under it (General Will & POA Planning, Will & POA for Couples, High-Income / Legacy Estate Planning). OK?
+3. The legal pages (Privacy Policy, Terms of Use, Retainer Policy, Know Your Client) still name "Nava Wilson LLP" as the legal entity. Can the firm supply updated wording for Nava Wilson PC?
 
 **Forms and integrations**
-10. Contact form: who should receive enquiries (info@navawilson.law?). We need a form service key (Web3Forms, free) for that address.
-11. Wills & Estate Questionnaire: it collects sensitive details and file uploads. Where should it go now: an iClosed intake, a secure form service, or email only?
-12. The reviews "View All" button opens a Google search. Is there a Google Business Profile link to use instead?
-13. Analytics: GTM `GTM-M6H6DWP` is kept. The live site also loads a LinkedIn Insight pixel. Still needed? It can be added through GTM.
+4. Contact form: now live on Web3Forms. Enquiries go to the address the Web3Forms key was created with. Confirm that's the right inbox (info@navawilson.law?).
+5. The reviews "View All" button opens a Google search. Is there a Google Business Profile link to use instead?
+6. Analytics: GTM `GTM-M6H6DWP` is kept. The live site also loads a LinkedIn Insight pixel. Still needed? It can be added through GTM.
 
 **Pages not carried over** (they'll return "page not found")
-14. `/home-copy/` (an old draft of the homepage), `/category/uncategorized/` and the 21 tag pages (`/tag/...`). OK to drop?
+7. `/home-copy/` (an old draft of the homepage), `/category/uncategorized/` and the 21 tag pages (`/tag/...`). OK to drop?
+
+## Decided
+
+- **Firm name**: Nava Wilson PC / Professional Corporation is current. "Nava Wilson LLP" becomes "Nava Wilson PC" on pages, team bios and blog posts (`fixContent` in `scripts/lib/wp.mjs`, so re-imports keep it). Not changed: client reviews (their own words) and the legal pages (question 3). "Nava Law Professional Corporation" on About is the firm's 2015–2017 name and stays.
+- **Typos fixed**: a review's "guide ne through" now reads "guide me through"; the Real Estate page's title "Real State Law Service" and its search description "Torontowith". The contact form label already reads "Service required".
+- **Copyright**: the footer ends with "© {year} Nava Wilson Professional Corporation. All rights reserved."
+- **Not raised with the consultant**: the cut-off `/our-team/...` bio pages, the two team members not on About, the hidden Immigration card, and the libertasimmigration.ca links. All stay as on live.
+- **Wills & Estate Questionnaire**: being decided (email or Web3Forms); placeholder page until then.

@@ -23,9 +23,9 @@ Toronto Star reporter also talked to a 19-year-old boy who said that during his 
 
 There was previously an existing community property run by the Malvern Family Resource Centre. However, according to MFRC youth manager Anjali Gaur- “Before the pandemic kids tended to gather there, but it was only open once a week until around 6 p.m. and was not officially a youth hub. The teens were asking for more and it’s really just a great way to break the ice with some of these youth because we do have a very vulnerable population coming out here to access our services,” Gaur told the Star.
 
-The youth hub received funding from local Real Estate Law firm Nava Wilson LLP and the space was outfitted to be more Gen Z friendly, decorated with coloured LED lights, filled with games and activities and was done using the input of children themselves who put forward their views.
+The youth hub received funding from local Real Estate Law firm Nava Wilson PC and the space was outfitted to be more Gen Z friendly, decorated with coloured LED lights, filled with games and activities and was done using the input of children themselves who put forward their views.
 
-[Kubes Navaratnam,](/about-us/) Managing Partner at the law firm Nava Wilson LLP, said he grew up in Scarborough as did several of their staff members.
+[Kubes Navaratnam,](/about-us/) Managing Partner at the law firm Nava Wilson PC, said he grew up in Scarborough as did several of their staff members.
 
 **“We love Scarborough and all the diverse people and places it has to offer,” he said. “But Scarborough, and our greater community in general, would thrive further if we could create nurturing environments and spaces to engage our youth to become contributing members of our society.”**
 
