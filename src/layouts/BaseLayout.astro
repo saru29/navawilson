@@ -23,7 +23,9 @@ const {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL(image, Astro.site);
-const gtm = import.meta.env.PROD && GTM_ID;
+// Off until navawilson.law points here: staging copies stay out of search and analytics.
+const live = import.meta.env.PUBLIC_SITE_LIVE === 'true';
+const gtm = import.meta.env.PROD && live && GTM_ID;
 ---
 
 <!doctype html>
@@ -34,7 +36,7 @@ const gtm = import.meta.env.PROD && GTM_ID;
 
     <title>{title}</title>
     <meta name="description" content={description} />
-    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonicalURL} />}
+    {noindex || !live ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonicalURL} />}
 
     <meta property="og:type" content={type} />
     <meta property="og:site_name" content="Nava Wilson" />
