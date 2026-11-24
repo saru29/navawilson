@@ -143,6 +143,7 @@
 
 /* ---- Headings and text ---- */
 .el-heading > * {
+  margin: 0;
   color: var(--color-heading);
   font-weight: 700;
   line-height: 1;
@@ -657,4 +658,142 @@
   .el-tablist label {
     font-size: 16px;
   }
+}
+
+/* ---- "Read more" that expands the full bio inside its card (Elementor popups on live) ---- */
+.el-more summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.el-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.el-more summary::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.2s;
+}
+
+.el-more[open] summary::after {
+  transform: rotate(-135deg) translateY(-2px);
+}
+
+.el-more .less,
+.el-more[open] .more {
+  display: none;
+}
+
+.el-more[open] .less {
+  display: inline;
+}
+
+.el-more-body {
+  margin-top: 4px;
+  font-size: var(--fs-body);
+  line-height: 1.7;
+  animation: el-more-in 0.3s ease;
+}
+
+.el-more-body p + p {
+  margin-top: 12px;
+}
+
+.el-more[open] {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.el-more[open] summary {
+  margin-top: 16px;
+}
+
+.el-col:has(> .el-button .el-more[open]) > .el-text {
+  display: none;
+}
+
+@keyframes el-more-in {
+  from { opacity: 0; transform: translateY(-6px); }
+}
+
+/* Team cards (About): two-up cards near the centre, matching photos, equal heights. */
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) {
+  padding-inline: 16px !important;
+  align-content: stretch;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child):first-child > .el-section {
+  max-width: 460px;
+  margin-left: auto;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child):last-child > .el-section {
+  max-width: 460px;
+  margin-right: auto;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) > .el-section.el-bg {
+  padding: 20px 20px 24px !important;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) > .el-section > .el-row,
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) > .el-section > .el-row > .el-col {
+  height: 100%;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) > .el-section > .el-row > .el-col {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 6px;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) .el-image {
+  margin-bottom: 10px;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) .el-image img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) .el-heading + .el-text {
+  margin-top: 8px;
+}
+
+.el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) .el-button {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.el-row:has(> .el-col > .el-section.el-bg .el-more[open]) {
+  align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+  .el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) > .el-section {
+    margin-inline: auto !important;
+  }
+  .el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) {
+    padding-block: 8px !important;
+  }
+  .el-row:has(> .el-col:nth-child(2):last-child) > .el-col:has(> .el-section.el-bg:only-child) .el-heading h2 {
+    font-size: 22px !important;
+  }
+}
+
+.el-row:has(> .el-col > .el-section.el-bg .el-more[open]) > .el-col > .el-section,
+.el-row:has(> .el-col > .el-section.el-bg .el-more[open]) > .el-col > .el-section > .el-row,
+.el-row:has(> .el-col > .el-section.el-bg .el-more[open]) > .el-col > .el-section > .el-row > .el-col {
+  height: auto;
 }

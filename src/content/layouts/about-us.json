@@ -230,7 +230,7 @@
                       },
                       "type": "button",
                       "label": "READ MORE",
-                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NjciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+                      "popup": "4667",
                       "size": "sm"
                     }
                   ]
@@ -333,7 +333,7 @@
                       },
                       "type": "button",
                       "label": "READ MORE",
-                      "href": "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQ2NzYiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+                      "popup": "4676",
                       "size": "sm"
                     }
                   ]
@@ -455,5 +455,131 @@
         }
       ]
     }
-  ]
+  ],
+  "popups": {
+    "4667": [
+      {
+        "type": "section",
+        "inner": false,
+        "id": "1edc662",
+        "hide": [],
+        "cls": [],
+        "columns": [
+          {
+            "id": "d803feb",
+            "width": 100,
+            "hide": [],
+            "cls": [],
+            "items": [
+              {
+                "id": "24b53f2",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "text-align": "center"
+                  },
+                  "title": {
+                    "color": "#373737",
+                    "font-weight": "700"
+                  }
+                },
+                "type": "heading",
+                "tag": "h2",
+                "html": "Kubes Navaratnam"
+              },
+              {
+                "id": "3d02035",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "text-align": "center"
+                  }
+                },
+                "type": "heading",
+                "tag": "h5",
+                "html": "Managing Partner"
+              },
+              {
+                "id": "9e1839d",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "color": "#454545",
+                    "font-weight": "500"
+                  }
+                },
+                "type": "text",
+                "html": "<p>Kubes Navaratnam is the Managing Partner at Nava Wilson LLP. Today Kubes leads negotiations on complex, multi-million dollar deals; has negotiated with municipal and provincial councils on land development projects; and has created models for re-structuring Canadian registered funds as investment vehicles for real estate.</p><p>The diversity in his areas of expertise is further underscored by his time in the Province of Ontario’s Office of the Public Guardian and Trustee; there he focused on civil litigation and estate matters on behalf of adults found to be mentally incapable. He is also a two-time honouree of Homes Magazine’s annual “Who’s Who of Real Estate”.</p><p>Under Kubes’ leadership, from 2015-2017, Nava Law Professional Corporation operated as a fast-growing Toronto law firm, that provided knowledgeable, value-driven, and client-focused legal advice to homeowners and entrepreneurs. Nava Law’s position within the communities it served, as a huge proponent of community building and capacity building, through investment in sustainable initiatives, served as the springboard from which Nava Wilson LLP has launched.</p><p>Kubes received an LL.M. in international humanitarian law from the University of Toronto, a J.D. from the University of Western Ontario, and a B.Eng. in Computer Engineering from McMaster University.</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "4676": [
+      {
+        "type": "section",
+        "inner": false,
+        "id": "1edc662",
+        "hide": [],
+        "cls": [],
+        "columns": [
+          {
+            "id": "d803feb",
+            "width": 100,
+            "hide": [],
+            "cls": [],
+            "items": [
+              {
+                "id": "24b53f2",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "text-align": "center"
+                  },
+                  "title": {
+                    "color": "#373737",
+                    "font-weight": "700"
+                  }
+                },
+                "type": "heading",
+                "tag": "h2",
+                "html": "Gathya Manoharan"
+              },
+              {
+                "id": "3d02035",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "text-align": "center"
+                  }
+                },
+                "type": "heading",
+                "tag": "h5",
+                "html": "Litigation Lawyer"
+              },
+              {
+                "id": "9e1839d",
+                "hide": [],
+                "cls": [],
+                "style": {
+                  "self": {
+                    "color": "#454545",
+                    "font-weight": "500"
+                  }
+                },
+                "type": "text",
+                "html": "<p>Gathya Manoharan is a Litigation Lawyer at Nava Wilson LLP. Her area of work focuses on real estate breaches, construction liens, and mortgage enforcements. Gathya truly works for the client’s interests.</p><p>Gathya is a passionate advocate for equitable access to education. Inspired by her experiences as a student at York University and then the University of Windsor, Gathya co-founded a workshop series in 2016 to help address the unique experiences of aspiring and current law students who are visible minorities.</p><p>The series focuses on getting into law school, the law school experience and balancing the challenges of practicing as a lawyer. She also participates on panels at the University of Toronto Scarborough addressing these topics, and in the programming of the York Region Youth Leadership Program.</p><p>Gathya was driven to become a lawyer when she realized how versatile and powerful a law degree could be to protect the rights of individuals. She still considers this to be one of the most rewarding aspects of her role.</p>"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
