@@ -1,14 +1,14 @@
 ---
 title: "Your Guide To The Standard Purchase Transaction"
 seoTitle: "Your Guide To The Standard Purchase Transaction | Nava Wilson Professional Corporation"
-description: "Nava Wilson LLP's guide covers key steps in buying a home, from signing the agreement to handling financing and ensuring compliance."
+description: "Nava Wilson PC's guide covers key steps in buying a home, from signing the agreement to handling financing and ensuring compliance."
 date: "2019-08-02T08:38:30Z"
 updated: "2024-07-31T16:58:24Z"
 author: "admin"
 categories: ["Real Estate Law"]
 ---
 
-The purchase of your new home is an exciting time. It can be quite overwhelming as well. From signing the Agreement of Purchase and Sale to executing the final closing documents is a process. At Nava Wilson LLP, we are here to make that process as smooth as possible. While we have our responsibilities, you, as the purchaser, need to be aware of what you need to get done as well. The purpose of this guide is to give you an oversight into the standard purchase transaction.
+The purchase of your new home is an exciting time. It can be quite overwhelming as well. From signing the Agreement of Purchase and Sale to executing the final closing documents is a process. At Nava Wilson PC, we are here to make that process as smooth as possible. While we have our responsibilities, you, as the purchaser, need to be aware of what you need to get done as well. The purpose of this guide is to give you an oversight into the standard purchase transaction.
 
 **The Agreement of Purchase and Sale**
 

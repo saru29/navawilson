@@ -2,14 +2,14 @@
 title: "The Impact Of The Government Of Ontario’s Cuts To Legal Aid"
 heading: "The Impact Of The Government Of Ontario's Cuts To Legal Aid"
 seoTitle: "The Impact Of The Government Of Ontario's Cuts To Legal Aid | Nava Wilson Professional Corporation"
-description: "Nava Wilson LLP supported the Tamil Community Town Hall, discussing the impact of Ontario’s legal aid cuts on marginalized communities."
+description: "Nava Wilson PC supported the Tamil Community Town Hall, discussing the impact of Ontario’s legal aid cuts on marginalized communities."
 date: "2019-08-05T09:29:29Z"
 updated: "2024-07-31T17:31:34Z"
 author: "admin"
 categories: ["Litigation"]
 ---
 
-Nava Wilson LLP was proud to be a Legal Partner for the South Asian Legal Clinic of Ontario and West Scarborough Community Legal Services’ Tamil Community Town Hall. This event focused on the impact of the Ontario Government cuts to Legal Aid and the particular impact on marginalized communities.
+Nava Wilson PC was proud to be a Legal Partner for the South Asian Legal Clinic of Ontario and West Scarborough Community Legal Services’ Tamil Community Town Hall. This event focused on the impact of the Ontario Government cuts to Legal Aid and the particular impact on marginalized communities.
 
 The lively town hall took place on Friday, July 19th from 6 to 8:30 pm at the Scarborough Civic Centre. At the event our Senior Partner Malliha Wilson discussed the impact cuts against legal aid will have on the Tamil and marginalized communities as a whole. Below you’ll find highlights from her remarks:
 
