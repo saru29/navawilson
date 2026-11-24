@@ -2,7 +2,7 @@
 
 Astro static site replacing the WordPress/Elementor site at navawilson.law. Built the same way as prcoach.ca.
 
-- **Read `docs/BUILD_GUIDE.md` first**: progress table, decisions, consultant questions. Update it after each step.
+- **Read `docs/BUILD_GUIDE.md` first** if it exists: progress table, decisions, consultant questions. It's a local file, ignored by git (it kept causing merge conflicts), so update it on disk and don't commit it.
 - **Convert the site as it is.** Keep content, wording, layout and colours identical to the live site. Don't fix typos or "improve" copy. Add anything questionable to "Questions for the consultant" in the build guide; it becomes a document at the end.
 - The user is new to Astro and comes from Angular: work step by step and explain (compare to Angular where it helps).
 - Node 22 (`.nvmrc`). `npm run dev` (http://localhost:4321), `npm run build`, `npm run preview`, `npm run import:wp`.

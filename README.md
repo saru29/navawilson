@@ -10,4 +10,4 @@ npm run preview     # serve dist/
 npm run import:wp   # re-import content from the live WordPress API (overwrites src/content)
 ```
 
-Requires Node 22 (`.nvmrc`). Progress, decisions and open questions: [docs/BUILD_GUIDE.md](docs/BUILD_GUIDE.md).
+Requires Node 22 (`.nvmrc`). Progress notes live in a local `docs/BUILD_GUIDE.md`, which git ignores.
