@@ -5,7 +5,7 @@ This file is the progress log and the record of decisions. Page content lives in
 
 **Decisions**
 - **Convert the site as it is.** Same content, wording, layout and colours as the live site. Small style tweaks (spacing, polish) are fine and listed under Step 6. Anything that looks wrong goes in "Questions for the consultant" below instead of being changed. That list becomes a document for the consultant at the end.
-- Separate repo, owned by saru29 next to the iClosed repos.
+- Repo: [saru29/navawilson](https://github.com/saru29/navawilson), public. Changes go through a branch and a pull request into `main`.
 - Astro 7 on Node 22 (`.nvmrc`). Plain CSS with variables. JS only where the live site has interaction (carousels), plus analytics and the two embedded forms.
 - All 61 blog posts move over at their existing URLs.
 - Wills & Estate Questionnaire (WPForms, file uploads, sensitive data): placeholder page with call/email until a secure destination is chosen.
@@ -26,7 +26,8 @@ This file is the progress log and the record of decisions. Page content lives in
 | 7 | Contact form service (Web3Forms key for info@navawilson.law) | ⏳ |
 | 8 | Wills questionnaire destination | ⏳ needs decision |
 | 9 | Consultant document from the questions list | ⏳ at the end |
-| 10 | GitHub repo under saru29, hosting, DNS switch (name.com) | ⏳ |
+| 10 | GitHub repo: [saru29/navawilson](https://github.com/saru29/navawilson) (public) | ✅ |
+| 11 | Hosting, DNS switch (name.com) | ⏳ |
 
 ---
 
