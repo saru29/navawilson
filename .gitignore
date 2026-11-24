@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # vercel link
 .vercel
+
+# local progress notes (kept out of git to avoid merge conflicts)
+docs/BUILD_GUIDE.md
