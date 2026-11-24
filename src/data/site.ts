@@ -11,7 +11,7 @@ export const GOOGLE_REVIEWS_URL =
 
 export const GTM_ID = 'GTM-M6H6DWP';
 // Web3Forms key for info@navawilson.law; empty shows an email button instead of the form.
-export const WEB3FORMS_ACCESS_KEY = '';
+export const WEB3FORMS_ACCESS_KEY = 'ccfc375f-cf68-4268-9d76-f254dc03b890';
 
 export type NavLink = { label: string; href: string; children?: NavLink[] };
 

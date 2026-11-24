@@ -1,0 +1,37 @@
+---
+interface Props {
+  label: string;
+  name?: string;
+  type?: 'text' | 'email' | 'tel' | 'date' | 'number' | 'textarea' | 'select';
+  required?: boolean;
+  desc?: string;
+  options?: string[];
+  autocomplete?: string;
+  wide?: boolean;
+}
+
+const { label, name = label, type = 'text', required = false, desc, options = [], autocomplete, wide = false } = Astro.props;
+---
+
+<label class:list={['q-field', { wide: wide || type === 'textarea' }]}>
+  <span class="q-label">{label}{required && <span class="req" aria-hidden="true">*</span>}</span>
+  {type === 'textarea' ? (
+    <textarea name={name} rows="4" required={required} data-label={label}></textarea>
+  ) : type === 'select' ? (
+    <select name={name} required={required} data-label={label}>
+      <option value="">Select…</option>
+      {options.map((o) => <option>{o}</option>)}
+    </select>
+  ) : (
+    <input
+      name={name}
+      type={type}
+      required={required}
+      autocomplete={autocomplete}
+      data-label={label}
+      min={type === 'number' ? 0 : undefined}
+      max={type === 'number' ? 100 : undefined}
+    />
+  )}
+  {desc && <span class="q-desc">{desc}</span>}
+</label>

@@ -1,0 +1,25 @@
+---
+interface Props {
+  legend: string;
+  name?: string;
+  options: string[];
+  multiple?: boolean;
+  required?: boolean;
+  note?: string;
+}
+
+const { legend, name = legend, options, multiple = false, required = false, note } = Astro.props;
+---
+
+<fieldset class="q-choice" data-required={required && !multiple ? '' : undefined}>
+  <legend class="q-label">{legend}{required && <span class="req" aria-hidden="true">*</span>}</legend>
+  <div class="q-options">
+    {options.map((o) => (
+      <label class="q-option">
+        <input type={multiple ? 'checkbox' : 'radio'} name={name} value={o} required={required && !multiple} />
+        <span>{o}</span>
+      </label>
+    ))}
+  </div>
+  {note && <p class="q-desc">{note}</p>}
+</fieldset>
