@@ -23,7 +23,7 @@ This file is the progress log and the record of decisions. Page content lives in
 | 4 | Layout, header (Practice Areas dropdown), footer, homepage | ✅ |
 | 5 | Blog index, posts, categories, team, legal pages, 404, redirects | ✅ |
 | 6 | Elementor converter: 22 practice-area/About/Contact pages rebuilt from their live layout | ✅ |
-| 7 | Contact form service (Web3Forms key for info@navawilson.law) | ⏳ |
+| 7 | Contact form on Web3Forms | ✅ |
 | 8 | Wills questionnaire destination | ⏳ needs decision |
 | 9 | Consultant document from the questions list | ⏳ at the end |
 | 10 | GitHub repo: [saru29/navawilson](https://github.com/saru29/navawilson) (public) | ✅ |
@@ -43,7 +43,7 @@ This file is the progress log and the record of decisions. Page content lives in
 
 | Page | Form | New site |
 |---|---|---|
-| Home, About, Contact, Get Started Today, some practice pages | Elementor form (name, email, phone, service, referral, message) | `ContactForm.astro` posting to Web3Forms. Shows call/email buttons until `WEB3FORMS_ACCESS_KEY` is set |
+| Home, About, Contact, Get Started Today, some practice pages | Elementor form (name, email, phone, service, referral, message) | `ContactForm.astro` on Web3Forms. Sends in the background, then opens `/contact-us/thanks/` on whatever domain the site is on; on failure it shows the phone and email. Each enquiry includes the page it came from. Without JS it posts normally |
 | `/wills-and-estates/wills-and-estate-questionnaire/` | WPForms #5731, long, with file uploads | Placeholder page |
 | `/nava-wilson-pc-pr-assessment/` | PR Coach iframe (`partner_id=2007`) | Same iframe |
 | `/adult-guardianship-intake/` | Fillout embed `pMicjSmwfLus` | Same embed |
