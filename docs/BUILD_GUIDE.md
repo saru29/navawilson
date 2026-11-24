@@ -9,7 +9,7 @@ This file is the progress log and the record of decisions. Page content lives in
 - Astro 7 on Node 22 (`.nvmrc`). Plain CSS with variables. JS only where the live site has interaction (carousels), plus analytics and the two embedded forms.
 - All 61 blog posts move over at their existing URLs.
 - Wills & Estate Questionnaire (WPForms, file uploads, sensitive data): placeholder page with call/email until a secure destination is chosen.
-- Hosting: decide before the domain switch.
+- Hosting: Vercel (static Astro build, no adapter). It runs on a `*.vercel.app` address until the new site is approved, then navawilson.law moves over.
 
 ---
 
@@ -103,6 +103,22 @@ Dates are WordPress local times written with a `Z` suffix and formatted in UTC, 
 - Two-column rows have a 48px gutter on tablet and desktop (Elementor's is 20px).
 - Homepage hero has no red dots; review arrows and "View All" sit beside the quote mark.
 - The General Will & POA Planning heading scrolls sideways on phones on the live site; the new site lets it wrap.
+
+---
+
+## Step 11: Vercel
+
+- Import `saru29/navawilson` at vercel.com/new. Vercel detects Astro; build command `npm run build`, output `dist`, Node 22 (from `package.json`). No environment variables needed yet.
+- Every merge to `main` deploys to production; every pull request gets a preview link.
+- `PUBLIC_SITE_LIVE` is off until the domain switch. While it's off, every page is `noindex`, `robots.txt` disallows everything and Google Tag Manager isn't loaded, so the staging copy stays out of Google and the analytics.
+
+**Domain switch checklist** (after approval)
+1. In Vercel, set `PUBLIC_SITE_LIVE=true` for Production and redeploy.
+2. Turn the old-URL redirects into real 301s: Astro's static `redirects` only write meta-refresh pages. Add them to `vercel.json` (from `src/data/redirects.mjs`).
+3. Add `navawilson.law` and `www.navawilson.law` to the Vercel project (www redirects to the apex).
+4. At name.com, change only the apex A record and the `www` record to Vercel's values. Leave the MX and other Google Workspace records alone.
+5. Check the site, the forms and a few old URLs; submit the sitemap in Google Search Console.
+6. Keep Cloudways running for a week or two before cancelling.
 
 ---
 
