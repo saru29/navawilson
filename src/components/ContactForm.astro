@@ -1,5 +1,6 @@
 ---
 import { EMAIL, PHONE, PHONE_HREF, REFERRAL_OPTIONS, SERVICE_OPTIONS, WEB3FORMS_ACCESS_KEY } from '../data/site';
+import { PATTERNS } from '../lib/validation';
 
 interface Props {
   bare?: boolean;
@@ -22,8 +23,8 @@ const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
 
       <label><span class="sr">First name</span><input name="first_name" placeholder="First Name*" autocomplete="given-name" required /></label>
       <label><span class="sr">Last name</span><input name="last_name" placeholder="Last Name*" autocomplete="family-name" required /></label>
-      <label><span class="sr">Email</span><input name="email" type="email" placeholder="Email*" autocomplete="email" required /></label>
-      <label><span class="sr">Phone</span><input name="phone" type="tel" placeholder="Phone No*" autocomplete="tel" required /></label>
+      <label><span class="sr">Email</span><input name="email" type="email" pattern={PATTERNS.email} placeholder="Email*" autocomplete="email" required /></label>
+      <label><span class="sr">Phone</span><input name="phone" type="tel" pattern={PATTERNS.tel} placeholder="Phone No*" autocomplete="tel" required /></label>
       <label>
         <span class="sr">Service required</span>
         <select name="service" required>
@@ -56,6 +57,9 @@ const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
 <script>
   // Sends in the background so the thank-you page is on this site whatever the domain; without JS the form posts normally.
   import { EMAIL, PHONE } from '../data/site';
+  import { validateEmailAndPhone } from '../lib/validation';
+
+  validateEmailAndPhone();
 
   for (const form of document.querySelectorAll<HTMLFormElement>('[data-contact-form]')) {
     const button = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
@@ -132,6 +136,10 @@ const thanksUrl = new URL('/contact-us/thanks/', Astro.site).href;
     border-radius: 16px;
     resize: vertical;
     min-height: 110px;
+  }
+
+  input:user-invalid {
+    border-color: var(--color-primary);
   }
 
   input:focus,
