@@ -205,6 +205,9 @@ const assets = [
 
 <script>
   import { EMAIL, PHONE } from '../../data/site';
+  import { validateEmailAndPhone } from '../../lib/validation';
+
+  validateEmailAndPhone();
 
   const form = document.querySelector<HTMLFormElement>('[data-wills-form]')!;
   const steps = [...form.querySelectorAll<HTMLElement>('.q-step')];
@@ -448,6 +451,10 @@ const assets = [
     font: inherit;
     font-size: 16px;
     color: var(--color-text);
+  }
+
+  .q input:user-invalid {
+    border-color: var(--color-primary);
   }
 
   .q input:focus,

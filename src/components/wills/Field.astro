@@ -1,4 +1,6 @@
 ---
+import { PATTERNS } from '../../lib/validation';
+
 interface Props {
   label: string;
   name?: string;
@@ -26,6 +28,7 @@ const { label, name = label, type = 'text', required = false, desc, options = []
     <input
       name={name}
       type={type}
+      pattern={PATTERNS[type]}
       required={required}
       autocomplete={autocomplete}
       data-label={label}

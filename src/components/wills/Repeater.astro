@@ -1,4 +1,6 @@
 ---
+import { PATTERNS } from '../../lib/validation';
+
 // A group of fields people can add more of ("Add another child"). Field names are numbered: "Child 2 – Name".
 interface RepeatField {
   label: string;
@@ -29,7 +31,7 @@ const row = (n: number) => fields.map((f) => ({ ...f, name: `${item} ${n} – ${
         {row(1).map((f) => (
           <label class="q-field">
             <span class="q-label">{f.label}{(f.required && required) && <span class="req" aria-hidden="true">*</span>}</span>
-            <input name={f.name} type={f.type ?? 'text'} required={f.required && required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
+            <input name={f.name} type={f.type ?? 'text'} pattern={PATTERNS[f.type ?? '']} required={f.required && required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
             {f.desc && <span class="q-desc">{f.desc}</span>}
           </label>
         ))}
@@ -43,7 +45,7 @@ const row = (n: number) => fields.map((f) => ({ ...f, name: `${item} ${n} – ${
         {fields.map((f) => (
           <label class="q-field">
             <span class="q-label">{f.label}{f.required && <span class="req" aria-hidden="true">*</span>}</span>
-            <input type={f.type ?? 'text'} required={f.required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
+            <input type={f.type ?? 'text'} pattern={PATTERNS[f.type ?? '']} required={f.required} data-field={f.label} min={f.type === 'number' ? 0 : undefined} max={f.type === 'number' ? 100 : undefined} />
             {f.desc && <span class="q-desc">{f.desc}</span>}
           </label>
         ))}
