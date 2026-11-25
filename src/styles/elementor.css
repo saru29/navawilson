@@ -49,7 +49,7 @@
 
 .el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) > .el-row {
   max-width: none;
-  margin-inline: -10px;
+  margin-inline: -8px;
 }
 
 .el-page > .el-section:first-child:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient']) > .el-row > .el-col {
@@ -112,7 +112,7 @@
   .el-col {
     flex-basis: auto;
   }
-  .el-section.el-top:not(.el-bg):not(:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'])) {
+  .el-section.el-top:not(.el-bg, .el-tabpanel > *):not(:has(> .el-row > .el-col > .el-section.el-bg:first-child[style*='gradient'])) {
     padding-inline: var(--container-padding) !important;
   }
   .el-col > .abs {
@@ -166,15 +166,17 @@
 }
 
 @media (max-width: 767px) {
-  .el-heading > * {
-    font-size: min(var(--fs-h2), 1em) !important;
+  .el-heading > [style*='--fs'] {
+    font-size: min(var(--fs), var(--fs-h2)) !important;
+  }
+  .el-heading > :is(h1, h2):not([style*='--fs']) {
+    font-size: var(--fs-h2) !important;
   }
   .el-heading span {
     white-space: normal !important;
   }
-  .el-heading h1,
-  .el-heading h2 {
-    font-size: var(--fs-h2) !important;
+  .el-tabpanel > .el-section.el-top:not(.el-bg) {
+    padding-inline: 0 !important;
   }
 }
 
@@ -290,6 +292,16 @@
 
 .el-button.align-justify .el-btn {
   width: 100%;
+}
+
+@media (max-width: 767px) {
+  .el-button.align-right {
+    text-align: left;
+  }
+  .el-btn {
+    max-width: 100%;
+    padding-inline: min(32px, 8vw) !important;
+  }
 }
 
 .el-image img {

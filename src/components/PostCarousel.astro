@@ -56,12 +56,20 @@ const posts = Astro.props.slugs.map((slug) => all.find((p) => p.id === slug)).fi
     carousel.querySelector('.prev')?.addEventListener('click', prev);
     carousel.querySelector('.next')?.addEventListener('click', next);
 
+    let startX = 0;
+    track.addEventListener('touchstart', (e) => (startX = e.touches[0].clientX), { passive: true });
+    track.addEventListener('touchend', (e) => {
+      const dx = e.changedTouches[0].clientX - startX;
+      if (Math.abs(dx) > 40) (dx < 0 ? next : prev)();
+    });
+
     if (!reduceMotion) {
       let paused = false;
       carousel.addEventListener('mouseenter', () => (paused = true));
       carousel.addEventListener('mouseleave', () => (paused = false));
       carousel.addEventListener('focusin', () => (paused = true));
       carousel.addEventListener('focusout', () => (paused = false));
+      carousel.addEventListener('touchstart', () => (paused = true), { passive: true });
       setInterval(() => !paused && !document.hidden && next(), 5000);
     }
   }
@@ -120,11 +128,18 @@ const posts = Astro.props.slugs.map((slug) => all.find((p) => p.id === slug)).fi
   }
 
   @media (max-width: 600px) {
-    .track li {
-      flex-basis: 85%;
+    .carousel {
+      flex-wrap: wrap;
+      justify-content: center;
     }
-    .arrow {
-      display: none;
+    .track {
+      flex-basis: 100%;
+      order: -1;
+      overflow: hidden;
+      touch-action: pan-y;
+    }
+    .track li {
+      flex-basis: 100%;
     }
   }
 </style>
