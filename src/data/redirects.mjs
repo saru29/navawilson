@@ -1,4 +1,4 @@
-// Old WordPress URLs that already 301 on the live site, plus links from its footer.
+// Old WordPress URLs that already 301 on the live site, plus links from its footer. Keep vercel.json in step.
 export const OLD_URLS = {
   '/about/': '/about-us/',
   '/contact/': '/contact-us/',

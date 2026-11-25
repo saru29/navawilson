@@ -2,5 +2,78 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "astro",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/about{/}?",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/contact{/}?",
+      "destination": "/contact-us/",
+      "permanent": true
+    },
+    {
+      "source": "/corporate-lawyers/get-incorporated{/}?",
+      "destination": "/get-incorporated-in-ontario/",
+      "permanent": true
+    },
+    {
+      "source": "/corporate-lawyers/start-a-new-business{/}?",
+      "destination": "/start-a-new-business/",
+      "permanent": true
+    },
+    {
+      "source": "/litigation-lawyers{/}?",
+      "destination": "/commercial-litigation/",
+      "permanent": true
+    },
+    {
+      "source": "/litigation-lawyers/real-estate-breaches{/}?",
+      "destination": "/real-estate-breaches/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate-lawyers/buying-a-property{/}?",
+      "destination": "/buying-a-property/",
+      "permanent": true
+    },
+    {
+      "source": "/real-estate-lawyers/selling-a-property{/}?",
+      "destination": "/selling-a-property/",
+      "permanent": true
+    },
+    {
+      "source": "/corporate-law-services-in-the-gta{/}?",
+      "destination": "/corporate-lawyers/",
+      "permanent": true
+    },
+    {
+      "source": "/real-state-law-service{/}?",
+      "destination": "/real-estate-lawyers/",
+      "permanent": true
+    },
+    {
+      "source": "/litigation-lawyers-in-toronto{/}?",
+      "destination": "/litigation-lawyerss/",
+      "permanent": true
+    },
+    {
+      "source": "/our-team{/}?",
+      "destination": "/about-us/",
+      "permanent": true
+    },
+    {
+      "source": "/author/admin{/}?",
+      "destination": "/blogs/",
+      "permanent": true
+    },
+    {
+      "source": "/author/varnesh{/}?",
+      "destination": "/blogs/",
+      "permanent": true
+    }
+  ]
 }
