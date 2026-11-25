@@ -29,6 +29,7 @@ const { label, name = label, type = 'text', required = false, desc, options = []
       name={name}
       type={type}
       pattern={PATTERNS[type]}
+      placeholder={type === 'tel' ? '(416) 321-1100' : undefined}
       required={required}
       autocomplete={autocomplete}
       data-label={label}
