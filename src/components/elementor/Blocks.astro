@@ -80,7 +80,7 @@ const hasBg = (s: any) =>
       const Tag = it.tag as any;
       return (
         <div class={wrap('el-heading')} style={self}>
-          <Tag style={css(s.title)} set:html={it.html} />
+          <Tag style={css(s.title, s.title?.['font-size'] ? { '--fs': s.title['font-size'] } : undefined)} set:html={it.html} />
         </div>
       );
     }
